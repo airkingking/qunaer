@@ -1,0 +1,398 @@
+.container-fluid{
+    padding: 0;
+margin: 0;
+overflow: hidden;}
+.header{
+    width: 100%;
+    height: 73px;
+    position: relative;
+}
+.header1{
+    position: absolute;
+    top: -10px;
+    right: 30px;
+    height: 10px;
+}
+/* 面包屑 */
+
+.breadcrumb{
+    width: 400px;
+    height: 30pxs;
+    font-size: 12px;
+    background: #fff;
+}
+.breadcrumb-item + .breadcrumb-item::before{
+content: '|';    }
+.header2{
+    position: absolute;
+    top: 18px;
+    left: 100px;
+}
+.header3{
+    position: absolute;
+    top: 46px;
+    left: 242px;
+    width:900px;
+}
+.header3 a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+.header3 a:hover{
+    color: #0088a4;
+}
+.nav{
+   justify-content:space-around
+}
+/* 第一层 */
+.floor1{
+    height: 354px;
+
+    margin:0px 100px;
+    padding:12px 0;
+}
+#tabs{
+    width: 720px;
+    height: 320px;
+    border:5px solid #1cafc8;
+    float: left;
+  
+} 
+#tab{
+    float: left;
+    width: 106px;
+    height: 310px;
+    padding: 0px 0 0 0px;
+     list-style: none;
+     margin-bottom: 0;
+  
+ 
+}
+#tab li{
+    height: 62px;
+    line-height: 62px;
+    font-size: 14px;
+    padding: 0 0 0 30px;
+    cursor: pointer;
+    border-bottom: 1px solid #52c2d5;
+    background: #1cafc8;
+    margin: 0;
+}
+#container{
+    float: left;
+    width: 602px;
+    background: #fff;
+    height: 300px;
+    margin: 6px 0 0 0;
+    position: relative;
+}
+ #content1, #content2,#content3,#content4,#content5{
+    position: absolute;
+    top: -5px;
+    left: 0px;
+    width: 604px;
+    height:  310px;
+    background-color: #fff;
+    }
+.active{
+    background: #fff !important;
+
+}
+    .content4-1{
+        height: 30px;
+        border-bottom: 1px solid #1cafc8;
+    }
+    .content4-1 a{
+        color: #999;
+        padding: 0 10px;
+        font-size: 14px;
+        height:30px;
+        display: inline-block;
+        line-height:30px;
+        text-decoration: none;
+    }
+    .content4-1 a:hover{
+        color:#000;
+        border-bottom:3px solid #1cafc8 ;
+    }
+#container  p{
+    color: #1cafc8;
+    font-size: 14px;
+   padding: 10px 0px 30px 10px;
+    font-weight: bold;
+    font-family: sumsun;
+ 
+}
+ .inputStyle input{
+    background: #fff;
+    border: 1px solid #bdd7db;
+    padding: 0 16px;
+    height: 40px;
+    width: 529px;
+    position: relative;
+    margin-left: 50px;
+    font-size: 16px;
+    color: rgb(248, 240, 240);
+    margin-top:10px;
+}
+.inputStyle2{
+    display: flex;
+    margin-right: 2px;
+}
+.inputStyle2 input{
+    width: 300px;
+    margin:20px 20px ;
+}
+.btn{
+margin:25px 0px 0px 450px ;    
+font-size: 18px;
+}
+.txt{
+    margin-top: 30px;    
+}
+.txt pre{
+    display: flex;
+    font-size: 12px;
+    color: #666;
+    flex-wrap:wrap ;
+  
+}
+
+
+/* 轮播图 */
+.lunbotu{
+    float: right;
+}
+/* 轮播指示器样式 */
+.carousel-indicators li{
+    width:0.8rem;
+    height:0.8rem;
+    background-color:#fff;
+    margin-left:0.4rem;
+    margin-right:0.4rem;
+    border-radius: 50%;
+}
+.carousel-indicators .active{
+    background-color: #ed520a;
+}
+/* 第二层 */
+#tab2{
+    height: 39px;
+    width: 1223px;
+    margin: 0 auto;
+    padding: 0;
+border-bottom: 3px solid #1cafc8 ;
+
+}
+#tab2 li{
+    list-style: none;
+float: left;
+font-size: 16px;
+color: #3bb0d0;
+font-weight: bold;  
+
+}
+#tab2 li a{
+    padding: 0 13px;
+    text-decoration: none;
+    display:inline-block;
+    line-height: 33px;
+   margin-left: -3px;
+   margin-right: 26px;
+}
+
+#pic{
+    width:1223px;
+    height: 326px;
+    margin: 0 auto;
+    display: none;
+    z-index: 4;
+}
+
+.pic1{
+    border: 1px solid #eee;
+    width: 286px;
+    height:318px;
+    float: left;
+    margin: 7px 29px 14px -4px;
+   
+
+}
+ #tab2 .active1 a{
+     color: #fff;
+    background-color: #3bb0d0 ;
+  
+}
+#container2{
+    display: flex;
+    justify-content: space-between;
+}
+#container2 .selected{
+        display: block;
+        
+   
+       } 
+#container2  img{
+    justify-content: space-between;
+    height: 191px;
+    margin:5px;
+
+}
+/* 第三层  第四层*/
+.floor3  h2{
+    border-bottom: 2px solid #89d193;
+    color: #89d193;
+    font-size: 22px;
+    line-height: 42px;
+    height: 42px;
+    width: 1223px;
+    margin: 0 auto;
+}
+.floor4 h2{
+    border-bottom: 2px solid #64b6f7;
+    color: #64b6f7;
+    font-size: 22px;
+    line-height: 42px;
+    height: 42px;
+    width: 1223px;
+    margin: 0 auto;
+}
+.floor3,.floor4{
+    width: 1223px;
+    margin: 0 auto;
+}
+.list1 , .list2{
+    border: 1px solid #eee;
+    border-top: 0;
+    padding: 20px 10px 5px 1px;
+    height: 183px;
+    overflow: hidden;
+    position: relative;
+
+
+}
+.list1  img{
+float:right;
+   position: absolute;
+   top:70px;
+   left: 328px;
+}
+.list2  img{
+    float:right;
+       position: absolute;
+       top:70px;
+       left: 328px;
+    }
+
+.list1 a{
+    display: block;
+    background: #89d193;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 0 0 15px;
+    overflow: hidden;
+}
+.list2 a{
+    display: block;
+    background: #64b6f7;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 0 0 15px;
+    overflow: hidden;
+}
+
+
+.breadcrumb-item + .breadcrumb-item::before{
+    content:'|';
+
+    
+}
+ul li{
+    margin-top:-2px ;
+    margin-left: 2px;
+}
+.breadcrumb{
+    padding: 0px;
+margin:21px;
+font-size: 12px;
+background: #ffffff;
+}
+.floor3-1{
+    height: 409px;
+}
+/* 第四层 */
+.floor5  h2{
+    border-bottom: 2px solid  #ff9000;;
+    color:  #ff9000;
+    font-size: 22px;
+    line-height: 42px;
+    height: 42px;
+    width: 1223px;
+    margin: 0 auto;
+}
+.floor5{
+    width: 1223px;
+    margin: 0 auto;
+}
+.floor5-1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.floor5-1-1{
+    position: relative;
+}
+
+.floor5-1-1-1{
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    width: 250px;
+    height: 52px;
+    padding: 3px 15px;
+    background-color: rgba(255,255,255,0.8);
+    color: #333;
+}
+.floor5-1-1-1 a{
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+}
+em{
+    margin: 0 6px;
+    color: #aba8a4;
+}
+/* 底部 */
+.foot1{
+    clear: both;
+    margin: 0 auto;
+    padding: 15px 0 25px;
+    width: 979px;
+    line-height: 1.231;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #848484;
+
+}
+.foot1 p{
+text-align: center;    
+}
+.foot1 p a{
+    padding: 10px;
+    color: #666;
+    text-decoration: none;
+}
+.foot1 p a:hover{
+
+    color: orangered;
+}
+.foot  img{
+margin:10px 230px;  
+}

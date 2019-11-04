@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/bootstrap.css">
+    <script src="./bootstrap/jquery.min.js"></script>
+    <script src="./bootstrap/popper.min.js"></script>
+    <script src="./bootstrap/bootstrap.min.js"></script>
+    <script src="./jquery-1.11.3.js"></script>
+    <link rel="stylesheet" href="./css/dujia-detail.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="header">
+            <!-- 面包屑 -->
+            <div class="header1">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <span>请</span><a href="javascript:;"> 登录 </a><span>或</span>
+                        <a href="">免费注册</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="javascript:;"> 消息</a>
+                        <!-- 信息图 -->
+                    </li>
+                    <li class="breadcrumb-item"><a href="javascript:;">查看订单</a>
+                    </li>
+                    <li class="breadcrumb-item"><a href="javascript:;">积分商城</a></li>
+                    <li class="breadcrumb-item"><a href="javascript:;">联系客服</a></li>
+                </ul>
+            </div>
+            <!-- 图片 -->
+            <div class="header2">
+                <img src="./imgs/dujia-img/headerimg/logo.png" alt="">
+            </div>
+            <!-- 水平导航栏 -->
+            <div class="header3">
+                <ul class="nav">
+                    <li class="nav-item"><a href="javascript:; ">首页</a></li>
+                    <li class="nav-item"><a href="javascript:; ">机票</a></li>
+                    <li class="nav-item"><a href="javascript:; ">酒店</a></li>
+                    <li class="nav-item"><a href="javascript:; ">团购</a></li>
+                    <li class="nav-item"><a href="javascript:; ">度假</a></li>
+                    <li class="nav-item"><a href="javascript:;">邮轮</a></li>
+                    <li class="nav-item"><a href="javascript:;">门票</a></li>
+                    <li class="nav-item"><a href="javascript:;">火车票</a></li>
+                    <li class="nav-item"><a href="javascript:; ">攻略</a></li>
+                    <li class="nav-item"><a href="javascript:; ">当地人</a></li>
+                    <li class="nav-item"><a href="javascript:; ">车车</a></li>
+                    <li class="nav-item"><a href="javascript:; ">汽车票</a></li>
+                    <li class="nav-item"><a href="javascript:; ">境外</a></li>
+                    <li class="nav-item"><a href="javascript:; ">保险</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <!-- 第一层 -->
+        <div class="floor1">
+            <!-- 左边 -->
+            <div id="tabs">
+                <ul id="tab">
+                    <li data-click="tab" data-id="content1" class="active"> 目标地</li>
+                    <li data-click="tab" data-id="content2"> Wifi租赁 </li>
+                    <li data-click="tab" data-id="content3">包车浏览</li>
+                    <li data-click="tab" data-id="content4">接送机</li>
+                    <li data-click="tab" data-id="content5">当地顾问</li>
+                </ul>
+                <div id="container">
+                    <div id="content1">
+                        <p>搜索当地自由行最热门的特色玩法</p>
+                        <div class="inputStyle">
+                            <input type="text" placeholder="请输入你想去的国家、城市或关键词">
+                            <a href="javascript:;" class="btn btn-danger ">立即搜索</a>
+                        </div>
+                        <!-- 精选推荐 -->
+                        <div class="txt">
+                            <pre><span><strong>精选推荐 </strong></span>普吉岛 清迈 曼谷 日本 敦煌 呼伦贝尔 三亚 厦门 台湾 北京专车向导 巴厘岛</pre>
+                            <pre>         九寨沟 法国 新加坡 马尔代夫 美国 丽江 北京 成都</pre>
+                        </div>
+                    </div>
+                    <div id="content2">
+                        <p>随时随地有wifi，海外上网更便宜</p>
+                        <div class="inputStyle">
+                            <input type="text" placeholder="请输入你想去的国家、城市">
+                            <div class="row mx-0">
+                                <input class="col" type="text" placeholder="开始日期">
+                                <input class="col mx-4" type="text" placeholder="终止日期">
+                            </div>
+                            <a href="javascript:;" class="btn btn-danger ">立即搜索</a>
+                        </div>
+                        <!-- tips -->
+                        <div class="txt">
+                            <pre><span>Tips：国外上网地图导航、查询攻略、刷微博微信的必备神器，支持国内快递或机场自提。
+                          </span>
+                           </div>
+                        </div>
+                        <div id="content3">
+                                <p>舒适专车接送，中文随行讲解</p>
+                                <div class="inputStyle">
+                                   <input type="text" placeholder="请输入你想去的国家、城市">
+                                   <div class="row mx-0">
+                                       <input class="col" type="text" placeholder="开始日期">
+                                       <input  class="col mx-4" type="text" placeholder="结束日期">
+                                      <!-- 选项卡 -->
+                                      <div>
+                                          <input  class="col-5" type="text" placeholder="1-4">
+                                        <a class="btn btn-danger mt-0 px-3 ml-5" href="javascript:;" >立即搜索</a>
+                                      </div>
+                                       
+                                   </div>
+        
+                               </div>
+                               <!-- tips -->
+                               <div class="txt">   
+                              <pre><span>Tips：国外上网地图导航、查询攻略、刷微博微信的必备神器，支持国内快递或机场自提。
+                              </span>
+                               </div>
+                            </div>
+                            <div id="content4">
+                                <div class="content4-1">
+                                      <a href="javascript:;">接机</a>
+                                    <a href="javascript:;">送机</a>
+                                </div>
+                                    <div class="inputStyle">
+                                       <input type="text" placeholder="请输入你想去的国家、城市">
+                                       <div class="row mx-0">
+                                           <input class="col" type="text" placeholder="开始日期">
+                                           <input  class="col mx-4" type="text" placeholder="结束日期">
+                                          <!-- 选项卡 -->
+                                          <div>
+                                              <input  class="col-5" type="text" placeholder="1-4">
+                                            <a class="btn btn-danger mt-0 px-3 ml-5" href="javascript:;" >立即搜索</a>
+                                          </div>  
+                                       </div>
+                                   </div>
+                                   <!-- tips -->
+                                   <div class="txt">   
+                                  <pre><span>Tips：国外上网地图导航、查询攻略、刷微博微信的必备神器，支持国内快递或机场自提。
+                                  </span>
+                                   </div>
+                                </div>
+                         <div id="content5">
+                            <p>正规持证中文向导，去哪儿都做当地人</p>
+                             <div class="inputStyle">
+                               <input type="text" placeholder="请输入你想去的国家、城市">
+                               <div class="row mx-0">
+                                   <input class="col" type="text" placeholder="开始日期">
+                                   <input  class="col mx-4" type="text" placeholder="终止日期">
+                               </div>
+                          <a href="javascript:;" class="btn btn-danger ">立即搜索</a>
+                           </div> 
+                           <!-- tips -->
+                           <div class="txt">   
+                          <pre><span>TIPS：全球当地最全的正规中文向导，提供行程规划、翻译讲解、旅行陪同等特色服务。
+                          </span>
+                           </div>
+                        </div>
+                            </div>
+            </div>
+            <!-- 右边 轮播图-->
+            <div class="lunbotu">
+                    <div id="lunbo" class="carousel" data-ride="carousel">
+                            <!-- 1.轮播图片-->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="w-100" src="./imgs/dujia-img/headerimg/01.jpg" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="w-100" src="./imgs/dujia-img/headerimg/02.jpg" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="w-100" src="./imgs/dujia-img/headerimg/03.jpg" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="w-100" src="./imgs/dujia-img/headerimg/04.jpg" />
+                                </div>
+                        
+                            </div>
+                            <!-- 2.轮播指示器 -->
+                            <ul class="carousel-indicators">
+                                <li data-target="#lunbo" data-slide-to="0" class="active"></li>
+                                <li data-target="#lunbo" data-slide-to="1"></li>
+                                <li data-target="#lunbo" data-slide-to="2"></li>
+                                <li data-target="#lunbo" data-slide-to="3"></li>
+                            </ul>
+                        </div>
+            </div>
+            </div>
+            <!-- 第二层 -->
+            <div class="floor2">
+                <div id="tabs2">
+                <ul id="tab2">
+                    <li data-click="tab2" class="active1" ><a href="javascript:;">【泰国】 自由行必备</a></li>
+                    <li data-click="tab2" ><a href="javascript:;">【日本】 自由行必备</a></li>
+                    <li data-click="tab2" ><a href="javascript:;">【台湾】 自由行必备</a></li>
+                    <li data-click="tab2" ><a href="javascript:;">【港澳】 自由行必备</a></li>
+                    <li data-click="tab2" ><a href="javascript:;">【马来西亚】 自由行必备</a></li>
+                </ul>
+                <div id="container2">
+                    <div id="pic" class="selected ">
+                        <div class="pic1">
+                                <img src="./imgs/dujia-img/indeximg/01.jpg" alt=""> 
+                                <span class="text-muted">【漫游宝】泰国4GWifi无限流量(全国自取/邮寄)</span>
+                                <p><span>￥6.9/台天</span><span>已售78</span></p>
+                        </div>
+                        <div class="pic1">
+                        <img src="./imgs/dujia-img/indeximg/02.jpg" alt=""> 
+                        <span class="text-muted">泰国4G无限流量八天上网卡（全国各地自取，备注取卡地点）（不备注默认邮寄）</span>
+                        <p><span>￥26/张</span><span>已售39</span> </p>
+                    </div>
+                    <div class="pic1">
+                        <img src="./imgs/dujia-img/indeximg/03.png" alt=""> 
+                        <span class="text-muted">素万那普机场-曼谷市区单程接送机(4/6/8/10座）</span>
+                        <p><span>￥128/台天</span> <span>已售68</span> </p>
+                    </div>
+                    <div class="pic1 mr-0">
+                        <img src="./imgs/dujia-img/indeximg/04.jpg" alt=""> 
+                        <span class="text-muted">曼谷机场-曼谷酒店接送机</span>
+                        <p>￥189/台天 <span>已售88</span></p>
+                    </div>
+                    
+                    </div>
+                    <div id="pic">
+                            <div class="pic1">
+                                    <img src="./imgs/dujia-img/indeximg/05.jpg" alt=""> 
+                                    <span class="text-muted">【漫游宝】泰国4GWifi无限流量(全国自取/邮寄)</span>
+                                    <p><span>￥6.9/台天</span><span>已售78</span></p>
+                            </div>
+                            <div class="pic1">
+                                    <img src="./imgs/dujia-img/indeximg/06.png" alt=""> 
+                                    <span class="text-muted">【漫游宝】泰国4GWifi无限流量(全国自取/邮寄)</span>
+                                    <p><span>￥6.9/台天</span><span>已售78</span></p>
+                            </div>
+                            <div class="pic1">
+                                    <img src="./imgs/dujia-img/indeximg/07.jpg" alt=""> 
+                                    <span class="text-muted">【漫游宝】泰国4GWifi无限流量(全国自取/邮寄)</span>
+                                    <p><span>￥6.9/台天</span><span>已售78</span></p>
+                            </div>
+                     
+                            <div class="pic1 mr-0">
+                                    <img src="./imgs/dujia-img/indeximg/08.jpg" alt=""> 
+                                    <span class="text-muted">曼谷机场-曼谷酒店接送机</span>
+                                    <p>￥189/台天 <span>已售88</span></p>
+                                </div>
+                    </div>
+                    <div id="pic">
+                            <div class="pic1">
+                                    <img src="./imgs/dujia-img/indeximg/09.jpg" alt=""> 
+                                    <span class="text-muted">【漫游宝】泰国4GWifi无限流量(全国自取/邮寄)</span>
+                                    <p><span>￥6.9/台天</span><span>已售78</span></p>
+                            </div>
+                            <div class="pic1">
+                                    <img src="./imgs/dujia-img/indeximg/10.png" alt=""> 
+                                    <span class="text-muted">【漫游宝】泰国4GWifi无限流量(全国自取/邮寄)</span>
+                                    <p><span>￥6.9/台天</span><span>已售78</span></p>
+                            </div>
+                            <div class="pic1">
+                                    <img src="./imgs/dujia-img/indeximg/11.png" alt=""> 
+                                    <span class="text-muted">【漫游宝】泰国4GWifi无限流量(全国自取/邮寄)</span>
+                                    <p><span>￥6.9/台天</span><span>已售78</span></p>
+                            </div>
+                            <div class="pic1 mr-0">
+                                    <img src="./imgs/dujia-img/indeximg/12.jpg" alt=""> 
+                                    <span class="text-muted">曼谷机场-曼谷酒店接送机</span>
+                                    <p>￥189/台天 <span>已售88</span></p>
+                                </div> 
+                    </div>
+                    <div id="pic">
+                            <div class="pic1">
+                                    <img src="./imgs/dujia-img/indeximg/13.jpg" alt="">
+                                    <span class="text-muted">【漫游宝】泰国4GWifi无限流量(全国自取/邮寄)</span>
+                                    <p><span>￥6.9/台天</span><span>已售78</span></p>
+                            </div>
+                            <div class="pic1">
+                                    <img src="./imgs/dujia-img/indeximg/14.jpg" alt="">
+                                    <span class="text-muted">【漫游宝】泰国4GWifi无限流量(全国自取/邮寄)</span>
+                                    <p><span>￥6.9/台天</span><span>已售78</span></p>
+                            </div>
+                            <div class="pic1">
+                                    <img src="./imgs/dujia-img/indeximg/15.jpg" alt="">
+                                    <span class="text-muted">【漫游宝】泰国4GWifi无限流量(全国自取/邮寄)</span>
+                                    <p><span>￥6.9/台天</span><span>已售78</span></p>
+                            </div>
+                            <div class="pic1 mr-0">
+                                    <img src="./imgs/dujia-img/indeximg/16.jpg" alt="">
+                                    <span class="text-muted">【漫游宝】泰国4GWifi无限流量(全国自取/邮寄)</span>
+                                    <p><span>￥6.9/台天</span><span>已售78</span></p>
+                            </div>
+                    </div>
+                    <div id="pic">
+                            <div class="pic1">
+                                    <img src="./imgs/dujia-img/indeximg/17.jpg" alt="">
+                                    <span class="text-muted">【漫游宝】泰国4GWifi无限流量(全国自取/邮寄)</span>
+                                    <p><span>￥6.9/台天</span><span>已售78</span></p>
+                            </div>
+                            <div class="pic1">
+                                    <img src="./imgs/dujia-img/indeximg/18.jpg" alt="">
+                                    <span class="text-muted">【漫游宝】泰国4GWifi无限流量(全国自取/邮寄)</span>
+                                    <p><span>￥6.9/台天</span><span>已售78</span></p>
+                            </div>
+                            <div class="pic1">
+                                    <img src="./imgs/dujia-img/indeximg/19.jpg" alt="">
+                                    <span class="text-muted">【漫游宝】泰国4GWifi无限流量(全国自取/邮寄)</span>
+                                    <p><span>￥6.9/台天</span><span>已售78</span></p>
+                            </div>
+                            <div class="pic1 mr-0">
+                                      <img src="./imgs/dujia-img/indeximg/20.jpg" alt="">
+                                    <span class="text-muted">【漫游宝】泰国4GWifi无限流量(全国自取/邮寄)</span>
+                                    <p><span>￥6.9/台天</span><span>已售78</span></p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!-- 第三层 -->
+            <div class="floor3">
+                <h2>国际.港澳台 热门旅行地</h2>
+                <div class="row floor3-1 mx-0" >
+                 <!-- 左边 -->
+                 <div class="col-md-10 px-0">
+                     <div class="row mx-0">
+                         <div class="col-6 px-0">
+                             <div class="list1">
+                               <a href=""><span>泰国</span></a>
+                               <div class="city">
+                                    <ul class="breadcrumb">
+                                            <li class="breadcrumb-item">城市 曼谷</li>
+                                            <li class="breadcrumb-item">清迈</li>
+                                            <li class="breadcrumb-item">芭提雅</li>
+                                            <li class="breadcrumb-item">苏梅岛</li>
+                                        </ul>
+                                    <ul class="breadcrumb">
+                                            <li class="breadcrumb-item">景点 大皇宫</li>
+                                            <li class="breadcrumb-item">幻奇多</li>
+                                            <li class="breadcrumb-item">皇帝岛</li>
+                                            <li class="breadcrumb-item">PP岛</li>
+                                        </ul>
+                                    <ul class="breadcrumb">
+                                            <li class="breadcrumb-item">热门 人妖秀</li>
+                                            <li class="breadcrumb-item">SPA</li>
+                                            <li class="breadcrumb-item">丛林飞跃</li>
+                                            <li class="breadcrumb-item">野外探险</li>
+                                        </ul>
+                               </div>
+                               <img src="./imgs/dujia-img/indeximg/22.jpg" alt="">
+                             </div>
+                         </div>
+                         <div class="col-6 px-0">
+                                <div class="list1">
+                                        <a href=""><span>海岛</span></a>
+                                        <div class="city">
+                                             <ul class="breadcrumb">
+                                                     <li class="breadcrumb-item">城市 毛里求斯</li>
+                                                     <li class="breadcrumb-item">巴厘岛</li>
+                                                     <li class="breadcrumb-item">马尔代夫</li>
+                                                     <li class="breadcrumb-item">塞班岛</li>
+                                                 </ul>
+                                             <ul class="breadcrumb">
+                                                     <li class="breadcrumb-item">景点 海豚湾</li>
+                                                     <li class="breadcrumb-item">马埃岛</li>
+                                                     <li class="breadcrumb-item">军舰岛</li>
+                                                     <li class="breadcrumb-item">红树林</li>
+                                                 </ul>
+                                             <ul class="breadcrumb">
+                                                     <li class="breadcrumb-item">热门 浮潜</li>
+                                                     <li class="breadcrumb-item">海钓</li>
+                                                     <li class="breadcrumb-item">海底漫步</li>
+                                                 </ul>
+                                        </div>
+                                        <img src="./imgs/dujia-img/indeximg/23.jpg" alt="">
+                                </div>
+                         </div>
+                         <div class="col-6 px-0">
+                                        <div class="list1">
+                                          <a href=""><span>日本</span></a>
+                                          <div class="city">
+                                               <ul class="breadcrumb">
+                                                       <li class="breadcrumb-item">城市 大阪</li>
+                                                       <li class="breadcrumb-item">京都</li>
+                                                       <li class="breadcrumb-item">北海道</li>
+                                                       <li class="breadcrumb-item">冲绳</li>
+                                                   </ul>
+                                               <ul class="breadcrumb">
+                                                       <li class="breadcrumb-item">景点 富士山</li>
+                                                       <li class="breadcrumb-item">迪士尼</li>
+                                                       <li class="breadcrumb-item">环球影城</li>
+                                                       <li class="breadcrumb-item">浅草寺</li>
+                                                   </ul>
+                                               <ul class="breadcrumb">
+                                                       <li class="breadcrumb-item">热门 日本高铁</li>
+                                                       <li class="breadcrumb-item">温泉</li>
+                                                       <li class="breadcrumb-item">和服</li>
+                                                       <li class="breadcrumb-item">包车服务</li>
+                                                   </ul>
+                                          </div>
+                                          <img src="./imgs/dujia-img/indeximg/24.jpg" alt="">
+                                        </div>
+                         </div>
+                         <div class="col-6 px-0">
+                                <div class="list1">
+                                        <a href=""><span>美国</span></a>
+                                        <div class="city">
+                                            <ul class="breadcrumb">
+                                                     <li class="breadcrumb-item">洛杉矶</li>
+                                                     <li class="breadcrumb-item">华盛顿</li>
+                                                     <li class="breadcrumb-item">旧金山</li>
+                                                     <li class="breadcrumb-item">拉斯维加斯</li>
+                                            </ul>
+                                             <ul class="breadcrumb">
+                                                     <li class="breadcrumb-item">帝国大厦</li>
+                                                     <li class="breadcrumb-item">环球影城</li>
+                                                     <li class="breadcrumb-item">大峡谷</li>
+                                                     <li class="breadcrumb-item">自由女神</li>
+                                            </ul>
+                                             <ul class="breadcrumb">
+                                                     <li class="breadcrumb-item">奥特莱斯</li>
+                                                     <li class="breadcrumb-item">游学</li>
+                                                     <li class="breadcrumb-item">好莱坞</li>
+                                            </ul>
+                                        </div>
+                                        <img src="./imgs/dujia-img/indeximg/25.jpg" alt="">
+                                </div>
+                         </div>
+                     </div>
+                 </div>
+                 <!-- 图片 -->
+                 <div class="col-2 px-0 pt-3">
+                     <img src="./imgs/dujia-img/indeximg/21.jpg" alt="">
+                 </div>
+            </div>
+            </div>
+            <!-- 第四层 -->
+            <div class="floor4">
+                    <h2>国内热门旅行地</h2>
+                 <div class="row floor4-1 mx-0" >
+                     <!-- 左边 -->
+                     <div class="col-md-10 px-0">
+                         <div class="row mx-0">
+                             <div class="col-6 px-0">
+                                 <div class="list2">
+                                   <a href=""><span>四川</span></a>
+                                   <div class="city">
+                                        <ul class="breadcrumb">
+                                                <li class="breadcrumb-item">城市 乐山</li>
+                                                <li class="breadcrumb-item">峨眉山市</li>
+                                                <li class="breadcrumb-item">雅安</li>
+                                            </ul>
+                                        <ul class="breadcrumb">
+                                                <li class="breadcrumb-item">景点 九寨沟</li>
+                                                <li class="breadcrumb-item">宽窄巷子</li>
+                                                <li class="breadcrumb-item">乐山大佛</li>
+                                            </ul>
+                                        <ul class="breadcrumb">
+                                                <li class="breadcrumb-item">热门 大熊猫</li>
+                                                <li class="breadcrumb-item">都江宴</li>
+                                                <li class="breadcrumb-item">川剧变脸</li>
+                                                <li class="breadcrumb-item">锦里</li>
+                                            </ul>
+                                   </div>
+                                   <img src="./imgs/dujia-img/indeximg/26.jpg" alt="">
+                                 </div>
+                             </div>
+                             <div class="col-6 px-0">
+                                    <div class="list2">
+                                            <a href=""><span>西北</span></a>
+                                            <div class="city">
+                                                 <ul class="breadcrumb">
+                                                         <li class="breadcrumb-item">张掖</li>
+                                                         <li class="breadcrumb-item">敦煌</li>
+                                                         <li class="breadcrumb-item">兰州</li>
+                                                         <li class="breadcrumb-item">祁连山草原</li>
+                                                         <li class="breadcrumb-item">卓尔山</li>
+                                                     </ul>
+                                                 <ul class="breadcrumb">
+                                                         <li class="breadcrumb-item">莫高窟</li>
+                                                         <li class="breadcrumb-item">青海湖</li>
+                                                         <li class="breadcrumb-item">张掖七彩丹霞</li>
+                                                         <li class="breadcrumb-item">玉门关</li>
+                                                     </ul>
+                                            </div>
+                                            <img src="./imgs/dujia-img/indeximg/27.jpg" alt="">
+                                    </div>
+                             </div>
+                             <div class="col-6 px-0">
+                                            <div class="list2">
+                                              <a href=""><span>云南</span></a>
+                                              <div class="city">
+                                                   <ul class="breadcrumb">
+                                                           <li class="breadcrumb-item">大理</li>
+                                                           <li class="breadcrumb-item">腾冲</li>
+                                                           <li class="breadcrumb-item">西双版纳</li>
+                                                           <li class="breadcrumb-item">丽江古城</li>
+                                                           <li class="breadcrumb-item">特价团</li>
+                                                    </ul>
+                                                   <ul class="breadcrumb">
+                                                           <li class="breadcrumb-item">玉龙雪山</li>
+                                                           <li class="breadcrumb-item">拉市海</li>
+                                                           <li class="breadcrumb-item">石林</li>
+                                                           <li class="breadcrumb-item">泸沽湖</li>
+                                                    </ul>
+                                                   <ul class="breadcrumb">
+                                                           <li class="breadcrumb-item">苍山洱海</li>
+                                                           <li class="breadcrumb-item">旅游包车</li>
+                                                           <li class="breadcrumb-item">梅里雪山</li>
+                                                           <li class="breadcrumb-item">虎跳峡自驾</li>
+                                                    </ul>
+                                              </div>
+                                              <img src="./imgs/dujia-img/indeximg/28.jpg" alt="">
+                                            </div>
+                             </div>
+                             <div class="col-6 px-0">
+                                    <div class="list2">
+                                            <a href=""><span>江南</span></a>
+                                            <div class="city">
+                                                 <ul class="breadcrumb">
+                                                         <li class="breadcrumb-item">杭州</li>
+                                                         <li class="breadcrumb-item">南京</li>
+                                                         <li class="breadcrumb-item">黄山</li>
+                                                         <li class="breadcrumb-item">乌镇</li>
+                                                         <li class="breadcrumb-item">西塘</li>
+                                                     </ul>
+                                                 <ul class="breadcrumb">
+                                                         <li class="breadcrumb-item">扬州</li>
+                                                         <li class="breadcrumb-item">绍兴</li>
+                                                         <li class="breadcrumb-item">苏州林圆</li>
+                                                         <li class="breadcrumb-item">外滩</li>
+                                                         <li class="breadcrumb-item">周庄</li>
+                                                     </ul>
+                                                 <ul class="breadcrumb">
+                                                         <li class="breadcrumb-item">千岛湖</li>
+                                                         <li class="breadcrumb-item">拙政园</li>
+                                                         <li class="breadcrumb-item">宏村</li>
+                                                         <li class="breadcrumb-item">瘦西湖</li>
+                                                         <li class="breadcrumb-item">五泄飞瀑</li>
+                                                     </ul>
+                                            </div>
+                                            <img src="./imgs/dujia-img/indeximg/29.jpg" alt="">
+                                    </div>
+                             </div>
+                         </div>
+                     </div>
+                     <!-- 图片 -->
+                     <div class="col-2 px-0 pt-3">
+                         <img src="./imgs/dujia-img/indeximg/30.jpg" alt="">
+                     </div>
+            
+    
+                 </div>
+                </div>
+            <!-- 第五层 -->
+            <div class="floor5">
+                <h2>主题游玩</h2>
+                <div class="floor5-1">
+                    <div class="floor5-1-1">
+                            <img src="./imgs/dujia-img/indeximg/31.jpg" alt="">
+                            <div class="floor5-1-1-1">
+                                <strong>全球海岛</strong><br>
+                                <a href="">马来西亚</a><em>|</em>
+                                <a href="">普吉岛</a><em>|</em>
+                                <a href="">三亚</a>
+                            </div>
+                    </div>
+                    <div class="floor5-1-1">
+                            <img src="./imgs/dujia-img/indeximg/32.jpg" alt="">
+                            <div class="floor5-1-1-1">
+                            <strong>浪漫蜜月</strong><br>
+                            <a href="">泰国</a><em>|</em>
+                            <a href="">法国</a><em>|</em>
+                            <a href="">巴厘岛</a><em>|</em>
+                            <a href="">济州岛</a>
+                            </div>
+                    </div>
+                    <div class="floor5-1-1">
+                        <img src="./imgs/dujia-img/indeximg/33.jpg" alt="">
+                        <div class="floor5-1-1-1">
+                            <strong>户外跳伞</strong><br>
+                            <a href="">跳伞</a><em>|</em>
+                            <a href="">丛林穿越</a><em>|</em>
+                            <a href="">越野车</a>
+                        </div>
+                    </div>
+                    <div class="floor5-1-1">
+                    <img src="./imgs/dujia-img/indeximg/34.jpg" alt="">
+                    <div class="floor5-1-1-1">
+                        <strong>家庭旅行</strong><br>
+                        <a href="">新西兰</a><em>|</em>
+                        <a href="">塞班岛</a><em>|</em>
+                        <a href="">美国</a>
+                    </div>
+                    </div>    
+                </div>
+            </div>
+            <!-- 底层 -->
+            <div class="foot">
+                <div class="foot1">
+                    <p>
+                        <a href="">热门目的地 芭提雅自由行</a> | <a href=""> 宁波自由行 </a>| <a href=""> 惠州自由行</a> |<a href="">哈尔滨自由行</a> |<a href="">越南自由行</a> |<a href="">京都自由行</a> |<a href="">毛里求斯自由行</a> |<a href="">厦门自由行 </a>|<a href="">意大利自由行</a> 
+                    </p> 
+                    <p>
+                   
+                        <a href="">wifi租赁 东京WiFi </a>|<a href="">台北市WiFi</a> |<a href="">泰国WiFi</a> |<a href="">美国WiFi </a>|<a href="">花莲WiFi</a> |<a href="">马来西亚WiFi</a> |<a href="">澳门WiFi </a>|<a href="">苏梅岛WiFi</a> |<a href="">芬兰WiFi</a> |<a href="">租车包车</a>
+                    </p> 
+                    <p>
+                        <a href=""> 德国包车</a> |<a href="">西双版纳包车</a> |<a href="">大阪包车 </a>|<a href="">黄山包车</a> |<a href="">三亚包车</a> |<a href="">深圳包车</a> |<a href="">澳大利亚包车</a> |<a href="">牡丹江包车</a> |<a href="">天津包车</a> |
+                        <a href="">导游</a> 
+                    </p>
+                                      
+                    <p> 
+                        <a href="">东京导游</a> |<a href="">马来西亚导游</a> |<a href="">西安导游</a> |<a href="">长沙导游 </a>|<a href="">越南导游 </a>|<a href="">昆明导游</a> |<a href="">意大利导游</a> |<a href="">普吉岛导游</a> |<a href="">北海道导游</a> |
+                        <a href="">一日游</a>
+                    </p>
+                    <p> 
+                        <a href="">美国一日游</a> |<a href="">桂林一日游</a> |<a href="">泰国一日游</a> |<a href="">清迈一日游 </a>|<a href="">济州岛一日游 </a>|<a href="">越南一日游</a> |<a href="">日本一日游</a> |<a href="">曼谷一日游</a> |<a href="">曼彻斯特一日游</a> 
+                    </p>
+                     <p>
+                        <a href=""> 关于Qunar.com|</a>
+                        <a href="">业务合作</a>| <a href="">加入我们</a>| <a href="">"严重违规失信"专项整治举报</a>| <a href="">安全中心</a>| <a href="">星骆驼公益</a>| <a href="">About Us</a>
+                    </p>
+                    <p>
+                        Copyright ©2019 Qunar.com 京公网安备110108901530 京ICP备05021087号 营业执照信息 保险经纪资质(京)-非经营性-2016-0110 去哪儿网客服电话95117
+                    </p>
+                    <p>
+                        违法和不良信息举报电话：010-69194277 违法和不良信息举报邮箱：tousu@qunar.com
+                    </p>
+                        <img src="./imgs/dujia-img/indeximg/footer_v10.png" alt="">
+                </div>
+            </div>
+     </div>
+    <script>
+        // 功能一
+        //查找所有有data-click属性，且属性值为tab的元素
+        var btns = document.querySelectorAll("[data-click=tab]");
+        (function () {
+            //全局定义一个zindex=1；
+            var zIndex = 1;
+            //2. 绑定事件处理函数
+            //为每个按钮绑定单击事件
+            for (var btn of btns) {
+                btn.onclick = function () {
+                    //3. 查找要修改的元素
+                    //查找当前a对应的div
+                    //先获得当前a上data-id属性中保存的id
+                    var id = this.getAttribute("data-id");
+                    //用id查找对应的div
+                    var div = document.getElementById(id);
+                    //4. 修改元素
+                    //让div的zIndex为当前zIndex+1
+                    div.style.zIndex = ++zIndex;
+                    //前++，是因为先+1，再赋值
+                    //改变样式
+
+                    $(this).addClass('active').siblings('li').removeClass('active');
+                }
+
+            }
+
+        })();
+
+        //功能二  tab栏
+
+        $(function () {
+            $("[data-click=tab2]").click(function () {
+
+                //给li添加背景
+                $(this).addClass('active1').siblings('li').removeClass('active1');
+                var index = $(this).index();
+                //显示对应的div
+                $('div#pic').eq(index).addClass('selected').siblings('div').removeClass('selected');
+            })
+        });
+
+    </script>
+
+</body>
+
+</html>

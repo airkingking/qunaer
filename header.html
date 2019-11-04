@@ -4,51 +4,400 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <!-- 导入css-->
-    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css"/>
-    <!-- 导入3个js,有顺序要求-->
-    <script src="../../bootstrap/js/jquery.min.js"></script>
-    <script src="../../bootstrap/js/popper.min.js"></script>
-    <script src="../../bootstrap/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="../css/header.css">
+    <title>去哪了</title>
+    <link rel="stylesheet" href="./icon-font/font_ditu/iconfont.css">
+    <link rel="stylesheet" href="./css/header.css">
 </head>
+
 <body>
-    <header>
-        <div class="header d-table m-auto">
-            <div class="mt-3">
-                <a href="">
-                    <img src="../img/logo.png" alt="">
-                </a>
+    <div class="container-fluid">
+        <div class="header">
+            <!-- 上 -->
+            <div class="header-main">
+                <img class="headerpic" src="./imgs/dujia-img/header.img/logo.png" alt="">
+                <div class="header-main-1">
+                    <ul>
+                        <li><span>请</span>&nbsp;<a href="http://127.0.0.1:5500/denglu.html" class="dl">登录</a><span>&nbsp;或</span>&nbsp;<a
+                                href="http://127.0.0.1:5500/zhuce.html" class="zc">免费注册</a></li>&nbsp;|&nbsp;
+                        <li><a href="javascript:;">消息</a></li>&nbsp;|&nbsp;
+                        <li id="selc1">
+                            <a href="javascript:;">查看订单</a>
+                            <ul class="books">
+                                <li> <a href="javascript:;"><span>机票订单</span></a> </li>
+                                <li> <a href="javascript:;"><span>酒店订单</span></a></li>
+                                <li> <a href="javascript:;"><span>公寓订单</span></a></li>
+                                <li> <a href="javascript:;"><span>团购订单</span></a></li>
+                                <li> <a href="javascript:;"><span>度假订单</span></a></li>
+                                <li> <a href="javascript:;"><span>门票订单</span></a></li>
+                                <li> <a href="javascript:;"><span>火车票订单</span></a></li>
+                                <li> <a href="javascript:;"><span>汽车票订单</span></a></li>
+                                <li> <a href="javascript:;"><span>车车订单</span></a></li>
+                                <li> <a href="javascript:;"><span>Q商城订单</span></a></li>
+                                <li> <a href="javascript:;"><span>当地人订单</span></a></li>
+                                <li> <a href="javascript:;"><span>金融订单</span></a></li>
+                                <li><a href="javascript:;"><span>礼品订单</span></a></li>
+                            </ul>
+                        </li>
+                        &nbsp;|&nbsp;
+                        <li><a href="javascript:;">积分商城</a></li>&nbsp;|&nbsp;
+                        <li><a href="javascript:;">联系客服</a></li>
+                    </ul>
+                </div>
+                <div class="more">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item"><a href="javascript:;">首页</a></li>
+                        <li class="nav-item"><a href="javascript:;">机票</a></li>
+                        <li class="nav-item"><a href="javascript:;">酒店</a></li>
+                        <div class="zd1">
+                            <div class="zd-1">
+                                <li class="nav-item"><a href="http://127.0.0.1:5500/tuangou_index.html">团购</a></li>
+                            </div>
+                            <div class="zd">
+                                <ul class="zd-content">
+                                    <li><a href="javascript:;">度假团购</a></li>
+                                    <li><a href="javascript:;">周边休闲</a></li>
+                                    <li><a href="javascript:;">长线游</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <li class="nav-item"><a href="javascript:;">度假</a></li>
+                        <li class="nav-item"><a href="javascript:;">邮轮</a></li>
+                        <div class="zd1">
+                            <div class="zd-1">
+
+                                <li class="nav-item"><img src="./imgs/dujia-img/smallicon/mp-daytrip.png" alt=""> <a
+                                        href="javascript:;">门票</a></li>
+                            </div>
+                            <div class="zd">
+                                <ul class="zd-content" style="width:410px;">
+                                    <li><a href="javascript:;">境内邮票</a></li>
+                                    <li><a href="javascript:;">品质一日游</a></li>
+                                    <li><a href="javascript:;">玩转海外</a></li>
+                                    <li><a href="javascript:;">港澳台门票</a></li>
+                                    <li><a href="javascript:;">地图找景点</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <li class="nav-item"><a href="javascript:;">火车票</a></li>
+                        <div class="zd1">
+                            <div class="zd-1">
+                                <li class="nav-item"><a href="javascript:;">攻略</a></li>
+                            </div>
+                            <div class="zd">
+                                <ul class="zd-content" style="width:410px;">
+                                    <li><a href="javascript:;">攻略首页</a></li>
+                                    <li><a href="javascript:;">攻略库</a></li>
+                                    <li><a href="javascript:;">目的地</a></li>
+                                    <li><a href="javascript:;">创建行程</a></li>
+                                    <li><a href="javascript:;">发表游记</a></li>
+                                    <li><a href="javascript:;">骆驼书</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="zd1">
+                            <div class="zd1-1">
+                                <li class="nav-item"><a href="javascript:;">当地人</a></li>
+                            </div>
+                            <div class="zd">
+                                <ul class="zd-content" style="width:440px;">
+                                    <li><a href="javascript:;">当地人首页</a></li>
+                                    <li><a href="javascript:;">出境WiFi</a></li>
+                                    <li><a href="javascript:;">旅游包车</a></li>
+                                    <li><a href="javascript:;">一日游</a></li>
+                                    <li><a href="javascript:;">导游讲解</a></li>
+                                    <li><a href="javascript:;">交通卡</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="zd1">
+                            <div class="zd1-1">
+                                <li class="nav-item"><a href="javascript:;">车车</a></li>
+                            </div>
+                            <div class="zd">
+                                <ul class="zd-content" style="width:330px;">
+                                    <li><a href="javascript:;">车车首页</a></li>
+                                    <li><a href="javascript:;">国内租车</a></li>
+                                    <li><a href="javascript:;">境外租车</a></li>
+                                    <li><a href="javascript:;">国际接送机</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <li class="nav-item"><a href="javascript:;">汽车票</a></li>
+                        <li class="nav-item"><a href="javascript:;">境外</a></li>
+                        <li class="nav-item"><a href="javascript:;">更多</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="line_right">
-                <ul class="breadcrumb mb-0 bg-white pb-0 text-muted">
-                    <li class="breadcrumb-item">请<a class="d-inline-block mx-1" href="#">登录</a>或<a class="d-inline-block ml-1" href="#">注册</a></li>
-                    <li class="breadcrumb-item"><a href="#" class=""><span class="d-inline-block" id="msg_icon"></span>消息</a><span  class="d-inline-block msg_down"></span></li>
-                    <li class="breadcrumb-item"><a class="" href="#">查看订单</a><span class="msg_down d-inline-block"></span></li>
-                    <li class="breadcrumb-item"><a class="" href="#">积分商城</a></li>
-                    <li class="breadcrumb-item"><a class="" href="#">联系客服</a></li>
-                </ul>
+            <!-- 中 -->
+            <div class="header-ct">
+                <div class="header-ct1">
+                    <ul class="nav">
+                        <li class="nav-item" style="background: #555555"><a href="javascript:;">度假首页</a></li>
+                        <li class="nav-item"><a href="index2.html">海外玩乐</a></li>
+                        <li class="nav-item"><a href="javascript:;">自由行</a> </li>
+                        <!-- 精灵图 -->
+                        <div class="jlt1"></div>
+                        <li class="nav-item"><a href="javascript:;">出境游</a></li>
+                        <li class="nav-item"><a href="javascript:;">特卖</a></li>
+                        <li class="nav-item"><a href="javascript:;">周边游</a></li>
+                        <li class="nav-item"><a href="javascript:;">邮轮</a></li>
+                        <li class="nav-item"><a href="javascript:;">签证</a></li>
+                        <li class="nav-item"><a href="javascript:;">海外购物</a></li>
+                        <!-- 精灵图 -->
+                        <div class="jlt2"></div>
+                        <li class="nav-item"><a href="javascript:;">包团.定制</a></li>
+                        <div class="jlt3"></div>
+                    </ul>
+                </div>
             </div>
-            <div class="navbar pb-0">
-                <ul class="nav text-muted font-weight-bold">
-                    <li class="nav-item"><a class="nav-link" href="#">首页</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">机票</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">酒店</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">团购</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">度假</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">游轮</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">门票</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">火车票</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">攻略</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">当地人</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">车车</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">汽车票</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">更多</a></li>
-                </ul>
+            <!-- 下 -->
+            <div class="header-sc">
+                <div class="header-sc1">
+                    <div class="header-sc1-left">
+                        <span class="iconfont">&#xe651</span>
+                        <span>北京</span><span>站</span>
+                        <a href="javascript:;">进入北京周边/当地游</a>
+                    </div>
+                    <div class="box">
+                        <div class="forminline">
+                            <div class="inputgroup">
+                                <input type="text" class="form-control" placeholder="请输入目的地、主题和关键词">
+                                <div class="input-group-append">
+                                    <button class="btn">搜索</button>
+                                </div>
+                            </div>
+                            <span><a href="javascript:;">高级搜索</a></span><span id="yc" class="jlt"></span>
+                        </div>
+                    </div>
+                    <div class="hot-search">
+                        <span>正在热搜:</span>
+                        <div id="cities">
+                            <ul class="nav" id="cont1">
+                                <li class="nav-item">
+                                    <a href="javascript:;">巴厘岛</a>
+                                    <a href="javascript:;">云南</a>
+                                    <a href="javascript:;">台湾</a>
+                                    <a href="javascript:;">桂林</a>
+                                    <a href="javascript:;">北京</a>
+                                    <a href="javascript:;">成都</a>
+                                    <a href="javascript:;">杭州</a>
+                                    <a href="javascript:;">青岛</a>
+                                    <a href="javascript:;">塞班岛</a>
+                                    <a href="javascript:;">张家界</a>
+                                    <a href="javascript:;">上海</a>
+                                    <a href="javascript:;">新加坡</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="javascript:;">三亚</a>
+                                    <a href="javascript:;">泰国</a>
+                                    <a href="javascript:;">丽江</a>
+                                    <a href="javascript:;">香港</a>
+                                    <a href="javascript:;">厦门</a>
+                                    <a href="javascript:;">日本</a>
+                                    <a href="javascript:;">普吉岛</a>
+                                    <a href="javascript:;">马尔代夫</a>
+                                    <a href="javascript:;">上海迪士尼</a>
+                                    <a href="javascript:;">长隆</a>
+                                    <a href="javascript:;">九寨沟</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="javascript:;">大理</a>
+                                    <a href="javascript:;">哈尔滨</a>
+                                    <a href="javascript:;">西双版纳</a>
+                                    <a href="javascript:;">乌镇</a>
+                                    <a href="javascript:;">西安</a>
+                                    <a href="javascript:;">昆明</a>
+                                    <a href="javascript:;">日本</a>
+                                    <a href="javascript:;">韩国</a>
+                                    <a href="javascript:;">巴黎</a>
+                                    <a href="javascript:;">南京</a>
+                                    <a href="javascript:;">苏州</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 隐藏内容 -->
+            <div class="header-yc ">
+                <div class="header-yc-con">
+                    <dl>
+                        <dt>关键字</dt>
+                        <dd><input type="text" placeholder="请输入关键词"></dd>
+                    </dl>
+                    <dl>
+                        <dt>出发天数</dt>
+                        <dd id="data">
+                            <input type="radio" name="n1"><span>不限</span>
+                            <input type="radio" name="n1"><span>具体日期</span>
+                            <input type="text"  id="rili1">
+                            <span>可接受前后</span>
+                            <button class="add">+</button>
+                            <input type="text" value="1" />
+                            <button class="jian">-</button>
+                            <span>天出发</span>
+                        </dd>
+
+                    </dl>
+                    <dl>
+                        <dt>行程天数</dt>
+                        <dd>
+                            <input type="radio" name="n2"><span>不限</span>
+                            <input type="radio" name="n2"><span>具体行程</span>
+                            <input type="text" placeholder="最小"> ~<input type="text" placeholder="最大"><span>天</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>价格区间</dt>
+                        <dd>
+                            <input type="text" placeholder="最小"> ~<input type="text" placeholder="最大"><span>天</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>出行方式</dt>
+                        <dd>
+                            <input type="radio" name="n3"><span>不限</span>
+                            <input type="radio" name="n3"><span>自由行</span>
+                            <input type="radio" name="n3"><span>跟团游</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>住宿等级</dt>
+                        <dd>
+                            <input type="radio" name="n4"><span>不限</span>
+                            <input type="radio" name="n4"><span>五星级/豪华</span>
+                            <input type="radio" name="n4"><span>四星级/高档</span>
+                            <input type="radio" name="n4"><span>三星级/舒适</span>
+                            <input type="radio" name="n4"><span>三星级/其他</span>
+                            <input type="radio" name="n4"><span>经济型</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dd>
+                            <button class="btn ">搜索</button>
+                            <span>约</span><span>0</span><span>条路线</span>
+                            <button class="btn">清除所有</button>
+                        </dd>
+                    </dl>
+                </div>
+                <div>
+                </div>
+            </div>
+            <!-- 搜索隐藏内容 -->
+            <div class="hotcity">
+                <p>
+                    <span>热门搜索</span> <span class="x"> x </span>
+                </p>
+                <div>
+                    <h6><strong>国内</strong> </h6>
+                    <dl>
+                        <dd>
+                            <pre>周边  三亚  九寨沟   厦门  成都  西安   西双版纳  桂林  杭州</pre>
+                        </dd>
+                        <dd>
+                            <pre>大理  张家界  上海  重庆  哈尔滨  广州  拉萨  腾冲  五台山  乌镇</pre>
+                        </dd>
+
+                </div>
+                <div>
+                    <h6><strong> 出境/港澳台</strong> </h6>
+                    <dl>
+                        <dd>
+                            <pre>泰国  日本  巴厘岛  马尔代夫  普吉岛  塞班岛  新加坡  美国  迪拜</pre>
+                        </dd>
+                        <dd>
+                            <pre>芽庄  俄罗斯  马来西亚  土耳其  澳大利亚  北海道  沙巴  意大利  埃及</pre>
+                        </dd>
+                    </dl>
+                </div>
+                <div>
+                    <h6><strong>周边</strong> </h6>
+                    <dl>
+                        <dd>
+                            <pre>古北水镇  天津  九华山庄  八达岭  长城龙  熙温泉  保定  香山公园</pre>
+                        </dd>
+                        <dd>
+                            <pre>月坨岛  济南  五台山  秦皇岛  故宫  太原  白鹿温泉  天津天鹅湖...</pre>
+                        </dd>
+                    </dl>
+                </div>
+                <div>
+                    <h6><strong>主题</strong></h6>
+                    <dl>
+                        <dd>
+                            <pre>跳伞  摄影  博物馆  巡游温泉  浮潜  亲子酒店  演出演艺  游艇</pre>
+                        </dd>
+                        <dd>
+                            <pre>主题乐园  SPA  网红打卡  古村古镇  帆船  城市夜游</pre>
+                        </dd>
+                    </dl>
+                </div>
+
             </div>
         </div>
-        <hr class="hr">
-    </header>
+    </div>
 </body>
+<script>
+    (function () {
+        var cont1 = document.getElementById("cont1");
+        var offset = 24;
+        var timer;
+        setInterval(function () {
+            if (timer) {
+                clearTimeout(timer);
+            }
+            var step = 1;
+            timer = setInterval(function () {
+                cont1.style.transform = 'translateY(-' + (offset + step) + 'px';
+                if (step == 24) {
+                    clearInterval(timer);
+                }
+                step++;
+            }, 10);
+            offset += 24;
+            var num = Math.floor(cont1.offsetHeight / 24)
+            console.log('num==', num)
+            if (!(offset % ((num - 1) * 24))) {
+                offset = 0;
+            }
+        }, 3000)
+    })()
+    // 隐藏内容
+    $(function () {
+        $("#yc").click(function () {
+            $(".header-yc").toggle();
+        })
+    })
+    //   按钮+1 -1
+    $(function () {
+        $(".add").click(function () {
+            var n = $(this).next().val();
+            var num = parseInt(n) + 1;
+            if (num == 0) { return; }
+            $(this).next().val(num);
+        })
+        $(".jian").click(function () {
+            var n = $(this).prev().val();
+            var num = parseInt(n) - 1;
+            if (num == 0) {
+                return;
+            }
+            $(this).prev().val(num);
+        })
+    })
+
+    // 隐藏城市内容
+    $(function () {
+        $(".form-control").click(function () {
+            $(" .hotcity").css("display", "block")
+        })
+        $(".x").click(function () {
+            $(" .hotcity").css("display", "none")
+        })
+    })
+// 日历
+$("#rili1").datepicker();
+$("#rili1").datepicker("option","dateFormat","yy-mm-dd");
+</script>
 </html>
