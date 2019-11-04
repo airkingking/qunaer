@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./bootstrap/jquery.min.js"></script>
+    <script src="./bootstrap/popper.min.js"></script>
+    <script src="./bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/denglu.css">
+</head>
+<body onload="createCode(4)">
+    <div class="qn_s_header">
+        <ul>
+            <li><a href="">登录</a></li>
+            <li><a href="zhuce.html">注册</a></li>
+            <li>|<a href="shouye.html" style="color:#ff7c00">去哪儿网首页</a></li>
+            <li>|<a href="">联系客服</a></li>
+        </ul>
+    </div>
+    <div class="qn_page_tit">
+        <a href=""><img src="./imgs/index_img/denglu.png" alt=""></a>
+        <div>账号登录</div>
+    </div>
+    <hr>
+    <div class="denglu">
+        <div class="denglu-zuo-shang">
+            <img src="./imgs/index_img/denglu1.png" alt="">
+            <div class="denglu-shang-you">
+                <h3>使用去哪儿客户端</h3>
+                <h3>手机扫描安全登录</h3>
+                <h6>1. 打开手机去哪儿客户端并登录去哪儿账号</h6>
+                <h6>2. 在去哪儿登录页点击右上角扫码安全登录</h6>
+                <h6>3. 使用去哪儿客户端左上角扫描功能完成登录</h6>
+            </div>
+        </div>
+        <div>
+            <img src="./imgs/index_img/denglu2.jpg" alt="">
+        </div>
+        <div class="qrcode-box">
+            <!-- <div  class="qiehuan1">
+                <a href="#"><img id="img1"  src="./imgs/index_img/qiehuan1.jpg" alt="1"/></a>
+            </div>  -->
+            <div class="qrcode-box1">
+                <div  class="qiehuan1">
+                    <a href="#"><img id="img1"  src="./imgs/index_img/qiehuan1.jpg" alt="1"/></a>
+                </div> 
+                <div class="pwd-login-tip">
+                    账号密码登录在这里
+                </div>
+                <h2>手机扫码安全登录</h2>
+                <h5>去哪儿旅行客户端 | 微信扫一扫</h5>
+                <img id="erweima" src="./imgs/index_img/show" alt="">
+                <a class="kehuduan" href="">下载去哪儿旅行客户端</a>
+                <div class="helpbar">
+                    <a href="">密码登录</a>
+                    <a href="">|</a>
+                    <a href="zhuce.html">免费注册</a>
+                </div>
+            </div>
+            <div class="qrcode-box2">
+                <div  class="qiehuan2">
+                    <a href="#"><img id="img2"  src="./imgs/index_img/qiehuan2.jpg" alt="1"/></a>
+                </div> 
+                <div class="qrcode-box2-nei">
+                    <div class="qrcode-box2-input">
+						<div class="zhanghao">
+							<input type="radio" checked />账号密码
+							</div>
+						<div class="duanxin" id="duanxin">
+							<input type="radio" />短信验证码登录
+						</div>
+                    </div>
+					<div class="login-yonghu">
+						<img src="./imgs/index_img/yonghuming.jpg" alt="">
+						<input id="phoneCode" type="text" placeholder="手机号/邮箱/用户名">
+					</div>
+					<div class="login-mima">
+						<img src="./imgs/index_img/yonghumima.jpg" alt="">
+						<input id="mimaCode" type="text" placeholder="请输入密码">
+					</div>
+					<div class="login-yanzheng">
+						<input id="inputCode" type="text" placeholder="请输入验证码">
+						<div id="checkCode" class="code" ></div>
+						<div>
+							<button onclick="createCode(4)">换一张</button>
+						</div>
+					</div>
+					<div class="sanyue">
+						<input type="checkbox" checked>三个月内自动登陆
+						<a href="">忘记密码</a>|
+						<a href="">立即注册</a>
+					</div>
+					<div onclick="panduan()" class="denglu-btn">   
+						<button>登陆</button>
+					</div>
+                </div>
+                <div class="qrcode-box2-neiyin">
+                    <div class="qrcode-box2-input">
+						<div class="zhanghao" id="zhanghao">
+							<input type="radio"  />账号密码
+							</div>
+						<div class="duanxin">
+							<input type="radio" checked />短信验证码登录
+						</div>
+                    </div>
+                    <div class="login-yonghu">
+						<img src="./imgs/index_img/yonghuming.jpg" alt="">
+						<input type="text" placeholder="手机号/邮箱/用户名">
+                    </div>
+                    <div class="mimayin">   
+                        <div class="login-mimayin">
+                            <img src="./imgs/index_img/yonghumima.jpg" alt="">
+                            <input type="text" placeholder="请输入验证码">
+                        </div>
+                        <div class="yanzhenma">
+                            <a href="#">获取验证码</a>
+                        </div>
+                    </div>
+                    <div class="sanyue">
+                        <input type="checkbox" checked>
+                        <label for="">三个月内自动登录</label>
+                        <div></div>
+                        <a class="liji" href="">立即注册</a>
+                    </div>
+                    <div class="denglu-btn">   
+						<button>登陆</button>
+					</div> 
+                </div>
+                <div class="disanfang">
+                    <div class="left-line"></div>
+                    <div class="title">第三方账号登陆</div>
+                    <div class="right-line"></div>
+                </div>
+                <div class="sina_tip">
+                    <a href=""><img src="./imgs/index_img/wx.jpg" alt="">微信</a>
+                    <a href=""><img src="./imgs/index_img/qq.jpg" alt="">QQ</a>
+                    <a href=""><img src="./imgs/index_img/xl.jpg" alt="">新浪微博</a>
+                    <a href=""><img src="./imgs/index_img/bd.jpg" alt="">百度</a>
+                </div>
+            </div>
+        </div>
+        <div class="guoji-phone">
+            <img src="./imgs/index_img/guoji.jpg" alt="">
+            <a href="">国际手机登录</a>
+        </div>
+    </div>
+    <iframe src="./foos/index_imgter/public/footer.html" style="width: 100%" scrolling="no" frameborder="0"></iframe>
+</body>
+<script>
+    // //1.查找发生时间元素
+    // $(".qiehuan1")
+    // //2.绑定时间处理函数
+    // .click(function(e){
+    //     console.log(e.target.src);    /s/index_img/     if(e.target.src==http:s/index_img//127.0.0.1:5501/img/qiehuan.jpg"){
+    //         $("#img1").attr("src",../ims/index_imgg/qiehuan2.jpg")
+    //     }else{
+    //         $("#img1").attr("src",../ims/index_imgg/qiehuan.jpg")
+    //     }
+    // // $("#img1")
+    // // .attr("src",../ims/index_imgg/qiehuan2.jpg");
+    // // console.log();
+    // })
+    //     //3.查找修改的元素
+    // function changeImg(e){
+    //     $("#img1").attr("src",../ims/index_imgg/qiehuan2.jpg");
+    //     console.log(this);
+    //     }
+       
+// $("#img1")
+//     .click(function(){
+//         var $img=$(this)
+//         var n=parseInt($img.attr("alt"));
+//     n<2?(n++):(n=1)
+//     $img.attr({
+//         src:`./imgs/index_img/qiehuan${n}.jpg`,
+//         alt:n
+//     })
+// })
+// $("img1")
+//     .on("click",function(){
+//        $(".qrcode-box1")
+//         .css("display","none")
+//     })
+// $("")
+</script>
+<script src="./js/denglu.js"></script>
+</html>

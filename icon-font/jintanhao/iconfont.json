@@ -1,0 +1,16 @@
+{
+  "id": "1458133",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2488440",
+      "name": "感叹号中",
+      "font_class": "gantanhaozhong",
+      "unicode": "e8e5",
+      "unicode_decimal": 59621
+    }
+  ]
+}

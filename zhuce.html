@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+	<script src="./bootstrap/jquery.min.js"></script>
+  <script src="./bootstrap/popper.min.js"></script>
+  <script src="./bootstrap/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./css/zhuce.css">
+</head>
+<body  onload="createCode(4)">
+	<div class="qn_s_header">
+		<div class="qn_s_header_nei">
+			<ul>
+				<li><a href="denglu.html">登陆</a></li>
+				<li><a href="">注册</a></li>
+				<li>|<a href="shouye.html" style="color:#ff7c00">去哪儿网首页</a>|</li>
+				<li><a href="">联系客服</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="page-title">
+		<img src="./imgs/index_img/qunaer.png" alt="">
+		<h3>账号注册</h3>
+	</div>
+	<div class="da">
+		<div class="da-zuo">
+			<div class="diqu">
+				<label for="">国家/地区</label>
+				<input type="text" value="中国86">
+			</div>
+			<div class="shoujihao">
+				<label for="">手机号码</label>
+				<input  id="phoneCode" type="text" placeholder="请输入手机号">
+				<h6 class="err">手机号码格式错误</h6>
+				<h6 class="suc">可以注册</h6>
+			</div>
+			<div class="mima">
+				<label for="">登陆密码</label>
+				<input id="mimaCode" type="text" placeholder="请输入登陆密码">
+				<h6 class="err">长度为8-30的字符</h6>
+				<h6 class="suc">可以使用</h6>
+			</div>
+			<div class="yanzhengma">
+				<label for="">验证码</label>
+				<input type="text" id="inputCode"  placeholder="请输入验证码">
+				<div id="checkCode" class="code" ></div>
+				<div>
+					<button onclick="createCode(4)">换一张</button>
+				</div>	
+			</div>
+			<div class="jihuoma">
+				<label for="">激活码</label>
+				<input type="text" placeholder="请输入激活码">
+				<button class="btn btn-mcode">获取激活码</button>
+			</div>
+			<div class="yuedu">
+				<input type="checkbox" checked>
+				<label for="">我已阅读并同意遵守</label>
+				<a class="yuedu-nei" href="">《去哪儿网协议》</a>
+			</div>
+			<div class="tongyi-zhuce">
+				<button onclick="panduan()" class="btn btn-orange">同意协议并注册</button>
+				<span>使用<a href="">邮箱注册</a></span>
+			</div>
+		</div>
+		<div class="da-you">
+			<span class="ul-top">注册成为“去哪儿”的用户后，您可以:</span>
+			<ul>
+				<li>畅游与去哪儿合作的机票、酒店、度假代理商网站,轻松管理订单</li>
+				<li>查询、计划、管理您的预订信息</li>
+				<li>享受优质超低价格团购服务</li>
+			</ul>
+		</div>
+	</div>
+	<iframe src="../footer/public/footer.html" style="width: 100%" scrolling="no" frameborder="0"></iframe>	
+<script src="./js/zhuce.js"></script>
+</body>
+</html>

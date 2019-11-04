@@ -1,0 +1,228 @@
+*{padding: 0px;margin: 0px}
+.qn_s_header{
+	width: 100%;height: 28px;
+	border-bottom: 1px solid #ddd;
+	background-color: #f5f5f5;       
+}
+.qn_s_header_nei{
+	width: 980px;
+	margin: 0 auto;
+}
+.qn_s_header_nei ul{
+	line-height: 14px;
+	padding-top: 8px;
+	font-family: tahoma,arial,sans-serif;
+	list-style: none;
+	float: right;
+}
+.qn_s_header_nei ul li{
+	display: inline;
+}
+.qn_s_header_nei ul li a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #555;
+	padding: 0 5px;
+}
+.page-title{
+	width: 980px;
+	line-height: 53px;
+	height: 53px;
+	padding: 20px 11px 35px 11px;
+	margin: 0 auto;
+}
+.page-title img{
+	float: left;
+}
+.page-title h3{
+	font: normal 18px/18px "microsoft yahei",arial,sans-serif;
+	padding-left: 20px;
+	float: left;
+	padding-top: 34px;
+}
+.da{
+	width: 980px;height: 457px;
+	margin: 0 auto;
+	border-bottom:1px solid #555;
+	border-top:1px solid #555;
+	display: flex;
+}
+.da-zuo{
+	width: 645px;height: 411px;
+	padding: 40px 0px 0px 30px;
+}
+.diqu{
+	box-sizing: border-box;
+	width: 615px;height: 56px;
+	padding: 10px 0px;
+}
+.da label{
+	width: 80px;
+	padding-top: 8px;
+	font-size: 14px;
+	float: left;
+}
+.da input{
+	height: 34px;
+	padding-left: 10px;
+	width: 256px;
+	margin-left: 10px;
+}
+.shoujihao{
+	box-sizing: border-box;
+	width: 615px;height: 56px;
+	padding: 10px 0px;
+}
+.shoujihao .err{
+	background: url("../imgs/index_img/err.png") no-repeat;
+	font-size: 12px;
+	margin: 0px 0px 0px 10px;
+	padding-left: 20px;
+    color: #ff9261;
+	position: relative;
+	left:370px;top:-28px;
+	display: none;
+}
+.shoujihao .suc{
+	background: url("../imgs/index_img/success.png") no-repeat;
+	margin: 0px 0px 0px 10px;
+	padding-left: 20px;
+	color: green;
+	font-size: 12px;
+	position: relative;
+	left:370px;top:-28px;
+	display: none;
+}
+.mima .err{
+	background: url("../imgs/index_img/err.png") no-repeat;
+	font-size: 12px;
+	margin: 0px 0px 0px 10px;
+	padding-left: 20px;
+    color: #ff9261;
+	position: relative;
+	left:370px;top:-28px;
+	display: none;
+}
+.mima .suc{
+	background: url("../imgs/index_img/success.png") no-repeat;
+	margin: 0px 0px 0px 10px;
+	padding-left: 20px;
+	color: green;
+	font-size: 12px;
+	position: relative;
+	left:370px;top:-28px;
+	display: none;
+}
+.mima{
+	box-sizing: border-box;
+	width: 615px;height: 56px;
+	padding: 10px 0px;
+}
+.yanzhengma input{
+	width: 109px;
+}
+.yanzhengma{
+	box-sizing: border-box;
+	width: 615px;height: 56px;
+	padding: 10px 0px;
+	position: relative;
+}
+.code{
+	display: inline-block;
+	position: absolute;
+	height: 34px;width: 80px;
+	border: 1px solid #555;
+	margin: 0 10px;
+	text-align: center;
+	line-height: 34px;
+}
+.yanzhengma button{
+	position: absolute;
+	font-size: 12px;
+	text-decoration: none;
+	top:20px;left: 315px;
+	background: #fff;
+}
+.jihuoma{
+	box-sizing: border-box;
+	width: 615px;height: 56px;
+	padding: 10px 0px;
+}
+.jihuoma button{
+	display: inline-block;
+  width: 96px;
+  margin-left: 10px;
+	vertical-align: middle;
+	background: #0b60f0;
+	color:#fff;
+}
+.jihuoma input{
+	width: 109px;
+}
+.yuedu{
+	width: 530px;height: 25px;
+	margin: 0px 0px 0px 85px;
+	padding: 5px 0px 0px
+}
+.yuedu input{
+	font-size:100%;
+	height: 13px; width: 13px;
+}
+.yuedu label{
+	color:#555;
+	font-size: 12px;
+	float:none;
+}
+.yuedu-nei{
+	color:#006bc8;
+	text-decoration: none;
+	font-size: 12px;
+	display: inline;
+	vertical-align: middle;
+}
+.yuedu-nei :hover{
+	color:#f60;
+}
+.tongyi-zhuce{
+	width: 537px;height: 56px;
+	margin: 10px 0px 0px 78px;
+	padding: 10px 0;
+}
+.tongyi-zhuce button{		
+  width: 116px;
+	height: 30px;
+	font-size: 14px;
+	border: 0;
+	color: #fff;
+	background: #ff8200;
+}
+.tongyi-zhuce span{
+	display: inline-block;
+	margin-left: 5px;
+	font-size: 12px;
+}
+.tongyi-zhuce span a{
+	text-decoration: none;
+	color: #006bc8;
+	margin: 0px 0px 0px 5px;
+}
+.tongyi-zhuce span a:hover{
+	color: #f60;
+}
+.da-you{
+	box-sizing: border-box;
+	width: 310px;height: 160px;
+	color:#555;
+	margin:44px 0px 0px;
+	padding: 10px;
+	float: right;
+}
+.ul-top{
+	font-size: 14px;
+	color:#555
+}
+
+.da-you ul li{
+	font-size: 12px;
+	padding: 5px 0px;
+}

@@ -1,0 +1,42 @@
+{
+  "pages1": [
+    "./imgs/tuangou_index_img/lists/line1-1.jpg",
+    "./imgs/tuangou_index_img/lists/line1-2.jpg",
+    "./imgs/tuangou_index_img/lists/line1-3.jpg",
+    "./imgs/tuangou_index_img/lists/line2-1.jpg",
+    "./imgs/tuangou_index_img/lists/line2-2.jpg",
+    "./imgs/tuangou_index_img/lists/line2-3.jpg",
+    "./imgs/tuangou_index_img/lists/line3-1.jpg",
+    "./imgs/tuangou_index_img/lists/line3-2.jpg",
+    "./imgs/tuangou_index_img/lists/line3-3.jpg",
+    "./imgs/tuangou_index_img/lists/line4-1.jpg",
+    "./imgs/tuangou_index_img/lists/line4-2.jpg",
+    "./imgs/tuangou_index_img/lists/line4-3.jpg"
+  ],
+  "pages2": [
+    "./imgs/tuangou_index_img/lists/line5-1.jpg",
+    "./imgs/tuangou_index_img/lists/line5-2.jpg",
+    "./imgs/tuangou_index_img/lists/line5-3.jpg",
+    "./imgs/tuangou_index_img/lists/line6-1.jpg",
+    "./imgs/tuangou_index_img/lists/line6-2.jpg",
+    "./imgs/tuangou_index_img/lists/line6-3.jpg",
+    "./imgs/tuangou_index_img/lists/line7-1.jpg",
+    "./imgs/tuangou_index_img/lists/line7-2.jpg",
+    "./imgs/tuangou_index_img/lists/line7-3.jpg",
+    "./imgs/tuangou_index_img/lists/line8-1.jpg",
+    "./imgs/tuangou_index_img/lists/line8-2.jpeg",
+    "./imgs/tuangou_index_img/lists/line8-3.jpg"
+  ],
+  "users": [
+    {
+      "mima": "12345678",
+      "phone": "13564894534",
+      "id": 1
+    },
+    {
+      "mima": "12345678",
+      "phone": "13564894534",
+      "id": 2
+    }
+  ]
+}

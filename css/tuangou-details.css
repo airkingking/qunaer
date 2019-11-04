@@ -1,0 +1,1062 @@
+.top{
+    background: #f5f5f5;
+}
+.top-line{
+    width: 976px;
+    height: 40px;
+    margin: 0 auto;
+    line-height: 40px;
+    font-size: 12px;
+    color: #666;
+}
+.top-line::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.top-line ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.top-line ul li{
+    float: left;
+    padding: 0 6px;
+}
+.top-line .top-line-left ul>li:first-child a{
+    display:inline-block;
+    height:25px;
+    width: 130px;
+    background: url("../imgs/tugou_detail_img/header_new_v7.png") no-repeat -33px -137px;
+}
+.top-line .top-line-right ul>li:first-child a{
+    color: #0084bb;
+    margin: 0 5px;
+}
+.top-line .top-line-right{
+    float: right;
+}
+.top-line a{
+    font-size: 12px;
+    color: #666;
+    text-decoration: none;
+}
+.top-line a:hover{
+    color: #0084bb;
+}
+.top-line i,.top-line span{
+    display: inline-block;
+}
+.top-line i{
+    width: 13px;
+    height: 10px;
+    margin: 0 4px;
+}
+.top-line-left i:first-child{
+    background: url("../imgs/tugou_detail_img/header_new_v7.png") no-repeat 0 -154px;
+}
+.top-line-left i:last-child{
+    background: url("../imgs/tugou_detail_img/header_new_v7.png") no-repeat -150px -18px;
+}
+.top-line-right ul>li:nth-child(2) i:first-child{
+    background: url("../imgs/tugou_detail_img/header_v13.png") no-repeat scroll -29px -151px;
+}
+.top-line-right ul>li:nth-child(2) i:last-child{
+    height: 6px;
+    background: url("../imgs/tugou_detail_img/header_new_v7.png") no-repeat scroll -153px -21px;
+}
+.top-line-right ul>li:nth-child(3) i{
+    background: url("../imgs/tugou_detail_img/header_new_v7.png") no-repeat scroll -153px -18px;
+}
+.top-line-2{
+    height: 66px;
+    line-height: 66px;
+    width:976px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.top-line-2 .line-2-right{
+    display: flex;
+}
+.top-line-2 .line-2-left{
+    margin-top: 11.5px;
+}
+.top-line-2 .line-2-left a{
+    width: 166px;
+    height: 29px;
+    display: inline-block;
+    background: url("../imgs/tugou_detail_img/detail-icov10.png") no-repeat scroll 0 0;
+}
+.top-line-2 .line-2-right .text{
+    width: 326px;
+    height: 30px;
+    border: 4px solid #f24a15;
+    padding: 0;
+}
+.top-line-2 .line-2-right .search1,.top-line-2 .line-2-right .search2{
+    display: inline-block;
+    height: 30px;
+    border: 4px solid #f24a15;
+    padding: 0;
+    color: #fff;
+    background: #f24a15;
+    position: relative;
+    top: 1px;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.top-line-2 .line-2-right .start-place{
+    padding: 0 19px 0 35px;
+    font-size: 22px;
+    color: #009bb3;
+    cursor: pointer;
+}
+.top-line-2 .line-2-right .start-place span{
+    font-size: 12px;
+    color: #000;
+}
+.top-line-2 .line-2-right .start-place i{
+    display: inline-block;
+}
+.top-line-2 .line-2-right .start-place i:first-child{
+    width: 16px;
+    height: 20px;
+    margin-bottom:-3px;
+    background: url("../imgs/tugou_detail_img/search3.png") no-repeat -30px -30px;
+}
+.top-line-2 .line-2-right .start-place i:last-child{
+    width: 8px;
+    height: 4px;
+    margin-bottom: 4px;
+    background: url("../imgs/tugou_detail_img/search3.png") no-repeat 0 0;
+}
+.top-line-3{
+    width: 100%;
+    background: #0088a4;
+}
+.top-line-3 .line-3-whole{
+    padding: 15px 15px;
+    width: 976px;
+    margin:0 auto;
+}
+.top-line-3 .line-3-top{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+.top-line-3 .line-3-top .right{
+    font-size: 20px;
+}
+.top-line-3 .line-3-top .right span:nth-child(2){
+    margin-right: 5px;
+}
+.top-line-3 .line-3-top .right span:nth-child(4){
+    display:block;
+    font-size: 12px;
+}
+.top-line-3 .line-3-top .right i{
+    display: block;
+    float: left;
+    width: 34px;
+    height: 34px;
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+    background: url("../imgs/tugou_detail_img/detail-icov10%20(1).png") no-repeat 0 -33px;
+}
+.top-line-3 .line-3-bottom span{
+    display: inline-block;
+    width: 52px;
+    height: 18px;
+    padding: 1px 5px;
+    color: #fff;
+    background: #f24a15;
+    border-radius: 8px;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 10px;
+}
+.top-line-4{
+    background: #00afc7;
+    margin-bottom: 10px;
+}
+.top-line-4 .line-4-whole{
+    /* height: 37px; */
+    width: 976px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    line-height:37px;
+}
+.top-line-4 .line-4-whole a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px; 
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 5px;
+    outline: none;
+}
+.top-line-4 .line-4-whole a:last-child{
+    margin-right: 0px;
+}
+.top-line-4 .line-4-whole .left,.top-line-4 .line-4-whole .right{
+    display: flex;
+}
+.top-line-4 .line-4-whole .left a:hover{
+    background: rgb(141, 179, 179);
+}
+.top-line-4 .line-4-whole .right a:hover{
+    background: rgb(141, 179, 179);;
+}
+.main{
+    width: 976px;
+    margin: 0 auto;
+}
+.main .main-line-1{
+    margin-bottom:15px;
+}
+.main .main-line-1 a{
+    color: #333;
+    font-size: 12px;
+    text-decoration: none;
+}
+.main .main-line-2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.main .main-line-2 .line-2-left{
+    width: 420px;
+    position: relative;
+    /* border: 1px solid #000; */
+}
+.main .main-line-2 .line-2-left ul li img{
+    width: 100%;
+}
+.carousel{
+    width: 400px;
+    overflow: hidden;
+}
+.main-line-2 .line-2-left .carousel:hover .left-right{
+    display: block;
+}
+.main-line-2 .line-2-left .carousel-list:hover .left-right{
+    display: block;
+}
+.main-line-2 .line-2-left .carousel-list ul li.active img{
+    border: 2px solid #0aa1ed;
+}
+.carousel .left-right,.carousel-list .left-right{
+    position: absolute;
+    width:400px;
+    height:0;
+    top:120px;
+    display: none;
+}
+.carousel-list .left-right{
+    top:283px;
+}
+.main-line-2 .line-2-left .left-right .left-img,.main-line-2 .line-2-left .left-right .right-img{
+    padding: 5px 8px;
+    background: rgb(0,0,0,0.5);
+}
+.carousel .left-img img,.carousel .right-img img{
+    width: 20px;
+}
+.carousel-list .left-img img,.carousel-list .right-img img{
+    width: 15px;
+}
+.carousel .left-img,.carousel-list .left-img{
+    margin-left:5px;
+    top:50px;
+    float: left;
+}
+.carousel .right-img,.carousel-list .right-img{
+    margin-right:5px;
+    top:-50px;
+    float:right;
+}
+.carousel ul{
+    width: 4400px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.carousel ul.transition{
+    transition: all 0.5s linear;
+}
+.carousel ul li{
+    /* padding: 0 3px; */
+    float: left;
+    width: 400px;
+}
+.carousel-list{
+    width: 403px;
+    overflow: hidden;
+}
+.carousel-list ul{
+    width: 891px;
+    list-style: none;
+    margin: 6px 0 0 0;
+    padding: 0;
+    height: 54px;
+    overflow: hidden;
+}
+.carousel-list ul::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.carousel-list ul li{
+    width: 75px;
+    float: left;
+    padding-right:6px;
+}
+.main .main-line-2 .line-2-left ul li img{
+    width: 100%;
+}
+.main .main-line-2 .line-2-right{
+    width: 586px;
+    padding: 0 0 0 20px;
+}
+.main .main-line-2 .line-2-right .right-line-1 h3{
+    margin: 0 0 10px 0;
+}
+.main .main-line-2 .line-2-right .right-line-1 .line-1-icon{
+    display: inline-block;
+    height: 16px;
+    width: 67px;
+    background: url("../imgs/tugou_detail_img/diamond.gif") no-repeat 0 0;
+    position: relative;
+    top: 3px;
+}
+.main .main-line-2 .line-2-right .right-line-2 div span:nth-child(2){
+    color: #ff8300;
+    font-size: 14px;
+}
+.main .main-line-2 .line-2-right .right-line-2 div span:nth-child(3){
+    color: #212121;
+    font-size: 14px;
+}
+.main .main-line-2 .line-2-right .right-line-3{
+    padding: 14px 14px 0 14px;
+    border: 1px solid #ffe3c5;
+    background: #fffdf5;
+    margin-top: 10px;
+}
+.main .main-line-2 .line-2-right .right-line-3 .line-3-top{
+    border-bottom:1px dotted #6666;
+    padding-bottom: 6px;
+}
+.main .main-line-2 .line-2-right .right-line-3 .line-3-top .part1{
+    color: #ff4000;
+    font-size: 30px;
+    font-weight: bold;
+}
+.main .main-line-2 .line-2-right .right-line-3 .line-3-top .part2{
+    color: #ff4000;
+    font-size: 12px;
+}
+.main .main-line-2 .line-2-right .right-line-3 .line-3-top .part3{
+    color: #333;
+    font-size: 12px;
+}
+.main .main-line-2 .line-2-right .right-line-3 .line-3-bottom{
+    display: flex;
+    padding: 8px 0 5px 0;
+}
+.right-line-3 .line-3-bottom .bottom-left{
+    font-size: 12px;
+    color: #333;
+    padding: 2px 10px 0 0;
+}
+.right-line-3 .line-3-bottom .bottom-right .bottom-right-1 span{
+    display: inline-block;
+    padding: 0 4px;
+    margin-right: 5px;
+    border: 1px solid #f55;
+    color: #f55;
+    font-size: 12px;
+}
+.right-line-3 .line-3-bottom .bottom-right .bottom-right-2 span:first-child{
+    display: inline-block;
+    width:20px;
+    height: 24px;
+    background: url("../imgs/tugou_detail_img/hongbao.png") no-repeat 0 0;
+    position: relative;
+    top: 5px;
+}
+.right-line-3 .line-3-bottom .bottom-right .bottom-right-2 span:last-child{
+    font-size: 12px;
+    color: #333;
+}
+.right-line-3 .line-3-bottom .bottom-right .bottom-right-2 span:last-child a{
+    color: #00afc7;
+    text-decoration: none;
+}
+.main .main-line-2 .line-2-right .right-line-4 ul,
+.main .main-line-2 .line-2-right .right-line-5 ul{
+    list-style: none;
+    margin: 10px 0 11px 0;
+    font-size: 12px;
+    color: #333;
+}
+.main .main-line-2 .line-2-right .right-line-4 ul::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.main .main-line-2 .line-2-right .right-line-4 ul li{
+    float: left;
+    width: 31%;
+    text-align: center;
+}
+.line-2-right .right-line-4 ul li:nth-child(2)::before{
+    display: inline;
+    content: "|";
+    color: #d5d5d5;
+}
+.line-2-right .right-line-4 ul li:nth-child(2)::after{
+    display: inline;
+    content: "|";
+    color: #d5d5d5;
+}
+.main .main-line-2 .line-2-right .right-line-4 .myd{
+ color: #ff4000;
+ margin-right: 8px;
+}
+.main .main-line-2 .line-2-right .right-line-4 .pinlun{
+    text-decoration: none;
+    color: #00afc7;
+}
+.main .main-line-2 .line-2-right .right-line-5 .line-5-whole{
+    padding-left: 10px;
+}
+.main .main-line-2 .line-2-right .right-line-5 .line-5-whole>li{
+    padding: 10px 0;
+}
+.main .main-line-2 .line-2-right .right-line-5 .line-5-whole>li>span,
+.line-5-whole>li:nth-child(2) div span,
+.line-5-whole>li:nth-child(5) .li-5 .li-5-left,
+.line-5-whole>li:nth-child(6)>div>span{
+    margin-right:15px ;
+}
+.main .main-line-2 .line-2-right .right-line-5 ul li:nth-child(2) div{
+    display: flex;
+}
+.main .main-line-2 .line-2-right .right-line-5 ul li:nth-child(2) ul{
+    padding: 0;
+    margin: 0;
+}
+.main .main-line-2 .line-2-right .right-line-5 .line-5-whole>li:nth-child(4)>span,
+.main .main-line-2 .line-2-right .right-line-5>ul>li:nth-child(4)>div{
+    float: left;
+    position: relative;
+}
+.hidden .sjx{
+    display: block;
+    width: 13px;
+    height: 8px;
+    background: url("../imgs/tugou_detail_img/skin_v13.png") no-repeat 0 -21px;
+    position: relative;
+    top: -16px;
+    left: 20px;
+}
+.main .main-line-2 .line-2-right .right-line-5 ul li:nth-child(4)>div .confirm{
+    border: 1px solid #00bcd4;
+    color: #00bcd4;
+    padding: 0 5px;
+}
+.main .main-line-2 .line-2-right .right-line-5 ul li:nth-child(4)>div .hidden{
+    display: none;
+}
+/* .hidden{
+    display: none;
+} */
+.main .main-line-2 .line-2-right .right-line-5 ul li:nth-child(4)>div:hover .hidden{
+    display: block;
+    position: absolute;
+    top: 15px;
+    z-index: 1;
+    width: 260px;
+    background: #fffedf;
+    border: 1px solid #f8d3a7;
+    padding: 8px 0;
+    margin-top:10px ;
+}
+.main .main-line-2 .line-2-right .right-line-5 ul li:nth-child(4)>div:hover div i{
+    display: block;
+    width: 13px;
+    height: 8px;
+    /* background:; */
+}
+.main .main-line-2 .line-2-right .right-line-5 ul li:nth-child(2) ul li{
+    float: left;
+    display: flex; 
+}
+.main .main-line-2 .line-2-right .right-line-5 ul li:last-child>div{
+    display: flex;
+}
+.main .main-line-2 .line-2-right .right-line-5 ul li:last-child ul{
+    padding: 0;
+    margin: 0;
+}
+.main .main-line-2 .line-2-right .right-line-5 ul li:last-child ul li{
+    float: left;
+}
+.main .main-line-2 .line-2-right .right-line-5 .line-5-whole li:nth-child(5) .li-5::after,
+.main .main-line-2 .line-2-right .right-line-5 .line-5-whole>li:nth-child(4)::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.main .main-line-2 .line-2-right .right-line-5 ul li:nth-child(5) .li-5 .li-5-left,
+.main .main-line-2 .line-2-right .right-line-5 ul li:nth-child(5) .li-5 .li-5-right{
+    float: left;
+}
+.line-5-whole>li:nth-child(6) div ul>li{
+    margin-right: 8px;
+}
+.line-5-whole>li:nth-child(6)>div ul>li{
+    position: relative;
+}
+.main .main-line-2 .line-2-right .right-line-5 .line-5-whole>li:nth-child(6) div ul li .hidden{
+    display: none;
+}
+.main .main-line-2 .line-2-right .right-line-5 .line-5-whole>li:nth-child(6)>div ul>li:hover .hidden{
+    display: block;
+    position: absolute;
+    top: 15px;
+    z-index: 1;
+    width: 260px;
+    background: #fffedf;
+    border: 1px solid #f8d3a7;
+    padding: 8px 0;
+    margin-top:10px ;
+}
+.line-5-whole>li:nth-child(6) div ul>li>span:first-child{
+    display: inline-block;
+    width: 13px;
+    height: 16px;
+    background: url("../imgs/tugou_detail_img/detail-icov10(2).png") no-repeat -312px 0;
+    position: relative;
+    top:4px;
+}
+.line-5-whole .li-2 li:not(:last-child){
+    padding: 0 8px;
+    border-right: 1px solid #d5d5d5;
+}
+.line-5-whole .li-2 li:first-child{
+    padding-left: 0;
+}
+.line-5-whole .li-2 li:last-child{
+    padding-left: 8px;
+}
+.line-5-whole .li-2 li:nth-child(n+3) a{
+    text-decoration: none;
+    color: #00afc7;
+}
+.main .main-line-3{
+    border: 3px solid #ff5800;
+    padding: 10px 10px;
+    height: 370px;
+}
+.main .main-line-3 .calendar::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.main .main-line-3 .calendar .date-box{
+    width: 400px;
+    float: left;
+}
+.main .main-line-3 .calendar .date-box .year-month{
+    display: flex;
+    justify-content: space-around;
+}
+.main .main-line-3 .calendar .trip-date{
+    /* width: 530px; */
+    float: left;
+    padding: 0 0 0 20px;
+}
+.date-box .year-month div:not(:first-child) .lowest-price{
+    visibility: hidden;
+}
+.date-box .year-month .lowest-price{
+    text-align: center;
+}
+.date-box .date-table{
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid #d6cfcf;
+}
+.date-box .date-table table{
+    width: 400px;
+    height: 300px;
+}
+.trip-date>.date-line-1>h3{
+    font-size: 18px;
+    font-family:arial, 微软雅黑, sans-serif;
+    color: #333;
+}
+.trip-date>.date-line-1>h3>span{
+    font-size: 12px;
+    color: #999;
+    padding-left: 10px;
+}
+.trip-date .choose-date{
+    display: flex;
+    justify-content: space-between;
+    width: 520px;
+    line-height:35px;
+}
+.trip-date .choose-people{
+    display: flex;
+    justify-content: space-between;
+    width: 520px;
+}
+.trip-date .choose-people>div>span:last-child{
+    margin-left: 10px;
+}
+.trip-date .choose-people>span{
+    line-height:35px;
+}
+/* .trip-date .choose-people{
+    line-height:35px;
+} */
+.trip-date .choose-date>div>div{
+    display: none;
+    z-index: 10;
+}
+.trip-date .choose-date input{
+    height: 29px;
+}
+.trip-date .choose-people .people,
+.trip-date .choose-people .child,
+.trip-date .choose-people .room{
+    /* display: flex; */
+    /* justify-content: space-around;
+    align-items: center; */
+    position: relative;
+}
+.trip-date .choose-people .people input,
+.trip-date .choose-people .child input,
+.trip-date .choose-people .room input{
+    width: 43px;
+    height: 29px;
+    text-align: center;
+    margin: 0 3px;
+    padding: 0;
+}
+.trip-date .choose-people .people .fuhao,
+.trip-date .choose-people .child .fuhao,
+.trip-date .choose-people .room .fuhao{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    border: 1px solid #999;
+    text-align: center;
+    color: #999;
+    cursor: pointer;
+}
+.trip-date>.tprice{
+    display: flex;
+    align-items: center;
+}
+.trip-date>.tprice>.current-price{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff3d00;
+    margin-right: 10px;
+}
+.trip-date>.tprice>div>div>p{
+    margin: 0;
+    font-size: 12px;
+    color: #333;
+}
+.trip-date>.tprice>div{
+    background: #fffedf;
+    border: 1px solid #f8d3a7;
+    padding: 5px 8px;
+    position: relative;
+    left: -3px;
+    /* display: none; */
+    display: flex;
+    margin-left: 13px;
+    opacity: 0;
+}
+.trip-date>.tprice>div>div>p>span{
+    margin: 0 0 0 150px;
+}
+.trip-date>.tprice>div>.sjx{
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    background: url("../imgs/tugou_detail_img/skin_v13\ \(1\).png") no-repeat 0 -21px;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 12px;
+    left: -19px;
+}
+.trip-date>.buy-now{
+    display: flex;
+    padding: 0 0 0 70px;
+}
+.trip-date>.buy-now>a{
+    display: block;
+    width: 133px;
+    height: 45px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: arial, 微软雅黑, sans-serif;
+    line-height: 45px;
+    text-align: center;
+}
+.trip-date>.buy-now>a:first-child{
+    background: #f24a15;
+    margin-right: 8px;
+}
+.trip-date>.buy-now>a:last-child{
+    background: #f5a623;
+}
+.trip-date>.choose-date,.trip-date>.choose-people,.trip-date>.tprice,.trip-date>.buy-now{
+    margin-top: 30px;
+}
+.trip-date>.choose-date>span:first-child,
+.trip-date>.choose-people>span:first-child,
+.trip-date>.tprice>span:first-child{
+    font-size: 12px;
+    color: #999;
+    width: 48px;
+}
+.trip-date>.choose-date{
+    font-size: 12px;
+    color: #999;
+}
+.trip-date>.choose-date .centain-date{
+    color: #333;
+}
+.trip-date>.choose-people{
+    font-size: 14px;
+    color: #333;
+}
+.choose-people .info{
+    position: absolute;
+    font-size: 12px;
+    color: #333;
+    border: 1px solid #f8d3a7;
+    background: #fffedf;
+    padding: 5px 5px;
+    opacity: 0;
+}
+.main .main-line-4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px 0 40px;
+    border: 1px solid #fdb657;
+    margin: 30px 0;
+    background: #fff9dd;
+}
+.main-line-4 .tailand{
+    font-size: 24px;
+    color: #ff862e;
+    font-weight: bold;
+}
+.main-line-4 .taibg{
+    display: inline-block;
+    width: 123px;
+    height: 28px;
+    background: url("../imgs/tugou_detail_img/customized.png") no-repeat 0 0;
+    position: relative;
+    top: 4px;
+}
+.main-line-4 .simpleto{
+    font-size: 18px;
+    color: #666;
+    font-weight: bold;
+    position: relative;
+    right: 60px;
+    justify-content: space-between;
+}
+.main-line-4 .rightnow{
+    display: block;
+    width: 140px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    text-decoration: none;
+    color: #fff;
+    background: #ff862e;
+    padding: 4px 15px;
+}
+.main-line-5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 15px 7px 15px;
+    background: #00afc7;
+    margin-bottom: 30px;
+}
+.main-line-5>span{
+    font-size: 18px;
+    color: #fff;
+}
+.main-line-5>a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff;
+}
+.date-box .ui-widget.ui-widget-content{
+    width: 90%;
+    height: 300px;
+    margin-top: 15px;
+    margin-right: 0;
+    position: relative;
+    left: 15px;
+}
+.date-box .ui-datepicker table{
+    height: 260px;
+}
+.date-box .ui-datepicker td a{
+    padding: 0;
+    width: 45px;
+    text-align: center;
+}
+.date-box .ui-datepicker td span{
+    padding: 0;
+}
+.date-box .eday-price{
+    font-size: 12px;
+    color: #ff3d00;
+    text-align: center;
+}
+.main-line-6>.container{
+    display: flex;
+    justify-content: space-between;
+}
+.main-line-6>.line-6-a{
+    display: flex;
+    border-bottom: 1px solid #999;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.main-line-6>.line-6-a>div{
+    text-align: center;
+    margin-right: 20px;
+}
+.main-line-6 .line-6-a a{
+    display: inline-block;
+    padding:0 10px 8px 10px;
+    font-size: 18px;
+    font-family: arial, 微软雅黑, sans-serif;
+    text-decoration: none;
+    color: #333;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.main-line-6 .line-6-a a:hover{
+    color: #00a3d2;
+}
+.main-line-6 .line-6-a .active{
+    border-bottom: 2px solid #00afc7;
+    color: #00afc7;
+}
+.huge-div{
+    width:720px;
+}
+.contain-what{
+    position: relative;
+}
+.contain-what::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.con-title{
+    width: 80px;
+    height: 80px;
+    background: #00afc7;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+}
+.con-title>div{
+    position: relative;
+    top: 10px;
+}
+.con-detail{
+    padding-left: 20px;
+    position: relative;
+    left: 80px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #999;
+    margin-bottom: 20px;
+}
+.con-detail p{
+    margin: 0;
+    color: #333;
+    font-size: 14px;
+}
+#path-diff .contain-what .con-detail p>span{
+    color: #009900;
+}
+#path-diff .contain-what .con-detail .last-p{
+    padding-bottom: 4px;
+}
+.huge-pic{
+    width: 100%;
+    height: 100%;
+}
+.huge-pic-container-1{
+    position: relative;
+    top: -4px;
+}
+.huge-pic-container-2{
+    position: relative;
+    top: -8px;
+}
+.huge-pic-container-3{
+    position: relative;
+    top: -12px;
+}
+.huge-pic-container-4{
+    position: relative;
+    top: -16px;
+}
+.huge-pic-container-5{
+    position: relative;
+    top: -20px;
+}
+.huge-pic-container-6{
+    position: relative;
+    top: -24px;
+}
+.huge-pic-container-7{
+    position: relative;
+    top: -28px;
+}
+.huge-pic-container-8{
+    position: relative;
+    top: -32px;
+}
+.huge-pic-container-9{
+    position: relative;
+    top: -36px;
+}
+.huge-pic-container-10{
+    position: relative;
+    top: -40px;
+}
+.huge-pic-container-11{
+    position: relative;
+    top: -44px;
+}
+.small-plane{
+    display: inline-block;
+    width: 24px;
+    height: 27px;
+    background: url("../imgs/tugou_detail_img/detail_icov11.png") no-repeat 0 -27px;
+    position: relative;
+    top: 5px;
+}
+.go-back{
+    font-size: 24px;
+    color: #333;
+}
+.go-back-detail{
+    color: #999;
+    font-size: 12px;
+}
+.blue-square{
+    height: 28px;
+    width: 70px;
+    background: #00afc7;
+    color: #fff;
+    line-height: 28px;
+    font-size: 12px;
+    padding: 0 10px;
+    text-align: center;
+}
+.trave-path{
+    border: 1px solid #00afc7;
+    padding: 10px 15px;
+}
+.trave-path .hr{
+    margin:45px 0;
+}
+.trave-path .type-title{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.type-title{
+    font-size: 12px;
+}
+.type-title .plane-go{
+    margin-right: 20px;
+}
+.type-title .goto-where{
+    width: 90%;
+}
+.type-title .goto-mangu{
+    margin-bottom: 20px;
+}
+.type-title .how-to-go{
+    display: flex;
+    justify-content: space-between;
+}
+.how-to-go .line-mark{
+    display: inline-block;
+    width: 150px;
+    border-top: 1px solid #999;
+    position: relative;
+    top: -10px;
+}
+.how-to-go .w-time{
+    text-align: center;
+    padding-top:6px ;
+}
+#plan-diff{
+    font-size: 12px;
+}
+#plan-diff .plan-text{
+    padding: 10px;
+    font-size: 12px;
+    background: #ecfbfd;
+    border: 1px solid #b2ebb2;
+    margin-bottom: 20px;
+}
+.day-one{
+    padding-bottom: 18px;
+    border-bottom: 2px solid #999;
+}
+.day-one-text{
+    font-size: 22px;
+    color: #00afc7;
+    margin-right: 15px;
+}
+.backto-top{
+    position: fixed;
+    top: 90%;left: 80%;
+}
+.backto-top a{
+    text-decoration: none;
+    color: #009bb3;
+    font-size: 20px;
+}

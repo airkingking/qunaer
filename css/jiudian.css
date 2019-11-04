@@ -1,0 +1,201 @@
+*{margin: 0px;padding: 0px;}
+#jiudian-top{
+    background: #2cabc4;
+}
+#jiudian-top-nei{
+    width:1210px;height: 38px;
+    margin:0px 110px;
+}
+#jiudian-top-nei a{
+    color:#fff;
+    text-decoration: none;
+    line-height: 38px;
+    padding: 0 16px;
+    display: inline-block;
+    height: 38px;
+    font:bold 14px/38px tahoma,arial,sans-serif;
+}
+#jiudian-top-nei ul{
+    list-style: none;
+    display: inline;
+}
+#jiudian-top-nei ul li{
+    float: left;
+}
+#jiudian-top-you{
+    float: right;
+}
+#jiudian-top-u:hover{
+    background:#57c1d6;
+}
+.sousuo{
+    height: 336px;
+    position: relative;
+}
+.sousuo{
+    background-image: url(../img/haidao.jpg)
+}
+.sousuo-neirong{
+    height: 320px;
+    width:656px;
+    border:#2cabc4 5px solid;
+    background: #fff;
+    position: absolute;
+    top:16px;left: 110px;
+}
+.sousuo-neirong h1{
+    padding: 7px 0 6px 18px;
+    font-size: 26px;
+    color: #333;
+}
+.sousuo-neirong hr{
+    margin: 0;
+}
+.sousuo-neirong-zhong{
+    width: 646px;height: 217px;
+    padding: 2px 35px 0 35px;
+    position: relative;
+}
+.doudou{
+    width: 611px;height: 39px;
+    font-size: 14px;
+    color: #333;
+    line-height: 39px;
+    margin-bottom: 10px;
+}
+.doudou img{
+    position: absolute;
+    left:440px;
+    top:10px;
+}
+.doudou a{
+    position: absolute;
+    left:460px;
+    font-size: 12px;
+    color: #0084bb;
+    float: right;
+    text-decoration: none;
+}
+.zhong-input{
+    width: 611px;height: 136px;
+    font-size: 12px;
+    color: #999999;
+    position: relative;
+}    
+.mudidi{
+    width: 232px;height: 36px;
+    border: 1px solid #ccc; 
+}
+.mudidi input{
+    margin: 0 0 0 62px;
+    width: 140px;height: 34px;
+    border: none;
+    outline:none;
+    font: bold 16px/30px tahoma,arial,'microsoft yahei','hiragino sans gb',simsun,sans-serif;
+}
+.labelContainer{
+    position: absolute;
+    left: 10px;
+    top: 8px;
+} 
+.jiudian-name{
+    width: 344px;height: 36px;
+    position: absolute;
+    top:0px;left:240px;
+    border: 1px solid #ccc;
+}
+.jiudian-name input{
+    width: 296px;height: 34px;
+    border: none;
+    outline:none;
+    margin-left: 10px;
+}
+.labelContainer1{
+    position: absolute;
+    left: 10px;
+    top: 55px;
+}
+.ruzhu-data{
+    width: 288px;
+    height: 36px;
+    border: 1px solid #ccc; 
+    margin-top:10px;
+}
+.ruzhu-data input{
+    border: none;
+    outline:none;
+    font: bold 16px/30px tahoma,arial,'microsoft yahei','hiragino sans gb',simsun,sans-serif;
+    margin: 0 0 0 62px;
+    width: 168px;height: 34px;
+} 
+.lidian-data{
+    width: 288px;height: 36px;
+    position: absolute;
+    top:46px;left:295px;
+    border: 1px solid #ccc;
+}
+.lidian-data input{
+    border: none;
+    outline:none;
+    font: bold 16px/30px tahoma,arial,'microsoft yahei','hiragino sans gb',simsun,sans-serif;
+    margin: 0 0 0 62px;
+    width: 168px;height: 34px;
+}
+.labelContainer2{
+    position: absolute;
+    top:55px;left: 305px;
+}
+.map-sousuo{
+    width: 582px;height: 40px;
+    margin: 12px 29px 22px 0;
+    position: relative;
+}
+.map-sousuo-zuo{
+    border: 1px solid #ccc;
+    height: 40px;width: 136px;
+    display:inline-block;
+    font-size: 14px;
+    color: #0084bb;
+    font-family: tahoma,arial,'microsoft yahei','hiragino sans gb',simsun,sans-serif;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    left: 295px;
+}
+.map-sousuo-you{
+    background: #ff752b;
+    border: #e4602b 1px solid;
+    color: #fff;
+    height: 40px;width: 142px;
+    display:inline-block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    position: absolute;
+    left: 440px;
+}
+.two-code{
+    width: 640px;height: 40px;
+    padding: 10px 27px;
+    z-index: 0;
+}
+.two-code a{
+    font-size: 12px;
+    text-decoration: none;
+}
+.two-code-yc{
+    width: 200px;height: 194px;
+    display: none;
+    padding: 10px 10px 20px;
+    border:  1px solid #ccc;
+    z-index: 1;
+    position: absolute;
+    top:269px;
+    left:16px;
+    background: #fff;
+}
+.two-code:hover .two-code-yc{
+    display: block;
+}
