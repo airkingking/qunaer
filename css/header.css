@@ -265,7 +265,7 @@ color: #0084BB;
 .nav .jlt{
     width: 10px;
     height: 19px;
-    background-image: url("../ims/dujia-imgg/header.img/search3.png");
+    background-image: url("../imgs/dujia-img/header.img/search3.png");
     background-position:410px 264px;
     margin-left: 6px;
 
@@ -274,7 +274,7 @@ color: #0084BB;
 .nav .jlt1{
         width: 16px;
         height:  16px;
-        background-image:url("../ims/dujia-imgg/smallicon/nav-icon-v3.png");
+        background-image:url("../imgs/dujia-img/smallicon/nav-icon-v3.png");
         /* 从精灵图片中获取需要的图片
           /* 获取“省”*/
         background-position: 15px -53px;
@@ -284,7 +284,7 @@ color: #0084BB;
 .nav .jlt2{
     width: 15px;
     height:  16px;
-    background-image:url("../ims/dujia-imgg/smallicon/nav-icon-v3.png");
+    background-image:url("../imgs/dujia-img/smallicon/nav-icon-v3.png");
     /* 从精灵图片中获取需要的图片
       /* 获取“热”*/
     background-position:15px -256px;
@@ -293,7 +293,7 @@ color: #0084BB;
 .nav .jlt3{
     width: 25px;
     height:  16px;
-    background-image:url("../ims/dujia-imgg/smallicon/nav-icon-v4.png");
+    background-image:url("../imgs/dujia-img/smallicon/nav-icon-v4.png");
     /* 从精灵图片中获取需要的图片
       /* 获取“团建”*/
     background-position:25px -277px;

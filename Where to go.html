@@ -1,0 +1,2486 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <!-- 导入css-->
+    <link rel="stylesheet" href="./bootstrap/bootstrap.css"/>
+    <!-- 导入3个js,有顺序要求-->
+    <script src="./bootstrap/jquery.min.js"></script>
+    <script src="./bootstrap/popper.min.js"></script>
+    <script src="./bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/where to go.css"/>
+    <!--<link rel="stylesheet" type="text/css" href="css/city-select.css">-->
+</head>
+<header></header>
+<body>
+<div class="container m-auto p-0 ">
+    <div class="bg-blue ">
+        <a class="du" href="" >度假首页</a>
+        <a class="du" href="">海外游玩</a>
+        <a class="du" href=""><i class="ziyouxing"></i> 自由行</a>
+        <a class="du" href="">出境游</a>
+        <a class="du" href="">特卖</a>
+        <a class="du" href="">周边游</a>
+        <a class="du" href="">游轮</a>
+        <a class="du" href="">签证</a>
+        <a class="du" href=""><i class="ziyouxing0"></i>海外购物</a>
+    </div>
+    <div class="row mx-0">
+        <div class="col-lg-3 px-0">
+           <div id="sometingunknown" class="ml-5 ">
+            <a class="beijingtu" href=""></a>
+            <span class="_beijing pt-2">北京</span>
+            <span class="_zhan pt-2">站</span>
+            <a href="" class="_jiantou"></a>
+           </div>
+
+            <p class="_dangdiyou ml-2 text-center">进入北京周边/当地游</p>
+        </div>
+        <div class="col-lg-9 px-0">
+            <span id="divbottom">
+            <input class="_shu" type="text" placeholder="请输入目的地、主题或关键词"/>
+                <button class="btn-danger buttonbody">搜索</button>
+            </span>
+            <span id="body111">
+                    <span   class="gaoji mt-1">高级搜索</span>
+                    <a class="gaojisousuo" href=""></a>
+            </span>
+            <div class="divbody">
+                <p class="mx-5 mt-3">
+                    <span>热门搜索</span>
+                    <span id="s2" style="float: right;">x</span>
+                </p>
+                <h6 class="mx-5">国内</h6>
+                <p class="mx-5">
+                    <span class="mb">周边&nbsp &nbsp 三亚 &nbsp &nbsp  丽江 &nbsp &nbsp  九寨沟 &nbsp &nbsp  厦门 &nbsp &nbsp  成都 &nbsp &nbsp  西安 &nbsp &nbsp  西双版纳 &nbsp &nbsp  桂林 &nbsp &nbsp  杭州</span><br>
+                    <span>大理 &nbsp &nbsp  张家界 &nbsp &nbsp  上海  &nbsp &nbsp 重庆  &nbsp &nbsp 哈尔滨 &nbsp &nbsp  广州 &nbsp &nbsp  拉萨 &nbsp &nbsp  腾冲  &nbsp &nbsp 五台山 &nbsp &nbsp  乌镇</span>
+                </p>
+                <h6 class="mx-5">出境/港澳台</h6>
+                <p class="mx-5">
+                    <span class="mb">周边 &nbsp &nbsp 三亚  &nbsp &nbsp丽江 &nbsp &nbsp 九寨沟 &nbsp &nbsp 厦门 &nbsp &nbsp 成都 &nbsp &nbsp 西安 &nbsp &nbsp 西双版纳 &nbsp &nbsp 桂林 &nbsp &nbsp 杭州</span><br>
+                    <span>大理 &nbsp &nbsp 张家界 &nbsp &nbsp 上海 &nbsp &nbsp 重庆 &nbsp &nbsp 哈尔滨 &nbsp &nbsp 广州 &nbsp &nbsp 拉萨 &nbsp &nbsp 腾冲  &nbsp &nbsp五台山 &nbsp &nbsp 乌镇</span>
+                </p>
+                <h6 class="mx-5">周边</h6>
+                <p class="mx-5">
+                    <span class="mb">周边  &nbsp &nbsp三亚  &nbsp &nbsp丽江 &nbsp &nbsp 九寨沟 &nbsp &nbsp 厦门 &nbsp &nbsp 成都  &nbsp &nbsp西安 &nbsp &nbsp 西双版纳 &nbsp &nbsp 桂林  &nbsp &nbsp杭州</span><br>
+                    <span>大理 &nbsp &nbsp 张家界  &nbsp &nbsp上海  &nbsp &nbsp重庆 &nbsp &nbsp 哈尔滨 &nbsp &nbsp 广州  &nbsp &nbsp拉萨 &nbsp &nbsp 腾冲 &nbsp &nbsp 五台山 &nbsp &nbsp 乌镇</span>
+                </p>
+                <h6 class="mx-5">主题</h6>
+                <p class="mx-5">
+                    <span class="mb">周边&nbsp &nbsp 三亚 &nbsp &nbsp丽江 &nbsp &nbsp九寨沟&nbsp &nbsp 厦门&nbsp &nbsp 成都&nbsp &nbsp 西安&nbsp &nbsp 西双版纳&nbsp &nbsp 桂林&nbsp &nbsp 杭州</span><br>
+                    <span>大理&nbsp &nbsp 张家界&nbsp &nbsp 上海&nbsp &nbsp 重庆&nbsp &nbsp 哈尔滨&nbsp &nbsp 广州&nbsp &nbsp 拉萨&nbsp &nbsp 腾冲&nbsp &nbsp 五台山&nbsp &nbsp 乌镇</span>
+                </p>
+            </div>
+            <p>
+                <span href="">正在热搜：</span>
+                <div class="wrapper">
+                    <ul class="list-unstyled contain1">
+                        <li>厦门 大理 云南 台湾 桂林 台湾</li>
+                        <li>厦门 大理 云南 台湾 巴厘岛 马尔代夫</li>
+                        <li>丽江 普吉岛 厦门 大理 云南 台湾 巴厘岛 台湾 泰国</li>
+                    </ul>
+        </div>
+            </p>
+
+    </div>
+</div>
+
+    <div id="sue" style="height: 0px" class="ml-2">
+        <p>
+            <span class="mr-2">关键字</span>
+            <input class="mr-2" style="width: 200px;" type="text" placeholder="请输入目的地主题或关键词"/>
+            <span style="color: red">关键字不能为空</span>
+        </p>
+        <p>
+            <span class="mr-2">出发日期</span>
+            <input checked  type="radio"  name="riqi"/>不限
+            <input type="radio" name="riqi"/>具体日期
+            <input type="text" value="2019-10-1"/>
+            <span>可接受前后</span>
+            <button id="body1" onclick="show1()" style="width: 20px">-</button>
+            <button id="body2" style="width: 20px">0</button>
+            <button id="body3" onclick="show2()" style="width: 20px">+</button>
+            <span>天出发</span>
+        </p>
+        <p>
+            <span class="mr-2">行程天数</span>
+            <input  type="radio" name="riqit"/>不限
+            <input  checked type="radio" style="color: #ff832c;" name="riqit"/>具体行程天数
+            <input class="mr-2" type="text" placeholder="最小"/>
+            <span class="mr-2">~</span>
+            <input class="mr-2" type="text" placeholder="最大"/>
+            <span class="mr-2">天</span>
+        </p>
+        <p>
+            <span class="mr-2">价格区间</span>
+            <input class="mr-2" type="text" placeholder="最小"/>
+            <span class="mr-2">~</span>
+            <input class="mr-2" type="text" placeholder="最大"/>
+            <span class="mr-2">元</span>
+        </p>
+        <p>
+            <span class="mr-2">出行方式</span>
+            <input  type="radio" name="fangshi" checked/>不限
+            <input  type="radio" name="fangshi"/>自由行
+            <input  type="radio" name="fangshi"/>跟团游
+        </p>
+        <p>
+            <span class="mr-2">住宿等级</span>
+            <input  checked type="radio"  name="fangshi"/>不限
+            <input type="radio" name="fangshi"/>五星级/豪华
+            <input  type="radio" name="fangshi"/>四星级/高档
+            <input  type="radio" name="fangshi"/>三星级/舒适
+            <input  type="radio" name="fangshi"/>二星级/其他
+            <input  type="radio" name="fangshi"/>经济型
+        </p>
+        <p>
+            <button class="ml-5" style="width: 148px; height: 42px; background:#ff5d31;color: white ">搜索</button>
+            <span>约</span>
+            <span style="color: #ff832c;font-size: 24px">0</span>
+            <span>条线路</span>
+            <span>清除所有</span>
+        </p>
+
+    </div>
+
+    <div  class="row mx-0">
+        <div class="col-lg-3 px-0 ">
+            <div class="mr-2 ml-2">
+             <ul class="ulborder">
+                <li class="d-flex mt-2">
+                    <div  class="dangjihaowan01 ml-2" ></div>
+                   <span>
+                          <p class="mr-5 ml-2">当季好玩</p>
+                          <p style="font-size: 13px" class="ml-2">
+                            <span>日本</span>
+                            <span>泰国</span>
+                            <span>芽庄</span>
+                            <span>丽江</span>
+                         </p>
+                   </span>
+                </li>
+                <li class="d-flex mt-2 ml-2">
+                    <div class="dangjihaowan02" ></div>
+                    <span><p class="mr-5 ml-2">北京周边游</p>
+                        <p style="font-size: 13px" class="ml-2">
+                            <span>月坨岛</span>
+                            <span>天津</span>
+                            <span>木兰围场</span>
+                        </p>
+                    </span>
+                </li>
+                <li class="d-flex mt-2 ml-2">
+                    <div class="dangjihaowan03" ></div>
+                    <span><p style="margin-right: 5rem" class="ml-2">国内游</p>
+                        <p style="font-size: 13px" class="ml-2">
+                            <span>丽江</span>
+                            <span>成都</span>
+                            <span>厦门</span>
+                            <span>西安</span>
+                        </p>
+                    </span>
+                </li>
+                <li class="d-flex mt-2 ml-2">
+                    <div class="dangjihaowan04" ></div>
+                    <span><p class="ml-2">泰国 巴厘岛 芽庄</p>
+                        <p style="font-size: 13px" class="ml-2">
+                            <span>泰国</span>
+                            <span>普吉岛</span>
+                            <span>新加坡</span>
+                        </p>
+                    </span>
+                </li>
+                <li class="d-flex mt-2 ml-2">
+                    <div class="dangjihaowan05" ></div>
+                   <span> <p style="margin-right: 5rem" class="ml-2">欧洲 俄罗斯 瑞典</p>
+                        <p class="mr-5 ml-2" style="font-size: 13px">
+                            <span>俄罗斯</span>
+                            <span>希腊</span>
+                            <span>海参崴</span>
+                            <span>挪威</span>
+                        </p>
+                   </span>
+                </li>
+                <li class="d-flex ml-2 mt-2">
+                    <div  class="dangjihaowan06" ></div>
+                    <span><p class="mr-5 ml-2">日本 北海道 大阪</p>
+                        <p class="mr-5 ml-2" style="font-size: 13px">
+                            <span>日本</span>
+                            <span>大阪</span>
+                            <span>福冈</span>
+                            <span>冲绳</span>
+                        </p>
+                    </span>
+                </li>
+                <li class="d-flex mt-2 ml-2">
+                    <div class="dangjihaowan07" ></div>
+                    <span><p class="mr-5 ml-2">香港 台湾</p>
+                        <p class="mr-5 ml-2" style="font-size: 13px">
+                            <span>澳门</span>
+                            <span>香港</span>
+                            <span>台北</span>
+                            <span>肯定公司热带风景区</span>
+                        </p>
+                    </span>
+                </li>
+                <li class="d-flex ml-2 mt-2">
+                    <div class="dangjihaowan08" ></div>
+                    <span><p class="ml-2">美国 塞班岛</p>
+                        <p class="mr-5 ml-2" style="font-size: 13px">
+                            <span>塞班岛</span>
+                            <span>巴哈啦</span>
+                            <span>关岛</span>
+                            <span>美国</span>
+                            <span>古巴</span>
+                        </p>
+                    </span>
+                </li>
+            </ul>
+            </div>
+        </div>
+        <div class="col-lg-6 px-0 ">
+            <div class="bodycontent">
+                <div class="mx-2 mt-5">
+                    <img src="./imgs/wtg/bc44faa497db0dcf93835fbb.jpg_150x100_5e9bc2c7.jpg" alt=""/>
+                    <img src="./imgs/wtg/bc44faa497db0dcf93835fbb.jpg_150x100_5e9bc2c7.jpg" alt=""/>
+                    <img src="./imgs/wtg/bc44faa497db0dcf93835fbb.jpg_150x100_5e9bc2c7.jpg" alt=""/><br/>
+                    <img src="./imgs/wtg/bc44faa497db0dcf93835fbb.jpg_150x100_5e9bc2c7.jpg" alt=""/>
+                    <img src="./imgs/wtg/bc44faa497db0dcf93835fbb.jpg_150x100_5e9bc2c7.jpg" alt=""/>
+                    <img src="./imgs/wtg/bc44faa497db0dcf93835fbb.jpg_150x100_5e9bc2c7.jpg" alt=""/><br/>
+                    <img src="./imgs/wtg/bc44faa497db0dcf93835fbb.jpg_150x100_5e9bc2c7.jpg" alt=""/>
+                    <img src="./imgs/wtg/bc44faa497db0dcf93835fbb.jpg_150x100_5e9bc2c7.jpg" alt=""/>
+                    <img src="./imgs/wtg/bc44faa497db0dcf93835fbb.jpg_150x100_5e9bc2c7.jpg" alt=""/>
+                </div>
+                <div class="mx-2 mt-5">
+                    <img src="./imgs/wtg/53587659e9bd347293835fbb.jpg_150x100_a1d5bac7.jpg" alt=""/>
+                    <img src="./imgs/wtg/53587659e9bd347293835fbb.jpg_150x100_a1d5bac7.jpg" alt=""/>
+                    <img src="./imgs/wtg/53587659e9bd347293835fbb.jpg_150x100_a1d5bac7.jpg" alt=""/><br/>
+                    <img src="./imgs/wtg/53587659e9bd347293835fbb.jpg_150x100_a1d5bac7.jpg" alt=""/>
+                    <img src="./imgs/wtg/53587659e9bd347293835fbb.jpg_150x100_a1d5bac7.jpg" alt=""/>
+                    <img src="./imgs/wtg/53587659e9bd347293835fbb.jpg_150x100_a1d5bac7.jpg" alt=""/><br/>
+                    <img src="./imgs/wtg/53587659e9bd347293835fbb.jpg_150x100_a1d5bac7.jpg" alt=""/>
+                    <img src="./imgs/wtg/53587659e9bd347293835fbb.jpg_150x100_a1d5bac7.jpg" alt=""/>
+                    <img src="./imgs/wtg/53587659e9bd347293835fbb.jpg_150x100_a1d5bac7.jpg" alt=""/>
+                </div>
+                <div class="mx-2 mt-5">
+                    <img src="./imgs/wtg/a5b5020f04389deb93835fbb.jpg_150x100_664f040f.jpg" alt=""/>
+                    <img src="./imgs/wtg/a5b5020f04389deb93835fbb.jpg_150x100_664f040f.jpg" alt=""/>
+                    <img src="./imgs/wtg/a5b5020f04389deb93835fbb.jpg_150x100_664f040f.jpg" alt=""/><br/>
+                    <img src="./imgs/wtg/a5b5020f04389deb93835fbb.jpg_150x100_664f040f.jpg" alt=""/>
+                    <img src="./imgs/wtg/a5b5020f04389deb93835fbb.jpg_150x100_664f040f.jpg" alt=""/>
+                    <img src="./imgs/wtg/a5b5020f04389deb93835fbb.jpg_150x100_664f040f.jpg" alt=""/><br/>
+                    <img src="./imgs/wtg/a5b5020f04389deb93835fbb.jpg_150x100_664f040f.jpg" alt=""/>
+                    <img src="./imgs/wtg/a5b5020f04389deb93835fbb.jpg_150x100_664f040f.jpg" alt=""/>
+                    <img src="./imgs/wtg/a5b5020f04389deb93835fbb.jpg_150x100_664f040f.jpg" alt=""/>
+                </div>
+                <div class="mx-2 mt-5">
+                    <img src="./imgs/wtg/4a40f0c05e4c8100ffffffffc8d65eac.jpg_150x100_16a756df.jpg" alt=""/>
+                    <img src="./imgs/wtg/4a40f0c05e4c8100ffffffffc8d65eac.jpg_150x100_16a756df.jpg" alt=""/>
+                    <img src="./imgs/wtg/4a40f0c05e4c8100ffffffffc8d65eac.jpg_150x100_16a756df.jpg" alt=""/><br/>
+                    <img src="./imgs/wtg/4a40f0c05e4c8100ffffffffc8d65eac.jpg_150x100_16a756df.jpg" alt=""/>
+                    <img src="./imgs/wtg/4a40f0c05e4c8100ffffffffc8d65eac.jpg_150x100_16a756df.jpg" alt=""/>
+                    <img src="./imgs/wtg/4a40f0c05e4c8100ffffffffc8d65eac.jpg_150x100_16a756df.jpg" alt=""/><br/>
+                    <img src="./imgs/wtg/4a40f0c05e4c8100ffffffffc8d65eac.jpg_150x100_16a756df.jpg" alt=""/>
+                    <img src="./imgs/wtg/4a40f0c05e4c8100ffffffffc8d65eac.jpg_150x100_16a756df.jpg" alt=""/>
+                    <img src="./imgs/wtg/4a40f0c05e4c8100ffffffffc8d65eac.jpg_150x100_16a756df.jpg" alt=""/>
+                </div>
+                <div class="mt-5 mx-2">
+                    <img src="./imgs/wtg/36e86f7bbd5847b093835fbb.jpg_150x100_6863c8a4.jpg" alt=""/>
+                    <img src="./imgs/wtg/36e86f7bbd5847b093835fbb.jpg_150x100_6863c8a4.jpg" alt=""/>
+                    <img src="./imgs/wtg/36e86f7bbd5847b093835fbb.jpg_150x100_6863c8a4.jpg" alt=""/><br/>
+                    <img src="./imgs/wtg/36e86f7bbd5847b093835fbb.jpg_150x100_6863c8a4.jpg" alt=""/>
+                    <img src="./imgs/wtg/36e86f7bbd5847b093835fbb.jpg_150x100_6863c8a4.jpg" alt=""/>
+                    <img src="./imgs/wtg/36e86f7bbd5847b093835fbb.jpg_150x100_6863c8a4.jpg" alt=""/><br/>
+                    <img src="./imgs/wtg/36e86f7bbd5847b093835fbb.jpg_150x100_6863c8a4.jpg" alt=""/>
+                    <img src="./imgs/wtg/36e86f7bbd5847b093835fbb.jpg_150x100_6863c8a4.jpg" alt=""/>
+                    <img src="./imgs/wtg/36e86f7bbd5847b093835fbb.jpg_150x100_6863c8a4.jpg" alt=""/>
+                </div>
+                <div class="mt-5 mx-2">
+                    <img src="./imgs/wtg/2ce9e94809ab0a9493835fbb.jpg_150x100_16bc5745.jpg" alt=""/>
+                    <img src="./imgs/wtg/2ce9e94809ab0a9493835fbb.jpg_150x100_16bc5745.jpg" alt=""/>
+                    <img src="./imgs/wtg/2ce9e94809ab0a9493835fbb.jpg_150x100_16bc5745.jpg" alt=""/><br/>
+                    <img src="./imgs/wtg/2ce9e94809ab0a9493835fbb.jpg_150x100_16bc5745.jpg" alt=""/>
+                    <img src="./imgs/wtg/2ce9e94809ab0a9493835fbb.jpg_150x100_16bc5745.jpg" alt=""/>
+                    <img src="./imgs/wtg/2ce9e94809ab0a9493835fbb.jpg_150x100_16bc5745.jpg" alt=""/><br/>
+                    <img src="./imgs/wtg/2ce9e94809ab0a9493835fbb.jpg_150x100_16bc5745.jpg" alt=""/>
+                    <img src="./imgs/wtg/2ce9e94809ab0a9493835fbb.jpg_150x100_16bc5745.jpg" alt=""/>
+                    <img src="./imgs/wtg/2ce9e94809ab0a9493835fbb.jpg_150x100_16bc5745.jpg" alt=""/>
+                </div>
+                <div class="mt-5 mx-2">
+                    <img src="./imgs/wtg/40b33a08f1bcc9c293835fbb.jpg_150x100_c32c16da.jpg" alt=""/>
+                    <img src="./imgs/wtg/40b33a08f1bcc9c293835fbb.jpg_150x100_c32c16da.jpg" alt=""/>
+                    <img src="./imgs/wtg/40b33a08f1bcc9c293835fbb.jpg_150x100_c32c16da.jpg" alt=""/><br/>
+                    <img src="./imgs/wtg/40b33a08f1bcc9c293835fbb.jpg_150x100_c32c16da.jpg" alt=""/>
+                    <img src="./imgs/wtg/40b33a08f1bcc9c293835fbb.jpg_150x100_c32c16da.jpg" alt=""/>
+                    <img src="./imgs/wtg/40b33a08f1bcc9c293835fbb.jpg_150x100_c32c16da.jpg" alt=""/><br/>
+                    <img src="./imgs/wtg/40b33a08f1bcc9c293835fbb.jpg_150x100_c32c16da.jpg" alt=""/>
+                    <img src="./imgs/wtg/40b33a08f1bcc9c293835fbb.jpg_150x100_c32c16da.jpg" alt=""/>
+                    <img src="./imgs/wtg/40b33a08f1bcc9c293835fbb.jpg_150x100_c32c16da.jpg" alt=""/>
+                </div>
+                <div class="mt-5 mx-2">
+                    <img src="./imgs/wtg/69b5d1715d9e0a9a93835fbb.jpg_150x100_c2cd0f23.png" alt=""/>
+                    <img src="./imgs/wtg/69b5d1715d9e0a9a93835fbb.jpg_150x100_c2cd0f23.png" alt=""/>
+                    <img src="./imgs/wtg/69b5d1715d9e0a9a93835fbb.jpg_150x100_c2cd0f23.png" alt=""/><br/>
+                    <img src="./imgs/wtg/69b5d1715d9e0a9a93835fbb.jpg_150x100_c2cd0f23.png" alt=""/>
+                    <img src="./imgs/wtg/69b5d1715d9e0a9a93835fbb.jpg_150x100_c2cd0f23.png" alt=""/>
+                    <img src="./imgs/wtg/69b5d1715d9e0a9a93835fbb.jpg_150x100_c2cd0f23.png" alt=""/><br/>
+                    <img src="./imgs/wtg/69b5d1715d9e0a9a93835fbb.jpg_150x100_c2cd0f23.png" alt=""/>
+                    <img src="./imgs/wtg/69b5d1715d9e0a9a93835fbb.jpg_150x100_c2cd0f23.png" alt=""/>
+                    <img src="./imgs/wtg/69b5d1715d9e0a9a93835fbb.jpg_150x100_c2cd0f23.png" alt=""/>
+                </div>
+            </div>
+            <div class="mr-2">
+            <div id="demo" class="carousel" data-ride="carousel">
+               <div class="carousel-inner">
+                   <div class="carousel-item active">
+                       <img class="w-100" src="./imgs/wtg/aaf39d3a6ace1e02.jpg" alt=""/>
+                   </div>
+                   <div class="carousel-item">
+                       <img class="w-100" src="./imgs/wtg/c680612fb8e03302.jpg" alt=""/>
+                   </div>
+                   <div class="carousel-item">
+                       <img class="w-100" src="./imgs/wtg/da355c0a432bad02.jpg" alt=""/>
+                   </div>
+                   <div class="carousel-item">
+                       <img class="w-100" src="./imgs/wtg/649aae0f58224002.jpg" alt=""/>
+                   </div>
+                   <div class="carousel-item">
+                       <img class="w-100" src="./imgs/wtg/01bbe9b4984bad02.jpg" alt=""/>
+                   </div>
+                   <div class="carousel-item">
+                       <img class="w-100" src="./imgs/wtg/0c5dd909fabd4d02.jpg" alt=""/>
+                   </div>
+               </div>
+                <ul class="carousel-indicators">
+                    <li class="active" data-slide-to="0" data-target="#demo"></li>
+                    <li data-slide-to="1" data-target="#demo"></li>
+                    <li data-slide-to="2" data-target="#demo"></li>
+                    <li data-slide-to="3" data-target="#demo"></li>
+                    <li data-slide-to="4" data-target="#demo"></li>
+                    <li data-slide-to="5" data-target="#demo"></li>
+                </ul>
+            </div>
+            </div>
+            <ul class="d-flex mr-2">
+               <li> <img class="w-100" src="./imgs/wtg/efed0a419a618d02.jpg" alt=""/> </li>
+                   <li><img class="w-100" src="./imgs/wtg/514fae052ecbd02.jpg" alt=""/></li>
+                      <li> <img class="w-100" src="./imgs/wtg/7b17cf8511f53202.jpg" alt=""/></li>
+            </ul>
+            <ul class="d-flex mt-5 justify-content-around">
+                <li class=" ml-5 ">
+                    <div class="mb-5">
+
+                        <h4 class="text-center" style="font-size:22px;color: green">邮轮</h4>
+                        <h6 class="text-center" style="font-size:12px">感受不一样的美景</h6>
+                    </div >
+                    <div class="iconfortwifi01">
+
+                    </div>
+                </li>
+                <li class="">
+                    <div class="mb-5">
+                        <h4 class="text-center" style="font-size:22px;color: purple">签证</h4>
+                        <h6 class="text-center" style="font-size:12px" >专业办理省时省心</h6>
+                    </div>
+                    <div class="iconfortwifi02"></div>
+                </li>
+                <li class=" ">
+                    <div class="mb-5">
+                        <h4 class="text-center" style="font-size:22px;color:blue">WIFI</h4>
+                        <h6 class="text-center" style="font-size:12px">带上WIFI环游世界</h6>
+                    </div>
+                    <div class="iconfortwifi03"></div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-lg-3 px-0">
+            <div class="card shangbiankuang">
+                    <div class="card-header">
+                        <a class="quancheng" href=""></a>
+                    <span>全程预订保障 去哪儿都放心</span>
+                </div>
+                <div class="card-body">
+                    <h6>共有1866093+条优选出行线路</h6>
+                    <h6>已为340510590+人次提供出行服务</h6>
+                </div>
+            </div>
+            <img class="w-100" src="./imgs/wtg/right_big.v1.png" alt=""/>
+            <div id="parent">
+                <div class="card">
+                    <div class="card-header d-flex">
+                        <a data-toggle="collapse"
+                           href="#one" class="card-link mr-2">
+                            <div class="jijiu01  home.png"></div>
+                            <span class="font-size-01">机+酒</span></a>
+                        <a data-toggle="collapse"
+                           href="#two
+                           " class="card-link mr-2">
+                            <div class="jijiu02  home.png"></div>
+                            <span class="font-size-01">签证</span></a>
+                        <a data-toggle="collapse"
+                           href="#three" class="card-link mr-2">
+                            <div class="jijiu03 home.png"></div>
+                            <span class="font-size-01">包团.定制</span></a>
+                        <a data-toggle="collapse"
+                           href="#four" class="card-link">
+                            <div class="jijiu04  home.png"></div>
+                            <span class="font-size-01">接送机</span></a>
+                    </div>
+                    <div id="one"  data-parent="#parent"
+                         class="collapse">
+                        <div class="card-body"><ul>
+                            <li>往返 单程</li>
+                            <li>出发地 北京</li>
+                            <li><span>目的地</span>
+                                <input type="text" placeholder="请选择目的地"/></li>
+                            <li>出发日期 2019-09-23 周一</li>
+                            <li>返程日期 2019-09-26 周四</li>
+                            <li class="text-center"><button class="btn-success w-50">立即搜索</button></li>
+                        </ul></div>
+                    </div>
+                    <div id="two"  data-parent="#parent"
+                         class="collapse">
+                        <div class="card-body">
+                            <ul>
+                                <li><span>签证国家</span><input type="text" placeholder="请输入签证国家"/></li>
+                                <li><span>签证类型</span><input type="text" placeholder="全部类型"/></li>
+                                <li><span>办理领区</span><input type="text" placeholder="全部领区"/></li>
+                                <li class="text-center"><button class="btn-orange w-50">立即搜索</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="three"  data-parent="#parent"
+                         class="collapse">
+                        <div class="card-body">
+                            <ul>
+                                <li><span>目的地 澳门</span></li>
+                                <li><span>游玩天数 3天</span></li>
+                                <li><span>出发日期 2019-09-22 周日</span></li>
+                                <li class="text-center"><button class="btn-orange w-50">去定制</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="four"  data-parent="#parent"
+                         class="collapse">
+                        <div class="card-body"><ul>
+                           <li> <span>接机</span>
+                            <span>送机</span></li>
+                            <li>机场 首都机场T1航站楼</li>
+                            <li>接机日期 2019-09-21 周六</li>
+                            <li>接机时间 20时 15分</li>
+                            <li><span>目的地</span>
+                            <input type="text" placeholder="必填，暂未开通异地连接"/></li>
+                           <li class="text-center">
+                               <button class="btn-orange w-50">去选车</button>
+                           </li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-9 px-0 " >
+           <div class="mr-2 ml-2 mt-3"> <img class="w-100 h-85 " src="./imgs/wtg/qde_tejia.jpg" alt=""/></div>
+        </div>
+        <div class="col-lg-3 px-0" >
+           <div class="mt-3"><img class="w-100 h-85" src="./imgs/wtg/3c2a6c7c75978a3138c297dda9.jpg" alt=""/></div>
+        </div>
+    </div>
+
+
+    <!--<div class="d-flex">-->
+    <!--<div style="width:799px;height: 85px" class="ml-5">-->
+        <!--<img  src="./imgs/wtg/qde_tejia.jpg" alt=""/>-->
+    <!--</div>-->
+    <!--<div style="width:240px;" >-->
+        <!--<img  src="./imgs/wtg/3c2a6c7c75978a3138c297dda9.jpg" alt=""/>-->
+    <!--</div>-->
+    <!--</div>-->
+    <div class="d-flex">
+        <h2 style="color:red;font-size: 22px" class="mt-5 ml-2">今日特卖</h2>
+        <div class="jinritemai mt-5 "></div>
+    </div>
+    <hr class="ml-2"  style="background-color: red">
+    <div class="row mx-0">
+        <div class="col-12_5  px-0">
+            <div class="pr-2 pl-2 haiwaiyiyou">
+                <img class="w-100 h-147_8 " src="./imgs/wtg/8cc21c8160981f02.jpg_r_390x260x90_819c3305.jpg" alt=""/>
+                <pre class="beijingxianggang0 mb-0" style="color: #fff">
+                    <span style="font-size: 18px">北京-德国</span> <span style="font-size: 18px">13天10晚</span>
+                     <span style="font-size: 12px">13天跟团游</span>   <span style="color: yellow;font-size: 18px">¥4199</span>
+                </pre>
+            </div>
+        </div>
+        <div class="col-12_5 px-0">
+            <div class="pr-2 haiwaiyiyou">
+                <img class="w-100" src="./imgs/wtg/6a3a3fe22807af02.jpg_r_390x260x90_a8cc71e0 (1).jpg" alt=""/>
+                <pre class="beijingxianggang0 mb-0" style="color: #fff">
+                    <span style="font-size: 18px">北京</span> <span style="font-size: 18px">5天4晚</span>
+                     <span style="font-size: 12px">5天跟团游</span>   <span style="color: yellow;font-size: 18px">¥1450</span>
+                </pre>
+            </div>
+        </div>
+        <div class="col-12_5 px-0">
+            <div class="pr-2 haiwaiyiyou">
+                <img class="w-100 h-147_8" src="./imgs/wtg/e6503621-e200-4b13-8822-f68b0625cb17.jpg_r_480x320x90_c8854043 (1).jpg" alt=""/>
+                <pre class="beijingxianggang0 mb-0" style="color: #fff">
+                    <span style="font-size: 18px">北京-八达岭长城</span>  <span style="font-size: 18px">1天</span>
+                     <span style="font-size: 12px">1天跟团游</span>   <span style="color: yellow;font-size: 18px">¥88</span>
+                </pre>
+            </div>
+        </div>
+        <div class="col-12_5 px-0">
+            <div class="pr-2 haiwaiyiyou">
+                <img class="w-100 h-147_8" src="./imgs/wtg/2760a95332d2e902.jpg_r_390x260x90_ef2429a7.jpg" alt=""/>
+                <pre class="beijingxianggang0 mb-0" style="color: #fff">
+                    <span style="font-size: 18px">北京</span> <span style="font-size: 18px">5天4晚</span>
+                     <span style="font-size: 12px">5天4晚跟团游</span>   <span style="color: yellow;font-size: 18px">¥1450</span>
+                </pre>
+            </div>
+        </div>
+        <div class="col-12_5 px-0">
+            <div >
+                <img class="w-100 h-147_8" src="./imgs/wtg/850dc406230cb202.png" alt=""/>
+
+            </div>
+        </div>
+    </div>
+    <div class="row mt-2 ml-0 mr-0 mt-0">
+        <div class="col-12_5 px-0">
+            <div class="pr-2 pl-2 haiwaiyiyou">
+                <img class="w-100 " style="height: 146.66px" src="./imgs/wtg/d7d2a1a1-7426-47b4-bdfb-f2beceb4c0cf.jpg_r_390x260x90_dc4369cb (1).jpg" alt=""/>
+                <pre class="beijingxianggang0 mb-0" style="color: #fff">
+                    <span style="font-size: 18px">北京-巴厘岛</span> <span style="font-size: 18px">6天4晚</span>
+                     <span style="font-size: 12px">6天跟团游</span>   <span style="color: yellow;font-size: 18px">¥2399</span>
+                </pre>
+            </div>
+            <div class="ml-2 sanyaborder2 mt-3" >
+                <h5 class="ml-2">日本7日游</h5>
+                <div class="d-flex justify-content-around">
+                    <p style="color: red">¥1088<a style="color: black">起/人</a></p>
+                    <p class="ribenqi ml-5" href=""></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12_5 px-0">
+            <div class="pr-2 haiwaiyiyou">
+                <img class="w-100" style="height: 146.66px" src="./imgs/wtg/0e0ebe3437863d02.jpg_r_480x320x90_e8bdc303.jpg" alt=""/>
+                <pre class="beijingxianggang0 mb-0" style="color: #fff">
+                    <span style="font-size: 18px">北京-巴厘岛</span> <span style="font-size: 18px">6天4晚</span>
+                     <span style="font-size: 12px">6天跟团游</span>   <span style="color: yellow;font-size: 18px">¥2399</span>
+                </pre>
+            </div>
+            <div class="ml-2 mt-3 sanyaborder1">
+                <h5 class="ml-2">泰国6日游</h5>
+                <div class="d-flex justify-content-around"><p style="color: red">¥1250<a style="color: black">起/人</a></p>
+                <p class="ribenqi02 ml-5" href=""></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12_5 px-0">
+            <div class="pr-2 haiwaiyiyou">
+                <img class="w-100 " src="./imgs/wtg/9fd7f23b-b7f2-488a-8b0d-956fc859ff37.jpg_r_480x320x90_51b6fcc0.jpg" alt=""/>
+                <pre class="beijingxianggang0 mb-0" style="color: #fff">
+                    <span style="font-size: 18px">北京-普吉岛</span> <span style="font-size: 18px">6天4晚</span>
+                     <span style="font-size: 12px">6天跟团游</span>   <span style="color: yellow;font-size: 18px">¥4600</span>
+                </pre>
+            </div>
+            <div class="ml-2 sanyaborder0 mt-3">
+                <h5 class="ml-2">新加坡7日游</h5>
+                <div class="d-flex justify-content-around">
+                    <p style="color: red">¥1799<a style="color: black">起/人</a></p>
+                    <p class="ribenqi03 ml-5" href=""></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12_5 px-0">
+            <div class="pr-2 haiwaiyiyou">
+                <img class="w-100" src="./imgs/wtg/228320eb-c4af-4244-816b-73804aa80a39.jpg_r_480x320x90_c0b620e5.jpg" alt=""/>
+                <pre class="beijingxianggang0 mb-0" style="color: #fff">
+                    <span style="font-size: 18px">北京-腾冲</span> <span style="font-size: 18px">6天5晚</span>
+                     <span style="font-size: 12px">6天跟团游</span>   <span style="color: yellow;font-size: 18px">¥3145</span>
+                </pre>
+            </div>
+            <div class="ml-2 sanyaborder mt-3 ">
+                <h5 class="ml-2">三亚5日游</h5>
+                <div class="d-flex justify-content-around">
+                    <p style="color: red">¥1599<a style="color: black">起/人</a></p>
+                    <p class="ribenqi04 ml-5" href=""></p>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-12_5 px-0">
+            <div>
+                <img class="w-100 h-100" src="./imgs/wtg/qde_fh.jpg" alt=""/>
+            </div>
+
+        </div>
+    </div>
+    <div class="d-flex">
+    <h2 style="color:green;font-size: 22px" class="mt-5 ml-2">周边游</h2>
+    <div class="jinritemai01 mt-5"></div>
+    </div>
+    <hr style="background-color:green" class="ml-2">
+<div class="row mx-0">
+    <div class="col-lg-40 px-0">
+        <div class="zhoumo ml-2"><div class="changtupian ">周边目的地</div></div>
+        <div class="row mt-3 mr-0 ml-0 mb-0">
+            <div class="col-lg-7 px-0">
+                <div class="ml-3" style="height: 112px">
+                    <ul class="d-flex">
+                        <li class="fontsizeli mr-1">月坨岛</li>
+                        <li class="fontsizeli mr-1">八达岭长城</li>
+                        <li class="fontsizeli mr-1">木兰围场</li>
+                        <li class="fontsizeli text-danger">龙熙温泉</li>
+                    </ul>
+                    <ul class="d-flex">
+                        <li class="fontsizeli mr-1">故宫</li>
+                        <li class="fontsizeli mr-1 text-danger">丰宁坝上</li>
+                        <li class="fontsizeli mr-1">颐和园</li>
+                        <li class="fontsizeli mr-1">承德</li>
+                        <li class="fontsizeli mr-1">秦皇岛</li>
+
+                    </ul>
+                    <ul class="d-flex">
+                        <li class="fontsizeli mr-1">北戴河</li>
+                        <li class="fontsizeli mr-1">野三坡</li>
+                        <li class="fontsizeli mr-1">古北口古长城</li>
+                        <li class="fontsizeli mr-1">慕田峪长城</li>
+                    </ul>
+                    <ul class="d-flex">
+                        <li class="fontsizeli mr-1">天津</li>
+                        <li class="fontsizeli mr-1">张家口</li>
+                        <li class="fontsizeli mr-1">古北口长城</li>
+                        <li class="fontsizeli mr-1">五台山</li>
+                        <li class="fontsizeli text-danger">平遥古城</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-5 px-0">
+                <div>
+                    <img style="width:150px;height:100px" src="./imgs/wtg/b22698d3d3cff3df93835fbb.jpg_144x96_08cbf321.jpg" alt=""/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-40 px-0">
+        <div class="zhoumo0"><div class="changtupian">周末短途</div></div>
+        <div class="row mt-3 mr-0 ml-0 mb-0">
+            <div class="col-lg-3 px-0">
+                <div>
+                    <span style="font-size: 14px" class="text-danger">一日游</span>
+                    <span style="font-size: 14px">三日游</span>
+                </div>
+                <div>
+                    <span style="font-size: 14px">二日游</span>
+                    <span style="font-size: 14px" class="text-danger">自驾游</span>
+                </div>
+            </div>
+            <div class="col-lg-9 px-0">
+                <div >
+                    <img style="height: 100px;width: 150px" class="mr-2" src="./imgs/wtg/fb6ce67220289fad93835fbb.jpg_144x96_71aaec34.jpg" alt=""/>
+                    <img style="height: 100px;width: 150px"  src="./imgs/wtg/bfdf7305ff4db62693835fbb.jpg_144x96_93429888.jpg" alt=""/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-20 px-0">
+        <div>
+            <img style="height: 180px;width: 228px"  src="./imgs/wtg/44de2964-892b-47b4-be1d-9a593d7771d1.jpg" alt=""/>
+        </div>
+    </div>
+    <div class="col-lg-80 px-0">
+        <div class="ml-2">
+            <img class="w-100" src="./imgs/wtg/qde_around.v1.jpg" alt=""/>
+        </div>
+    </div>
+    <div class="col-lg-20 px-0"></div>
+</div>
+    <div class="d-flex">
+    <h2 style="color:red;font-size: 22px " class="mt-5 ml-2">长线游</h2>
+    <div class="jinritemai02 mt-5"></div>
+    </div>
+    <hr style="background-color:orange" class="ml-2">
+    <div class="row mx-0">
+        <div class="col-12_5 px-0">
+            <div class="ml-2">
+                <h6>国内游</h6>
+                <p>
+                    <span style="font-size: 12px">西安</span>
+                    <span style="font-size: 12px">丽江</span>
+                    <span style="font-size: 12px">厦门</span>
+                    <span class="text-danger" style="font-size: 12px">上海</span>
+                    <span style="font-size: 12px">杭州</span>
+                </p>
+                <p>
+                    <span style="font-size: 12px">张家界</span>
+                    <span class="text-danger" style="font-size: 12px">西双版纳</span>
+                    <span style="font-size: 12px">三亚</span>
+                    <span style="font-size: 12px">桂林</span>
+                </p>
+                <p>
+                    <span style="font-size: 12px">嘉兴</span>
+                    <span style="font-size: 12px">乌镇</span>
+                    <span style="font-size: 12px">大理</span>
+                    <span style="font-size: 12px">长沙</span>
+                    <span style="font-size: 12px">湘西</span>
+                </p>
+                <p>
+                    <span style="font-size: 12px">凤凰古城</span>
+                </p>
+            </div>
+            <div class="ml-2">
+                <h6>出境/港澳台</h6>
+                <p>
+                    <span style="font-size: 12px">美国</span>
+                    <span class="text-danger" style="font-size: 12px">新加坡</span>
+                    <span style="font-size: 12px">越南</span>
+                    <span style="font-size: 12px">泰国</span>
+                </p>
+                <p>
+                    <span class="text-danger" style="font-size: 12px">巴厘岛</span>
+                    <span style="font-size: 12px">印度尼西亚</span>
+                    <span style="font-size: 12px">塞班岛</span>
+                </p>
+                <p>
+                    <span style="font-size: 12px">芽庄</span>
+                    <span style="font-size: 12px">马尔代夫</span>
+                    <span style="font-size: 12px">马来西亚</span>
+                </p>
+                <p>
+                    <span style="font-size: 12px">阿联酋</span>
+                    <span style="font-size: 12px">迪拜</span>
+                    <span style="font-size: 12px">普吉岛</span>
+                    <span class="text-danger" style="font-size: 12px">日本</span>
+                </p>
+            </div>
+        </div>
+        <div class="col-12_5 px-0 ">
+            <div class="mr-2 mb-2 haiwaiyiyou ">
+                <img class="w-100" style="height: 170px " src="./imgs/wtg/d2c37b3777d68102.jpg_256x160_3ffeabed.jpg" alt="img"/>
+                <pre class="beijingxianggang mb-0" style="color: #fff">
+                    <span style="font-size: 18px">北京-香港</span>
+                    <span style="font-size: 12px">5天4晚跟团游</span>   <span style="color: yellow">¥3280</span>
+                </pre>
+            </div>
+            <div class="mr-2 haiwaiyiyou">
+                <img class="w-100" style="height: 170px " src="./imgs/wtg/072d1adba80e5ab593835fbb.jpg_256x160_2c83005d.jpg" alt=""/>
+                <pre class="beijingxianggang mb-0" style="color: #fff">
+                    <span style="font-size: 18px">北京-香港</span>
+                    <span style="font-size: 12px">5天4晚跟团游</span>   <span style="color: yellow">¥3280</span>
+                </pre>
+            </div>
+        </div>
+        <div class="col-12_5 px-0">
+            <div class="mr-2 mb-2 haiwaiyiyou  ">
+                <img class="w-100"  style="height: 170px " src="./imgs/wtg/4941057a6aae702.jpg_256x160_9fee6ccb.jpg" alt="img"/>
+                 <pre class="beijingxianggang mb-0" style="color: #fff">
+                    <span style="font-size: 18px">北京-丽江</span>
+                    <span style="font-size: 12px">6天5晚跟团游</span>   <span style="color: yellow">¥1950</span>
+                </pre>
+            </div>
+            <div class="mr-2 haiwaiyiyou">
+                <img class="w-100" style="height: 170px "  src="./imgs/wtg/3d20251a1b60350a93835fbb.jpg_256x160_e8f468b0.jpg" alt=""/>
+             <pre class="beijingxianggang mb-0" style="color: #fff">
+                    <span style="font-size: 18px">北京-日本</span>
+                    <span style="font-size: 12px">7天6晚跟团游</span>   <span style="color: yellow">¥5499</span>
+                </pre>
+            </div>
+        </div>
+        <div class="col-12_5 px-0 ">
+            <div class="mr-2 mb-2 haiwaiyiyou">
+                <img class="w-100" style="height: 170px " src="./imgs/wtg/f7876853b1e2279d93835fbb.jpg_256x160_a7c2c4f7.jpg" alt=""/>
+                <pre class="beijingxianggang mb-0" style="color: #fff">
+                    <span style="font-size: 18px">北京-巴厘岛</span>
+                    <span style="font-size: 12px">7天5晚跟团游</span>   <span style="color: yellow">¥1700</span>
+                </pre>
+            </div>
+            <div class="mr-2 haiwaiyiyou">
+                <img class="w-100" style="height: 170px " src="./imgs/wtg/bc44faa497db0dcf93835fbb.jpg_256x160_0ba13461.jpg" alt=""/>
+                <pre class="beijingxianggang mb-0" style="color: #fff">
+                    <span style="font-size: 18px">北京-泰国</span>
+                    <span style="font-size: 12px">7天5晚跟团游</span>   <span style="color: yellow">¥2440</span>
+                </pre>
+            </div>
+        </div>
+        <div class="col-12_5 px-0">
+            <div class="mr-2">
+                <img style="width:228px;height:348px" src="./imgs/wtg/786e103d-b004-4810-92eb-1b275a52e9f8.jpg" alt=""/>
+            </div>
+        </div>
+        <div class="col-12_5 px-0">
+            <div class="mr-2 ml-2">
+                <img class="w-100 h-8347" src="./imgs/wtg/6b2a07667356cba1f3901ce774.jpg_224x85x92.jpg" alt=""/>
+            </div>
+        </div>
+        <div class="col-12_5 px-0">
+            <div class="mr-2">
+                <img class="w-100" src="./imgs/wtg/09f37dedd0354ec6a37e940fc9.jpg_224x85x92.jpg" alt=""/>
+            </div>
+        </div>
+        <div class="col-12_5 px-0">
+            <div class="mr-2">
+                <img class="w-100" src="./imgs/wtg/8b9b828b9c83393d2351ae260a.jpg_224x85x92.jpg" alt=""/>
+            </div>
+        </div>
+        <div class="col-12_5 px-0">
+            <div class="mr-2 ">
+                <img class="w-100" src="./imgs/wtg/3b7d4dfee3e56e31c66ab363d8.jpg_224x85x92.jpg" alt=""/>
+            </div>
+        </div>
+        <div class="col-12_5 px-0">
+            <div>
+                <img class="w-100 h-8347" src="./imgs/wtg/969ea11aabc45d560d5206877e.jpg_224x85x92.jpg" alt=""/>
+            </div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <a style="color:blue;font-size: 22px" class="ml-2">海外玩乐</a>
+        <a class="jinritemai03" href=""></a>
+        <ul class="list-unstyled d-flex bodywh">
+            <li class="tab mx-3 text-center">泰国</li>
+            <li class="mx-3 text-center">香港</li>
+            <li class="mx-3 text-center">日本</li>
+            <li class="mx-3 text-center">台湾</li>
+            <li>普吉岛</li>
+    </ul>
+    </div>
+    <hr style="background-color:blue" class="ml-2">
+        <div class="d-flex">
+            <div class="col-12_5 px-0">
+            <div class="ml-2">
+                <h6>当季热门</h6>
+                <p>
+                    <span style="font-size: 12px">泰国</span>
+                    <span style="font-size: 12px">普吉岛</span>
+                    <span style="font-size: 12px">日本</span>
+                    <span style="font-size: 12px" class="text-danger">土耳其</span>
+                </p>
+                <p>
+                    <span style="font-size: 12px">美国</span>
+                    <span style="font-size: 12px">香港</span>
+                    <span style="font-size: 12px" class="text-danger">台湾</span>
+                    <span style="font-size: 12px">曼谷</span>
+                    <span style="font-size: 12px">清迈</span>
+                </p>
+                <p>
+                    <span style="font-size: 12px" class="text-danger">澳门</span>
+                    <span style="font-size: 12px">马来西亚</span>
+                    <span style="font-size: 12px">澳大利亚</span>
+                </p>
+                <p>
+                    <span style="font-size: 12px">新西兰</span>
+                    <span style="font-size: 12px">新加坡</span>
+                    <span style="font-size: 12px" class="text-danger">柬埔寨</span>
+                    <span style="font-size: 12px">法国</span>
+                </p>
+                <p>
+                    <span style="font-size: 12px">马尔代夫</span>
+                    <span style="font-size: 12px">英国</span>
+                </p>
+            </div>
+        </div>
+        <div class="col-12_80 px-0 content">
+            <div class="div_show">
+            <div class="content1">
+            <div onclick="connection()" class="haiwaiyiyou">
+                <img src="./imgs/wtg/yiriyou_224.jpg"  alt=""/>
+                <a  class="beijingtu00" href=""></a>
+            </div>
+            <div class="mt-3">
+                <span class="text-danger">¥55<a style="color: black">/人起</a></span>
+                <!--<span class="float-right">最多省¥2001</span>-->
+                <a class="zuiduosheng03" href="">最多省¥2001</a>
+            </div>
+            </div>
+            <div class="content2">
+                <div>
+                    <img src="./imgs/wtg/jiesongji_224.jpg" alt=""/>
+                </div>
+                <div class="mt-3">
+                    <span class="text-danger">¥95<a style="color: black">/次起</a></span>
+                    <!--<span class="float-right">最多省¥669</span>-->
+                    <a class="zuiduosheng03" href="">最多省¥669</a>
+                </div>
+            </div>
+            <div class="content3 ">
+                <div>
+                    <img src="./imgs/wtg/wifi_224.jpg" alt=""/>
+                </div>
+                <div class="mt-3">
+                    <span class="text-danger">¥5<a style="color: black">/天起</a></span>
+                    <!--<span class="float-right">最多省¥78</span>-->
+                    <a class="zuiduosheng03"  href="">最多省¥78</a>
+                </div>
+            </div>
+            <div class="content4">
+                <div class="haiwaiyiyou">
+                    <img style="height: 149px;width: 224px;" src="./imgs/wtg/baoche_224.jpg" alt=""/>
+                    <a class="beijingtu04" href=""></a>
+                </div>
+                <div class="mt-3">
+                    <span class="text-danger">¥40<a style="color: black">/人起</a></span>
+                    <!--<span class="">最多省¥240</span>-->
+                    <a class="zuiduosheng03" href="">最多省¥240</a>
+                </div>
+            </div>
+            </div>
+
+            <div>
+                <div class="content1">
+                    <div onclick="connection()" class="haiwaiyiyou">
+                        <img src="./imgs/wtg/wifi_224 (1).jpg"  alt=""/>
+                        <a  class="beijingtu00" href=""></a>
+                    </div>
+                    <div class="mt-3">
+                        <span class="text-danger">¥55<a style="color: black">/人起</a></span>
+                        <!--<span class="float-right">最多省¥2001</span>-->
+                        <a class="zuiduosheng03" href="">最多省¥2001</a>
+                    </div>
+                </div>
+                <div class="content2">
+                    <div>
+                        <img src="./imgs/wtg/menpiao_224.jpg" alt=""/>
+                    </div >
+                    <div class="mt-3">
+                        <span class="text-danger">¥95<a style="color: black">/次起</a></span>
+                        <!--<span class="float-right">最多省¥669</span>-->
+                        <a class="zuiduosheng03" href="">最多省¥669</a>
+                    </div>
+                </div>
+                <div class="content3 ">
+                    <div>
+                        <img src="./imgs/wtg/yiriyou_224.jpg" alt=""/>
+                    </div>
+                    <div class="mt-3">
+                        <span class="text-danger">¥5<a style="color: black">/天起</a></span>
+                        <!--<span class="float-right">最多省¥78</span>-->
+                        <a class="zuiduosheng03"  href="">最多省¥78</a>
+                    </div>
+                </div>
+                <div class="content4">
+                    <div class="baoche_224.jpg">
+                        <img  style="height: 149px;width: 224px;" src="./imgs/wtg/baoche_224 (1).jpg" alt=""/>
+                        <a class="beijingtu04" href=""></a>
+                    </div>
+                    <div class="mt-3">
+                        <span class="text-danger">¥40<a style="color: black">/人起</a></span>
+                        <!--<span class="">最多省¥240</span>-->
+                        <a class="zuiduosheng03" href="">最多省¥240</a>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="content1">
+                    <div onclick="connection()" class="haiwaiyiyou">
+                        <img src="./imgs/wtg/wifi_224.jpg"  alt=""/>
+                        <a  class="beijingtu00" href=""></a>
+                    </div>
+                    <div class="mt-3">
+                        <span class="text-danger">¥55<a style="color: black">/人起</a></span>
+                        <!--<span class="float-right">最多省¥2001</span>-->
+                        <a class="zuiduosheng03" href="">最多省¥2001</a>
+                    </div>
+                </div>
+                <div class="content2">
+                    <div>
+                        <img src="./imgs/wtg/japan_CityPass.jpg" alt=""/>
+                    </div >
+                    <div class="mt-3">
+                        <span class="text-danger">¥95<a style="color: black">/次起</a></span>
+                        <!--<span class="float-right">最多省¥669</span>-->
+                        <a class="zuiduosheng03" href="">最多省¥669</a>
+                    </div>
+                </div>
+                <div class="content3">
+                    <div>
+                        <img src="./imgs/wtg/yiriyou_224.jpg" alt=""/>
+                    </div>
+                    <div class="mt-3">
+                        <span class="text-danger">¥5<a style="color: black">/天起</a></span>
+                        <!--<span class="float-right">最多省¥78</span>-->
+                        <a class="zuiduosheng03"  href="">最多省¥78</a>
+                    </div>
+                </div>
+                <div class="content4">
+                    <div class="haiwaiyiyou">
+                        <img  style="height: 149px;width: 224px" src="./imgs/wtg/jiesongji_224.jpg" alt=""/>
+                        <a class="beijingtu04" href=""></a>
+                    </div>
+                    <div class="mt-3">
+                        <span class="text-danger">¥40<a style="color: black">/人起</a></span>
+                        <!--<span class="">最多省¥240</span>-->
+                        <a class="zuiduosheng03" href="">最多省¥240</a>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="content1">
+                    <div onclick="connection()" class="haiwaiyiyou">
+                        <img src="./imgs/wtg/yiriyou_224.jpg"  alt=""/>
+                        <a  class="beijingtu00" href=""></a>
+                    </div>
+                    <div class="mt-3">
+                        <span class="text-danger">¥55<a style="color: black">/人起</a></span>
+                        <!--<span class="float-right">最多省¥2001</span>-->
+                        <a class="zuiduosheng03" href="">最多省¥2001</a>
+                    </div>
+                </div>
+                <div class="content2">
+                    <div>
+                        <img src="./imgs/wtg/baoche_224.jpg" alt=""/>
+                    </div >
+                    <div class="mt-3">
+                        <span class="text-danger">¥95<a style="color: black">/次起</a></span>
+                        <!--<span class="float-right">最多省¥669</span>-->
+                        <a class="zuiduosheng03" href="">最多省¥669</a>
+                    </div>
+                </div>
+                <div class="content3">
+                    <div>
+                        <img src="./imgs/wtg/jiesongji_224.jpg" alt=""/>
+                    </div>
+                    <div class="mt-3">
+                        <span class="text-danger">¥5<a style="color: black">/天起</a></span>
+                        <!--<span class="float-right">最多省¥78</span>-->
+                        <a class="zuiduosheng03"  href="">最多省¥78</a>
+                    </div>
+                </div>
+                <div class="content4">
+                    <div class="haiwaiyiyou">
+                        <img style="width:224px;height: 149px" src="./imgs/wtg/menpiao_240.jpg" alt=""/>
+                        <a class="beijingtu04" href=""></a>
+                    </div>
+                    <div class="mt-3">
+                        <span class="text-danger">¥40<a style="color: black">/人起</a></span>
+                        <!--<span class="">最多省¥240</span>-->
+                        <a class="zuiduosheng03" href="">最多省¥240</a>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="content1">
+                    <div onclick="connection()" class="haiwaiyiyou">
+                        <img src="./imgs/wtg/jiesongji_224.jpg"  alt=""/>
+                        <a  class="beijingtu00" href=""></a>
+                    </div>
+                    <div class="mt-3">
+                        <span class="text-danger">¥55<a style="color: black">/人起</a></span>
+                        <!--<span class="float-right">最多省¥2001</span>-->
+                        <a class="zuiduosheng03" href="">最多省¥2001</a>
+                    </div>
+                </div>
+                <div class="content2">
+                    <div>
+                        <img src="./imgs/wtg/yiriyou_224 (1).jpg" alt=""/>
+                    </div >
+                    <div class="mt-3">
+                        <span class="text-danger">¥95<a style="color: black">/次起</a></span>
+                        <!--<span class="float-right">最多省¥669</span>-->
+                        <a class="zuiduosheng03" href="">最多省¥669</a>
+                    </div>
+                </div>
+                <div class="content3 ">
+                    <div>
+                        <img src="./imgs/wtg/menpiao_224 (1).jpg" alt=""/>
+                    </div>
+                    <div class="mt-3">
+                        <span class="text-danger">¥5<a style="color: black">/天起</a></span>
+                        <!--<span class="float-right">最多省¥78</span>-->
+                        <a class="zuiduosheng03"  href="">最多省¥78</a>
+                    </div>
+                </div>
+                <div class="content4">
+                    <div class="haiwaiyiyou">
+                        <img style="height: 149px;width: 224px" src="./imgs/wtg/spa_240.jpg" alt=""/>
+                        <a class="beijingtu04" href=""></a>
+                    </div>
+                    <div class="mt-3">
+                        <span class="text-danger">¥40<a style="color: black">/人起</a></span>
+                        <!--<span class="">最多省¥240</span>-->
+                        <a class="zuiduosheng03" href="">最多省¥240</a>
+                    </div>
+                </div>
+            </div>
+        <!--<div class="content2">-->
+                <!--<div onclick="connection()" class="haiwaiyiyou">-->
+                    <!--<img src="./imgs/wtg/yiriyou_224.jpg"  alt=""/>-->
+                    <!--<a  class="beijingtu00" href=""></a>-->
+                <!--</div>-->
+                <!--<div class="mt-3">-->
+                    <!--<span class="text-danger">¥55<a style="color: black">/人起</a></span>-->
+                    <!--&lt;!&ndash;<span class="float-right">最多省¥2001</span>&ndash;&gt;-->
+                    <!--<a class="zuiduosheng03" href="">最多省¥2001</a>-->
+                <!--</div>-->
+            <!--</div>-->
+
+
+            <!--<div class="content3 d-none">-->
+                <!--<div onclick="connection()" class="haiwaiyiyou">-->
+                    <!--<img src="./imgs/wtg/yiriyou_224.jpg"  alt=""/>-->
+                    <!--<a  class="beijingtu00" href=""></a>-->
+                <!--</div>-->
+                <!--<div class="mt-3">-->
+                    <!--<span class="text-danger">¥55<a style="color: black">/人起</a></span>-->
+                    <!--&lt;!&ndash;<span class="float-right">最多省¥2001</span>&ndash;&gt;-->
+                    <!--<a class="zuiduosheng03" href="">最多省¥2001</a>-->
+                <!--</div>-->
+            <!--</div>-->
+
+
+            <!--<div class="content4 d-none">-->
+                <!--<div onclick="connection()" class="haiwaiyiyou">-->
+                    <!--<img src="./imgs/wtg/yiriyou_224.jpg"  alt=""/>-->
+                    <!--<a  class="beijingtu00" href=""></a>-->
+                <!--</div>-->
+                <!--<div class="mt-3">-->
+                    <!--<span class="text-danger">¥55<a style="color: black">/人起</a></span>-->
+                    <!--&lt;!&ndash;<span class="float-right">最多省¥2001</span>&ndash;&gt;-->
+                    <!--<a class="zuiduosheng03" href="">最多省¥2001</a>-->
+                <!--</div>-->
+            <!--</div>-->
+
+
+            <!--<div class="content5 d-none">-->
+                <!--<div onclick="connection()" class="haiwaiyiyou">-->
+                    <!--<img src="./imgs/wtg/yiriyou_224.jpg"  alt=""/>-->
+                    <!--<a  class="beijingtu00" href=""></a>-->
+                <!--</div>-->
+                <!--<div class="mt-3">-->
+                    <!--<span class="text-danger">¥55<a style="color: black">/人起</a></span>-->
+                    <!--&lt;!&ndash;<span class="float-right">最多省¥2001</span>&ndash;&gt;-->
+                    <!--<a class="zuiduosheng03" href="">最多省¥2001</a>-->
+                <!--</div>-->
+            <!--</div>-->
+
+            </div>
+        </div>
+
+        <a class="ml-2 bodya" href="">邮轮</a>
+        <a class="jinritemai04" href=""></a>
+        <ul class="d-flex orderul">
+            <li class="ml-9 mt-3 btn-p1">热卖商品</li>
+            <li class="m-3">2019/10</li>
+            <li class="m-3">2019/11</li>
+            <li class="m-3">2019/12</li>
+            <li class="m-3">2019/01</li>
+            <li class="m-3">2019/02</li>
+            <li class="m-3">2019/03</li>
+        </ul>
+
+    <hr style="background-color:#7e57c2;" class="ml-2 mt-2 mb-3">
+    <div class="row mx-0 mt-2">
+        <div class="col-12_5 px-0 ">
+            <div class="mt-3 ml-2">
+                <h6>邮轮航线</h6>
+                <p>
+                    <span style="font-size: 12px">日本</span>
+                    <span style="font-size: 12px">三峡</span>
+                    <span style="font-size: 12px">东南亚</span>
+                    <span style="font-size: 12px">地中海</span>
+                </p>
+                <p>
+                    <span style="font-size: 12px">西沙</span>
+                    <span style="font-size: 12px">欧洲</span>
+                </p>
+            </div>
+            <div class="mt-5 ml-2">
+                <h6>出发港口</h6>
+                <p>
+                    <span style="font-size: 12px">上海</span>
+                    <span style="font-size: 12px">天津峡</span>
+                    <span style="font-size: 12px">深圳</span>
+                    <span style="font-size: 12px">广州</span>
+                    <span style="font-size: 12px">重庆</span>
+                </p>
+                <p>
+                    <span style="font-size: 12px">宜昌</span>
+                    <span style="font-size: 12px">三亚</span>
+                    <span style="font-size: 12px">厦门</span>
+                    <span style="font-size: 12px">香港</span>
+                </p>
+            </div>
+            <div class="mt-5 ml-2">
+                <h6>邮轮公司</h6>
+                <p>
+                    <span style="font-size: 12px">皇家加勒比</span>
+                    <span style="font-size: 12px">歌诗达天</span>
+                    <span style="font-size: 12px">诺唯真</span>
+                </p>
+                <p>
+                    <span style="font-size: 12px">公主</span>
+                    <span style="font-size: 12px">星梦</span>
+                    <span style="font-size: 12px">丽星</span>
+                    <span style="font-size: 12px">维京</span>
+                </p>
+            </div>
+        </div>
+        <div class="col-12_80 contentsue">
+             <div class="content_show">
+                 <div class="cardborder mt-2 mr-2 ml-2">
+                <div>
+                    <div>
+                        <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                        <h6 style="color: #7e57c2;font-size: 14px">天津出港</h6>
+                    </div>
+                    <div >
+                        <p>地中海邮轮-辉煌号</p>
+                        <p>10月23日，11月7日</p>
+                    </div>
+                    <div>
+                        <button class="btn-p"><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                        <span class="float-right text-danger">¥2299<a style="color: black">起/人</a></span>
+                    </div>
+                </div>
+            </div>
+                 <div class="cardborder mt-2 mr-2">
+                         <div>
+                    <div>
+                        <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                        <h6 style="color: #7e57c2;font-size: 14px">广州出港</h6>
+                    </div>
+                    <div>
+                        <p>星梦邮轮-世界梦号</p>
+                        <p>10月20日...11月10日多团期</p>
+                    </div>
+                    <div>
+                        <button class="btn-p"><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                        <span class="float-right text-danger">¥2874<a style="color: black">起/人</a></span>
+                    </div>
+                </div>
+            </div>
+
+                 <div class="cardborder mr-2 mt-2">
+                <div>
+                    <div>
+                        <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                        <h6 style="color: #7e57c2;font-size: 14px">上海出港</h6>
+                    </div>
+                    <div>
+                        <p>歌诗达邮轮-威尼斯号</p>
+                        <p>10月23日</p>
+                    </div>
+                    <div>
+                        <button class="btn-p "><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                        <span class="float-right text-danger">¥2699<a style="color: black">起/人</a></span>
+                    </div>
+                </div>
+            </div>
+
+                <div class="cardborder mt-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">上海出港</h6>
+                        </div>
+                        <div>
+                            <p>歌诗达邮轮-威尼斯号</p>
+                            <p>10月23日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p "><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥2699<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+            <!--<div class="cardborder mt-2">-->
+                <!--<div>-->
+                    <!--<div>-->
+                        <!--<h3 style="color: #7e57c2;font-size: 20px">东南亚航线</h3>-->
+                        <!--<h6 style="color: #7e57c2;font-size: 14px">深圳出港</h6>-->
+                    <!--</div>-->
+                    <!--<div>-->
+                        <!--<p>渤海邮轮-中华泰山号</p>-->
+                        <!--<p>10月20日...20年1月14日多团期</p>-->
+                    <!--</div>-->
+                    <!--<div>-->
+                        <!--<button class="btn-p"><a style="color:white;font-size:14px" href="">5天4晚</a></button>-->
+                        <!--<span class="float-right text-danger">¥1516<a style="color: black">起/人</a></span>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+
+            <div class="cardborder mr-2 mt-2 ml-2">
+                <div>
+                    <div>
+                        <h3 style="color:#7e57c2;font-size: 20px">日本航线</h3>
+                        <h6 style="color: #7e57c2;font-size: 14px">温州出港</h6>
+                    </div>
+                    <div>
+                        <p>歌诗达邮轮-大西洋号</p>
+                        <p>10月14日</p>
+                    </div>
+                    <div>
+                        <button class="btn-p"><a style="color: white;font-size:14px"  href="">5天4晚</a></button>
+                        <span class="float-right text-danger">¥2499<a style="color: black">起/人</a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="cardborder mt-2  mr-2">
+                <div>
+                    <div>
+                        <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                        <h6 style="color: #7e57c2;font-size: 14px">深圳出港</h6>
+                    </div>
+                    <div>
+                        <p>星梦邮轮-世界梦号</p>
+                        <p>10月27日</p>
+                    </div>
+                    <div>
+                        <button class="btn-p"><a style="color:white;font-size:14px" href="">6天5晚</a></button>
+                        <span class="float-right text-danger">¥3199<a style="color: black">起/人</a></span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="cardborder mt-2  mr-2">
+                <div>
+                    <div>
+                        <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                        <h6 style="color:#7e57c2;font-size: 14px">厦门出港</h6>
+                    </div>
+                    <div>
+                        <p>丽星邮轮-双子星号</p>
+                        <p>10月24日</p>
+                    </div>
+                    <div>
+                        <button class="btn-p "><a style="color:white;font-size: 14px" href="">4天3晚</a></button>
+                        <span class="float-right text-danger">¥1769<a style="color: black">起/人</a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="cardborder mt-2">
+                <div>
+                    <div>
+                        <h3 style="color: #7e57c2;font-size: 20px">东南亚航线</h3>
+                        <h6 style="color: #7e57c2;font-size: 14px">新加坡出港</h6>
+                    </div>
+                    <div>
+                        <p>画家加勒比国际邮轮-海洋...</p>
+                        <p>10月27日</p>
+                    </div>
+                    <div>
+                        <button class="btn-p"><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                        <span class="float-right text-danger">¥9380<a style="color:black ">起/人</a></span>
+                    </div>
+                </div>
+              </div>
+
+           </div>
+            <div>
+                <div class="cardborder mt-2 mr-2 ml-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">东南亚航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">天津出港</h6>
+                        </div>
+                        <div >
+                            <p>地中海邮轮-辉煌号</p>
+                            <p>10月23日，11月7日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥2399<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardborder mt-2 mr-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">广州出港</h6>
+                        </div>
+                        <div>
+                            <p>星梦邮轮-世界梦号</p>
+                            <p>10月20日...11月10日多团期</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥2874<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardborder mr-2 mt-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">上海出港</h6>
+                        </div>
+                        <div>
+                            <p>歌诗达邮轮-威尼斯号</p>
+                            <p>10月23日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p "><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥2699<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardborder mt-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">上海出港</h6>
+                        </div>
+                        <div>
+                            <p>歌诗达邮轮-威尼斯号</p>
+                            <p>10月23日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p "><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥2699<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="cardborder mt-2">-->
+                <!--<div>-->
+                <!--<div>-->
+                <!--<h3 style="color: #7e57c2;font-size: 20px">东南亚航线</h3>-->
+                <!--<h6 style="color: #7e57c2;font-size: 14px">深圳出港</h6>-->
+                <!--</div>-->
+                <!--<div>-->
+                <!--<p>渤海邮轮-中华泰山号</p>-->
+                <!--<p>10月20日...20年1月14日多团期</p>-->
+                <!--</div>-->
+                <!--<div>-->
+                <!--<button class="btn-p"><a style="color:white;font-size:14px" href="">5天4晚</a></button>-->
+                <!--<span class="float-right text-danger">¥1516<a style="color: black">起/人</a></span>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</div>-->
+
+                <div class="cardborder mr-2 mt-2 ml-2">
+                    <div>
+                        <div>
+                            <h3 style="color:#7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">温州出港</h6>
+                        </div>
+                        <div>
+                            <p>歌诗达邮轮-大西洋号</p>
+                            <p>10月14日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color: white;font-size:14px"  href="">5天4晚</a></button>
+                            <span class="float-right text-danger">¥2499<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardborder mt-2  mr-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">深圳出港</h6>
+                        </div>
+                        <div>
+                            <p>星梦邮轮-世界梦号</p>
+                            <p>10月27日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color:white;font-size:14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥3199<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cardborder mt-2  mr-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color:#7e57c2;font-size: 14px">厦门出港</h6>
+                        </div>
+                        <div>
+                            <p>丽星邮轮-双子星号</p>
+                            <p>10月24日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p "><a style="color:white;font-size: 14px" href="">4天3晚</a></button>
+                            <span class="float-right text-danger">¥1769<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardborder mt-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">东南亚航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">新加坡出港</h6>
+                        </div>
+                        <div>
+                            <p>画家加勒比国际邮轮-海洋...</p>
+                            <p>10月27日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥9380<a style="color:black ">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <div class="cardborder mt-2 mr-2 ml-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">上海出港</h6>
+                        </div>
+                        <div >
+                            <p>地中海邮轮-辉煌号</p>
+                            <p>10月23日，11月7日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥2299<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardborder mt-2 mr-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">东南亚航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">温州出港</h6>
+                        </div>
+                        <div>
+                            <p>星梦邮轮-世界梦号</p>
+                            <p>10月20日...11月10日多团期</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥2874<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardborder mr-2 mt-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">上海出港</h6>
+                        </div>
+                        <div>
+                            <p>歌诗达邮轮-威尼斯号</p>
+                            <p>10月23日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p "><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥2699<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardborder mt-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">上海出港</h6>
+                        </div>
+                        <div>
+                            <p>歌诗达邮轮-威尼斯号</p>
+                            <p>10月23日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p "><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥2699<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="cardborder mt-2">-->
+                <!--<div>-->
+                <!--<div>-->
+                <!--<h3 style="color: #7e57c2;font-size: 20px">东南亚航线</h3>-->
+                <!--<h6 style="color: #7e57c2;font-size: 14px">深圳出港</h6>-->
+                <!--</div>-->
+                <!--<div>-->
+                <!--<p>渤海邮轮-中华泰山号</p>-->
+                <!--<p>10月20日...20年1月14日多团期</p>-->
+                <!--</div>-->
+                <!--<div>-->
+                <!--<button class="btn-p"><a style="color:white;font-size:14px" href="">5天4晚</a></button>-->
+                <!--<span class="float-right text-danger">¥1516<a style="color: black">起/人</a></span>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</div>-->
+
+                <div class="cardborder mr-2 mt-2 ml-2">
+                    <div>
+                        <div>
+                            <h3 style="color:#7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">温州出港</h6>
+                        </div>
+                        <div>
+                            <p>歌诗达邮轮-大西洋号</p>
+                            <p>10月14日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color: white;font-size:14px"  href="">5天4晚</a></button>
+                            <span class="float-right text-danger">¥2499<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardborder mt-2  mr-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">深圳出港</h6>
+                        </div>
+                        <div>
+                            <p>星梦邮轮-世界梦号</p>
+                            <p>10月27日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color:white;font-size:14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥3199<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cardborder mt-2  mr-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color:#7e57c2;font-size: 14px">厦门出港</h6>
+                        </div>
+                        <div>
+                            <p>丽星邮轮-双子星号</p>
+                            <p>10月24日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p "><a style="color:white;font-size: 14px" href="">4天3晚</a></button>
+                            <span class="float-right text-danger">¥1769<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardborder mt-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">东南亚航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">新加坡出港</h6>
+                        </div>
+                        <div>
+                            <p>画家加勒比国际邮轮-海洋...</p>
+                            <p>10月27日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥9380<a style="color:black ">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <div class="cardborder mt-2 mr-2 ml-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">东南亚航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">广州出港</h6>
+                        </div>
+                        <div >
+                            <p>地中海邮轮-辉煌号</p>
+                            <p>10月23日，11月7日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color:white;font-size: 14px" href="">5天5晚</a></button>
+                            <span class="float-right text-danger">¥2899<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardborder mt-2 mr-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">广州出港</h6>
+                        </div>
+                        <div>
+                            <p>星梦邮轮-世界梦号</p>
+                            <p>10月20日...11月20日多团期</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥2874<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardborder mr-2 mt-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">天津出港</h6>
+                        </div>
+                        <div>
+                            <p>歌诗达邮轮-威尼斯号</p>
+                            <p>10月23日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p "><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥2899<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardborder mt-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">上海出港</h6>
+                        </div>
+                        <div>
+                            <p>歌诗达邮轮-威尼斯号</p>
+                            <p>10月23日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p "><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥2699<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="cardborder mt-2">-->
+                <!--<div>-->
+                <!--<div>-->
+                <!--<h3 style="color: #7e57c2;font-size: 20px">东南亚航线</h3>-->
+                <!--<h6 style="color: #7e57c2;font-size: 14px">深圳出港</h6>-->
+                <!--</div>-->
+                <!--<div>-->
+                <!--<p>渤海邮轮-中华泰山号</p>-->
+                <!--<p>10月20日...20年1月14日多团期</p>-->
+                <!--</div>-->
+                <!--<div>-->
+                <!--<button class="btn-p"><a style="color:white;font-size:14px" href="">5天4晚</a></button>-->
+                <!--<span class="float-right text-danger">¥1516<a style="color: black">起/人</a></span>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</div>-->
+
+                <div class="cardborder mr-2 mt-2 ml-2">
+                    <div>
+                        <div>
+                            <h3 style="color:#7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">温州出港</h6>
+                        </div>
+                        <div>
+                            <p>歌诗达邮轮-大西洋号</p>
+                            <p>10月14日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color: white;font-size:14px"  href="">5天4晚</a></button>
+                            <span class="float-right text-danger">¥2499<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardborder mt-2  mr-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">深圳出港</h6>
+                        </div>
+                        <div>
+                            <p>星梦邮轮-世界梦号</p>
+                            <p>10月27日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color:white;font-size:14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥3199<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cardborder mt-2  mr-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color:#7e57c2;font-size: 14px">上海出港</h6>
+                        </div>
+                        <div>
+                            <p>丽星邮轮-双子星号</p>
+                            <p>10月25日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p "><a style="color:white;font-size: 14px" href="">4天3晚</a></button>
+                            <span class="float-right text-danger">¥2569<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardborder mt-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">东南亚航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">新加坡出港</h6>
+                        </div>
+                        <div>
+                            <p>画家加勒比国际邮轮-海洋...</p>
+                            <p>10月27日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥9380<a style="color:black ">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <div class="cardborder mt-2 mr-2 ml-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">厦门出港</h6>
+                        </div>
+                        <div >
+                            <p>地中海邮轮-辉煌号</p>
+                            <p>10月23日，11月17日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color:white;font-size: 14px" href="">8天5晚</a></button>
+                            <span class="float-right text-danger">¥2299<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardborder mt-2 mr-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">广州出港</h6>
+                        </div>
+                        <div>
+                            <p>星梦邮轮-世界梦号</p>
+                            <p>10月25日...11月10日多团期</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color:white;font-size: 14px" href="">4天5晚</a></button>
+                            <span class="float-right text-danger">¥2874<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardborder mr-2 mt-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">上海出港</h6>
+                        </div>
+                        <div>
+                            <p>歌诗达邮轮-威尼斯号</p>
+                            <p>10月23日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p "><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥2699<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardborder mt-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">上海出港</h6>
+                        </div>
+                        <div>
+                            <p>歌诗达邮轮-威尼斯号</p>
+                            <p>10月23日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p "><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥2699<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="cardborder mt-2">-->
+                <!--<div>-->
+                <!--<div>-->
+                <!--<h3 style="color: #7e57c2;font-size: 20px">东南亚航线</h3>-->
+                <!--<h6 style="color: #7e57c2;font-size: 14px">深圳出港</h6>-->
+                <!--</div>-->
+                <!--<div>-->
+                <!--<p>渤海邮轮-中华泰山号</p>-->
+                <!--<p>10月20日...20年1月14日多团期</p>-->
+                <!--</div>-->
+                <!--<div>-->
+                <!--<button class="btn-p"><a style="color:white;font-size:14px" href="">5天4晚</a></button>-->
+                <!--<span class="float-right text-danger">¥1516<a style="color: black">起/人</a></span>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</div>-->
+
+                <div class="cardborder mr-2 mt-2 ml-2">
+                    <div>
+                        <div>
+                            <h3 style="color:#7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">温州出港</h6>
+                        </div>
+                        <div>
+                            <p>歌诗达邮轮-大西洋号</p>
+                            <p>10月14日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color: white;font-size:14px"  href="">5天4晚</a></button>
+                            <span class="float-right text-danger">¥2499<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardborder mt-2  mr-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">深圳出港</h6>
+                        </div>
+                        <div>
+                            <p>星梦邮轮-世界梦号</p>
+                            <p>10月27日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color:white;font-size:14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥3199<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cardborder mt-2  mr-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color:#7e57c2;font-size: 14px">厦门出港</h6>
+                        </div>
+                        <div>
+                            <p>丽星邮轮-双子星号</p>
+                            <p>10月24日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p "><a style="color:white;font-size: 14px" href="">4天3晚</a></button>
+                            <span class="float-right text-danger">¥1769<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardborder mt-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">东南亚航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">新加坡出港</h6>
+                        </div>
+                        <div>
+                            <p>画家加勒比国际邮轮-海洋...</p>
+                            <p>10月27日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥9380<a style="color:black ">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <div class="cardborder mt-2 mr-2 ml-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">天津出港</h6>
+                        </div>
+                        <div >
+                            <p>地中海邮轮-辉煌号</p>
+                            <p>10月23日，11月7日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥2299<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardborder mt-2 mr-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">广州出港</h6>
+                        </div>
+                        <div>
+                            <p>星梦邮轮-世界梦号</p>
+                            <p>10月20日...11月10日多团期</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥2874<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardborder mr-2 mt-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">上海出港</h6>
+                        </div>
+                        <div>
+                            <p>歌诗达邮轮-威尼斯号</p>
+                            <p>10月23日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p "><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥2699<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardborder mt-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">上海出港</h6>
+                        </div>
+                        <div>
+                            <p>歌诗达邮轮-威尼斯号</p>
+                            <p>10月23日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p "><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥2699<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="cardborder mt-2">-->
+                <!--<div>-->
+                <!--<div>-->
+                <!--<h3 style="color: #7e57c2;font-size: 20px">东南亚航线</h3>-->
+                <!--<h6 style="color: #7e57c2;font-size: 14px">深圳出港</h6>-->
+                <!--</div>-->
+                <!--<div>-->
+                <!--<p>渤海邮轮-中华泰山号</p>-->
+                <!--<p>10月20日...20年1月14日多团期</p>-->
+                <!--</div>-->
+                <!--<div>-->
+                <!--<button class="btn-p"><a style="color:white;font-size:14px" href="">5天4晚</a></button>-->
+                <!--<span class="float-right text-danger">¥1516<a style="color: black">起/人</a></span>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</div>-->
+
+                <div class="cardborder mr-2 mt-2 ml-2">
+                    <div>
+                        <div>
+                            <h3 style="color:#7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">温州出港</h6>
+                        </div>
+                        <div>
+                            <p>歌诗达邮轮-大西洋号</p>
+                            <p>10月14日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color: white;font-size:14px"  href="">5天4晚</a></button>
+                            <span class="float-right text-danger">¥2499<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardborder mt-2  mr-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">深圳出港</h6>
+                        </div>
+                        <div>
+                            <p>星梦邮轮-世界梦号</p>
+                            <p>10月27日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color:white;font-size:14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥3199<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cardborder mt-2  mr-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color:#7e57c2;font-size: 14px">厦门出港</h6>
+                        </div>
+                        <div>
+                            <p>丽星邮轮-双子星号</p>
+                            <p>10月24日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p "><a style="color:white;font-size: 14px" href="">4天3晚</a></button>
+                            <span class="float-right text-danger">¥1769<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardborder mt-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">东南亚航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">新加坡出港</h6>
+                        </div>
+                        <div>
+                            <p>画家加勒比国际邮轮-海洋...</p>
+                            <p>10月27日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥9380<a style="color:black ">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <div class="cardborder mt-2 mr-2 ml-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">东南亚航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">天津出港</h6>
+                        </div>
+                        <div >
+                            <p>地中海邮轮-辉煌号</p>
+                            <p>10月23日，11月7日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥2299<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardborder mt-2 mr-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">广州出港</h6>
+                        </div>
+                        <div>
+                            <p>星梦邮轮-世界梦号</p>
+                            <p>10月20日...11月10日多团期</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥2874<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardborder mr-2 mt-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">温州出港</h6>
+                        </div>
+                        <div>
+                            <p>歌诗达邮轮-威尼斯号</p>
+                            <p>10月23日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p "><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥2699<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardborder mt-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">上海出港</h6>
+                        </div>
+                        <div>
+                            <p>歌诗达邮轮-威尼斯号</p>
+                            <p>10月23日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p "><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥2699<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="cardborder mt-2">-->
+                <!--<div>-->
+                <!--<div>-->
+                <!--<h3 style="color: #7e57c2;font-size: 20px">东南亚航线</h3>-->
+                <!--<h6 style="color: #7e57c2;font-size: 14px">深圳出港</h6>-->
+                <!--</div>-->
+                <!--<div>-->
+                <!--<p>渤海邮轮-中华泰山号</p>-->
+                <!--<p>10月20日...20年1月14日多团期</p>-->
+                <!--</div>-->
+                <!--<div>-->
+                <!--<button class="btn-p"><a style="color:white;font-size:14px" href="">5天4晚</a></button>-->
+                <!--<span class="float-right text-danger">¥1516<a style="color: black">起/人</a></span>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</div>-->
+
+                <div class="cardborder mr-2 mt-2 ml-2">
+                    <div>
+                        <div>
+                            <h3 style="color:#7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">温州出港</h6>
+                        </div>
+                        <div>
+                            <p>歌诗达邮轮-大西洋号</p>
+                            <p>10月14日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color: white;font-size:14px"  href="">5天4晚</a></button>
+                            <span class="float-right text-danger">¥2499<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardborder mt-2  mr-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">日本航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">厦门出港</h6>
+                        </div>
+                        <div>
+                            <p>星梦邮轮-世界梦号</p>
+                            <p>10月27日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color:white;font-size:14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥3199<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cardborder mt-2  mr-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">东南亚航线</h3>
+                            <h6 style="color:#7e57c2;font-size: 14px">厦门出港</h6>
+                        </div>
+                        <div>
+                            <p>丽星邮轮-双子星号</p>
+                            <p>10月24日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p "><a style="color:white;font-size: 14px" href="">4天3晚</a></button>
+                            <span class="float-right text-danger">¥1769<a style="color: black">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardborder mt-2">
+                    <div>
+                        <div>
+                            <h3 style="color: #7e57c2;font-size: 20px">东南亚航线</h3>
+                            <h6 style="color: #7e57c2;font-size: 14px">新加坡出港</h6>
+                        </div>
+                        <div>
+                            <p>画家加勒比国际邮轮-海洋...</p>
+                            <p>10月27日</p>
+                        </div>
+                        <div>
+                            <button class="btn-p"><a style="color:white;font-size: 14px" href="">6天5晚</a></button>
+                            <span class="float-right text-danger">¥9380<a style="color:black ">起/人</a></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+          </div>
+       </div>
+</div>
+    <div id="toTop">
+        <!-- <a href="javascript:window.scrollTo(0,0);">返回顶部</a> -->
+        <a id="a1" style="color: #005cbf" href="javascript:">返回顶部</a>
+    </div>
+
+
+    <script>
+        (function () {
+         var wrapper = document.getElementsByClassName('contain1')[0];
+            var offset = 24;
+            var timer;
+           setInterval(function () {
+                if (timer) {
+                    clearInterval(timer);
+                }
+                var step = 1;
+                timer = setInterval(function () {
+                    wrapper.style.transform = 'translateY(-' + (offset + step) + 'px)';
+                    if (step == 24) {
+                       clearInterval(timer);
+                    }
+                    step++;
+               }, 10);
+                offset += 24;
+                // console.log('offset', offset)
+              var num = Math.floor(wrapper.offsetHeight / 24)
+               console.log('num==', num)
+               if (!(offset % ((num - 1) * 24))) {
+                   offset = 0;
+                }
+            }, 2000)
+        })()
+
+
+            a1.onclick=function(){
+                //位移动画: 3要素
+                //总距离
+                var scrollTop=
+                        document.body.scrollTop
+                        ||document.documentElement.scrollTop;
+                //总时间
+                var dura=2000;
+                //总步数
+                var steps=400;
+                //可以求出
+                //每一步走多远=总距离/总步数
+                var step=scrollTop/steps;
+                //每一步间隔多长时间=总时间/总步数
+                //interval不能小于5ms
+                var interval=dura/steps;
+                //设计定时器: 每隔?时间走多远
+                var timer=setInterval(function(){
+                    window.scrollBy(0,-step);
+                    //每移动一次，步数-1
+                    steps--;
+                    //如果全部步数都移动完
+                    if(steps==0){
+                        //就停止定时器
+                        clearInterval(timer);
+                    }
+                },interval)
+            }
+            //当页面滚动时
+            window.onscroll=function(){
+                var scrollTop=
+                        document.body.scrollTop
+                        ||document.documentElement.scrollTop;
+                //console.log(scrollTop);
+                if(scrollTop>=500){
+                    toTop.style.display='block'
+                }else{
+                    toTop.style.display='none';
+                }
+            }
+
+
+
+
+    </script>
+
+
+    <script>
+
+        var element=document.getElementById("body111");
+
+        element.onclick=function(){
+            var divShow=document.getElementById("sue");
+            var hei=divShow.style.height;
+//            console.log(hei)
+            if(hei=="0px"){
+                divShow.style="height:400px"
+            }else{
+                divShow.style="height:0px"
+            }
+//          divelement.style="height:0px;overflow:hidden;"
+        }
+
+
+    </script>
+    <script>
+        function connection(){
+            location.href="http://localhost:63342/main.css/%E6%B5%B7%E5%A4%96%E6%B8%B8%E7%8E%A901.htnl.html";
+        }
+    </script>
+
+    <script>
+        var body1=document.getElementById("body1");
+        var body2=document.getElementById("body2");
+        var body3=document.getElementById("body3");
+        function show2(){
+            body2.innerHTML++;
+        }
+        function show1(){
+            if(body2.innerHTML>0){
+                body2.innerHTML--;
+            }
+        }
+    </script>
+    <script src="./imgs/wtg/jquery-1.11.3.js"></script>
+            <script>
+
+                $('.bodywh>li').click(function() {
+                     $(this).addClass('tab');
+                    $(this).siblings().removeClass('tab');
+
+                    $('.content>div').eq($(this).index()).addClass('div_show');
+                     $('.content>div').eq($(this).index()).siblings().removeClass('div_show');
+
+                 })
+
+        </script>
+<script>
+    $('.orderul>li').click(function() {
+        $(this).addClass('btn-p1');
+        $(this).siblings().removeClass('btn-p1');
+
+        $('.contentsue>div').eq($(this).index()).addClass('content_show');
+        $('.contentsue>div').eq($(this).index()).siblings().removeClass('content_show');
+    })
+
+    $("#divbottom").click(function(){
+        $(".divbody").toggle();
+
+        var timer=setTimeout(function(){
+
+            $(".divbody").css("display","none");
+
+        },10000)
+        console.log(timer)
+
+    })
+
+    $("#s2").click(function(){
+        $(".divbody").css("display","none");
+    })
+
+    $(".ulborder>li").mouseover(function(){
+
+        $(".bodycontent").css("display","block");
+
+        $(".bodycontent>div").eq($(this).index()).css("display","block");
+        $(".bodycontent>div").eq($(this).index()).siblings().css("display","none");
+        var i=$(this).index();
+        $(".bodycontent").css("top",((i+1)*35)+"px");
+    })
+
+    $(".ulborder>li").mouseout(function(){
+        $(".bodycontent").css("display","none");
+
+    })
+
+</script>
+</body>
+<footer></footer>
+<script>
+    $.ajax({
+    url:"http://127.0.0.1:5500/public-footer.html",
+    type:"get",
+    success:function(res){
+       $("footer").replaceWith(res);
+
+    }
+});
+$.ajax({
+    url:"http://127.0.0.1:5500/public-header.html",
+    type:"get",
+    success:function(res){
+       $("header").replaceWith(res);
+
+    }
+})
+</script>
+</html>

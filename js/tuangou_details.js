@@ -205,6 +205,64 @@ $(window).scroll(function(){
     }
 });
 
+//购物车
+(function(){
+    //$("#cartShow").html("("+cartNum+")");
+    $("#cart").click(function(e){
+        e.preventDefault();
+        var cookie=document.cookie;
+        if(cookie==""){
+            console.log("未登录");
+            alert("当前无用户登录，请登录……");
+        }else{
+            var pnum=$("#pNum").val();
+            var cnum=$("#cNum").val();
+            var rnum=$("#rNum").val();
+            var sum=$("#sumMoney").html();
+            var cartList={
+                "pnum":pnum,
+                "cnum":cnum,
+                "rnum":rnum,
+                "sum":sum
+            };
+            $.ajax({
+                url:"http://localhost:3000/cart",
+                type:"post",
+                data:cartList,
+                success:function(res){
+                    console.log(res);
+
+                    
+                }
+            })
+            //console.log("已登录");
+            
+        }
+    });
+})()
+$("#cartShow").click(function(){
+    $("#cartList").toggle();
+    $.ajax({
+        url:" http://localhost:3000/cart",
+        type:"get",
+        success:function(res){
+            console.log(res);
+            if(res.length!=0){
+                $("#showP").html(res[0].pnum+"人");
+                $("#showC").html(res[0].cnum+"人");
+                $("#showR").html(res[0].rnum+"间");
+                $("#showT").html(res[0].sum+"元");
+            }else{
+                $("#cartList").html("您的购物车里面什么都没有哦……")
+            }
+        }
+    })
+    
+})
+    
+
+
+
 $.ajax({
     url:"http://127.0.0.1:5500/public-footer.html",
     type:"get",

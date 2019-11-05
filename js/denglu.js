@@ -96,7 +96,8 @@ $.ajax({
 		}
 		// console.log(num);
 		if(!isNaN(num)){
-			alert("登录成功")
+			alert("登录成功");
+			document.cookie=phoneCode+";";
 			window.location.href="http://127.0.0.1:5500/shouye.html"
 			}else{
 			alert("登陆失败,账号或密码错误");

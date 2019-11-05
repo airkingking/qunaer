@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0; }
+
+
+a {
+    text-decoration: none;color:#fff; }
+
+ul {
+    list-style: none; }
+.sbg-blue{background-color: #d9f5f8;width:
+100%;height:60px;line-height: 60px;}
+.denggao{width: 68px;height: 37px;top: 0px;left:-6px;position: relative;border: 0;text-align: center;line-height: 37px;color:white;}
+.marginborder{border:2px solid #f00;width: 425px;height: 36px;}
+.bg-blue{background-color: #00afc7;width:100%;height:38px;}
+.breadcrumb {background: rgba(0,0,0,0);line-height: 38px;}
+.btn-w{color:black !important;background-color: white;width:80px;font-size: 14px;text-align: center;}
+
+
+span{font-size: 14px;}
+.bsrn{background-color:#4dd0e1;width: 100%;height: 36px;}
+.ms10{color: white;font-size: 14px;text-align: center;width: 126px;}
+.ms11{color: white;font-size: 14px; text-align: center; width: 126px;}
+.ms12{color: white;font-size: 14px;text-align: center;width: 126px;}
+.ms13{color: white;font-size: 14px;text-align: right;width: 606px;}
+.jiao{display: inline-block;
+    vertical-align: middle;
+    width: 9px;
+    height: 9px;
+    background: url(../imgs/hwyw/lisico11.png) 0 -33px no-repeat;
+    margin-left: 5px;
+    overflow: hidden;}
+.jiao0{background: url(../imgs/hwyw/icotool5.png) -101px 0 no-repeat;position: relative;top: -6px;left:3px;}
+.jiao1{margin-top: 2px;
+    background: url(../imgs/hwyw/icotool5.png) -93px -4px no-repeat;position: relative;top: 0px;left:-4px;}
+td>a{width: 7px;
+    height: 4px;
+    display: inline-block;
+    overflow: hidden;}
+.ms14{color: black;font-size: 14px;text-align: center;}
+.ms15{color: black;font-size: 14px;text-align: center;}
+td{border: 1px solid #fff; }
+ul>li{font-size: 12px;}
+.btnl{background-color:#1cafc5;color: white;border: 0;font-size: 14px;width: 36px;height: 23px; }
+.bg-blue li{text-align:center;line-height:38px;color:#fff;}
+.bg-blue .breadcrumb-item + .breadcrumb-item::before {
+    content: '|';
+    color: white;}
+.lastheight{height:184.66px;}
+.xiaotubiao0{width: 10px;
+    height: 14px;
+    background: url(../imgs/hwyw/icotool5.png) -82px 0 no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;margin-right: 10px;
+    margin-top: -2px;
+}
+.breadcrumb-item + .breadcrumb-item::before{
+    content: '|';
+    color:#a7a7a7;
+}
+.xiaofangkuai{background: #ea447b;position: absolute;
+    top: 23px;
+    left: 0;
+    padding: 0 20px;
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+    font-style: normal;
+    font-size: 16px;
+    z-index: 3;
+    cursor: pointer;}
+.mi{width:959px;height: 160px;margin: auto}
+.minext{width:959px;height: 95px;margin: auto}
+.xiaojiany{font-size: 0;
+    background: url(../imgs/hwyw/arc.png) no-repeat left bottom;
+    width: 7px;
+    height: 4px;
+    display: inline-block;
+    margin: 0 0 2px 3px;}
+.sfgh{line-height: 38px;position: relative;left: 16px;top:2px;}
+.xio{background: url(../imgs/hwyw/24h.png) no-repeat left center;
+    padding-left: 20px;margin-left: 5px;margin-right: 2px;}
+.fg{margin: auto;width:442px;height: 34px; }
+.fgh{width: 60px;height: 30px;
+    background: url(../imgs/hwyw/footer_v10.png) -102px 0 no-repeat;
+margin-right: 0;}
+.fgh0{width: 96px;height:30px;
+    background: url(../imgs/hwyw/footer_v10.png) -162px 0 no-repeat;
+    margin-right: 0;}
+.fgh1{width: 90px;height:30px;
+    background: url(../imgs/hwyw/footer_v10.png) -253px 0 no-repeat;
+    margin-right: 0;}
+.fgh2{width: 90px;height:30px;
+    background: url(../imgs/hwyw/footer_v10.png) -431px 0 no-repeat;
+    margin-right: 0;}
+.fg a{display:inline-block;position: relative;top:1px;left:5px;
+    }
+.mb-10{margin-bottom:1.9rem;}
+.stylecolorspan{color: #00afc7;}
+
+.contain>div{display:none !important;}
+.contain>.div_show{display:block !important;}
+.divbody{
+    border:1px solid #666;
+    width:491px;height:340px;
+    margin-top: 15px;
+    display:none;
+    position: absolute;
+    z-index: 99;
+    background-color: white;
+    top:30px;
+}
+#jingwaiguonei .cur{color:#009fbe;border-bottom: 2px solid #009fbe;}
+.content>div{display:none;}
+.content>.content-show{display:block;}
+.content-show>p>span{font-size: 12px;color:#333333;}
+#jingwaiguonei>span{font-size: 16px;color:black;font-weight: bolder;}
+#toTop{
+    position:fixed;
+    bottom:60px;
+    right:0;
+    display:none;
+}

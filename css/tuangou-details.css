@@ -171,7 +171,7 @@
 }
 .top-line-3 .line-3-bottom span{
     display: inline-block;
-    width: 52px;
+    width: 65px;
     height: 18px;
     padding: 1px 5px;
     color: #fff;
@@ -1058,4 +1058,16 @@
     text-decoration: none;
     color: #009bb3;
     font-size: 20px;
+}
+
+#cartList{
+    text-align: center;
+    width: 400px;
+    padding: 20px 10px;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    background: #00afc7;
+    color: #fff;
+    z-index: 10;
 }

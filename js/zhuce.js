@@ -51,7 +51,7 @@ function panduan(){
 	console.log(zhuce) 
 	if((/^1[3456789]\d{9}$/).test(phoneCode)&&(/^[a-zA-Z0-9]{8,20}$/).test(mimaCode)&&inputCode.toUpperCase()==checkCode.toUpperCase()){
 		$.ajax({
-			url:`http://localhost:3000/users`,
+			url:`http://127.0.0.1:3000/users`,
 			type:"post",
 			data:zhuce,
 			success:function(result){
@@ -99,10 +99,26 @@ $("#phoneCode")
 	}else if(!(/^1[3456789]\d{9}$/).test(a)){
 		$(arr[0]).css("display","block")
 		$(arr[1]).css("display","none")
-	}else{
+	}
+	else{
 		$(arr[0]).css("display","none")
 	}
-})
+	var val=($("#phoneCode").val());
+	$.ajax({
+		url:"http://127.0.0.1:3000/users",
+		type:"get",
+		success:function(res){
+			console.log(res);
+			for( var i=0;i<res.length;i++){
+				if(res[i].phone.indexOf(val)!=-1){
+					$(".suc").css("color","red");
+					$(".suc").css("background","url('../imgs/index_img//err.png') no-repeat");
+					$(".suc").html("此用户已注册");
+				}
+			}
+		}
+	})
+});
 })
 //注册密码验证 /^[a-zA-Z0-9]{8,20}$/
 $(document).ready(function(){
@@ -125,3 +141,20 @@ $("#mimaCode")
 	}
 })
 })
+
+//重复注册判断
+// $("#phoneCode").blur("input",function(){
+// 	var val=($("#phoneCode").val());
+// 	$.ajax({
+// 		url:"http://127.0.0.1:3000/users",
+// 		type:"get",
+// 		success:function(res){
+// 			console.log(res);
+// 			for( var i=0;i<res.length;i++){
+// 				if(res[i].phone.indexOf(val)==-1){
+// 					$(".err").html("此用户已注册");
+// 				}
+// 			}
+// 		}
+// 	})
+// })

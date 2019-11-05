@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <!-- 导入css-->
+    <link rel="stylesheet" href="./bootstrap/bootstrap.css"/>
+    <!-- 导入3个js,有顺序要求-->
+    <script src="./bootstrap/jquery.min.js"></script>
+    <script src="./bootstrap/popper.min.js"></script>
+    <script src="./bootstrap/bootstrap.min.js"></script>
+
+    <script src="./jquery-1.11.3.js"></script>
+    <link rel="stylesheet" href="./css/hwyw.css"/>
+</head>
+<header></header>
+<body>
+<div class="container m-auto p-0">
+    <div class="sbg-blue mb-1">
+        <input class="marginborder" type="text" />
+        <button class="denggao bg-danger">搜索</button>
+        <span>热门目的地：</span>
+        <span id="spantoggle">
+        <span class="ml-3 stylecolorspan" >泰国</span>
+        <span class="ml-3">韩国</span>
+        <span class="ml-3">台湾</span>
+        <span class="ml-3">马来西亚</span>
+        <span class="ml-3">日本</span>
+        <span class="ml-3">巴厘岛</span>
+        <span class="ml-3">澳门</span>
+        </span>
+    </div>
+    <div class="divbody">
+     <div id="jingwaiguonei" class="my-3">
+         <span class="cur asd ml-5 mr-5 ">国内</span>
+         <span class="asd">境外</span>
+         <span id="closedivbody" class="float-right mr-5" style="color: #999;">×</span>
+     </div>
+   <div class="content mt-3">
+     <div class="content-show">
+         <p class="ml-5">
+         <span class="mr-3">三亚</span>
+         <span class="mx-3">丽江</span>
+         <span class="mx-3">厦门</span>
+         <span class="mx-3">北京</span>
+         <span class="mx-3">哈尔冰</span>
+         <span class="mx-3">成都</span>
+        </p>
+         <p class="ml-5">
+             <span class="mr-3">三亚</span>
+             <span class="mx-3">丽江</span>
+             <span class="mx-3">厦门</span>
+             <span class="mx-3">北京</span>
+             <span class="mx-3">哈尔冰</span>
+             <span class="mx-3">成都</span>
+         </p>
+         <p class="ml-5">
+             <span class="mr-3">三亚</span>
+             <span class="mx-3">丽江</span>
+             <span class="mx-3">厦门</span>
+             <span class="mx-3">北京</span>
+             <span class="mx-3">哈尔冰</span>
+             <span class="mx-3">成都</span>
+         </p>
+         <p class="ml-5">
+             <span class="mr-3">三亚</span>
+             <span class="mx-3">丽江</span>
+             <span class="mx-3">厦门</span>
+             <span class="mx-3">北京</span>
+             <span class="mx-3">哈尔冰</span>
+             <span class="mx-3">成都</span>
+         </p>
+         <p class="ml-5">
+             <span class="mr-3">三亚</span>
+             <span class="mx-3">丽江</span>
+             <span class="mx-3">厦门</span>
+             <span class="mx-3">北京</span>
+             <span class="mx-3">哈尔冰</span>
+             <span class="mx-3">成都</span>
+         </p>
+         <p class="ml-5">
+             <span class="mr-3">三亚</span>
+             <span class="mx-3">丽江</span>
+             <span class="mx-3">厦门</span>
+             <span class="mx-3">北京</span>
+             <span class="mx-3">哈尔冰</span>
+             <span class="mx-3">成都</span>
+         </p>
+         <p class="float-right mr-5" style="color:#999;font-size: 12px;">更多城市可直接输入搜索</p>
+     </div>
+       <div>
+           <p class="ml-5">
+               <span class="mr-3">三亚</span>
+               <span class="mx-3">丽江</span>
+               <span class="mx-3">厦门</span>
+               <span class="mx-3">北京</span>
+               <span class="mx-3">哈尔冰</span>
+               <span class="mx-3">成都</span>
+           </p>
+           <p class="ml-5">
+               <span class="mr-3">三亚</span>
+               <span class="mx-3">丽江</span>
+               <span class="mx-3">厦门</span>
+               <span class="mx-3">北京</span>
+               <span class="mx-3">哈尔冰</span>
+               <span class="mx-3">成都</span>
+           </p>
+           <p class="ml-5">
+               <span class="mr-3">三亚</span>
+               <span class="mx-3">丽江</span>
+               <span class="mx-3">厦门</span>
+               <span class="mx-3">北京</span>
+               <span class="mx-3">哈尔冰</span>
+               <span class="mx-3">成都</span>
+           </p>
+           <p class="ml-5">
+               <span class="mr-3">三亚</span>
+               <span class="mx-3">丽江</span>
+               <span class="mx-3">厦门</span>
+               <span class="mx-3">北京</span>
+               <span class="mx-3">哈尔冰</span>
+               <span class="mx-3">成都</span>
+           </p>
+           <p class="ml-5">
+               <span class="mr-3">三亚</span>
+               <span class="mx-3">丽江</span>
+               <span class="mx-3">厦门</span>
+               <span class="mx-3">北京</span>
+               <span class="mx-3">哈尔冰</span>
+               <span class="mx-3">成都</span>
+           </p>
+           <p class="ml-5">
+               <span class="mr-3">三亚</span>
+               <span class="mx-3">丽江</span>
+               <span class="mx-3">厦门</span>
+               <span class="mx-3">北京</span>
+               <span class="mx-3">哈尔冰</span>
+               <span class="mx-3">成都</span>
+           </p>
+           <p class="float-right mr-5" style="color:#999;font-size: 12px;">更多城市可直接输入搜索</p>
+       </div>
+    </div>
+
+    </div>
+    <p class="mb-0">
+        <span>当地人</span>
+        <span>&gt;</span>
+        <span>泰国自由行</span>
+        <span>的搜索结果页</span>
+    </p>
+   <div class="bg-blue">
+       <ul class="breadcrumb list-unstyled d-flex sfgh p-0 m-0">
+        <li class="btn-w breadcrumb-item">全部</li>
+        <li class="mr-2 breadcrumb-item">主题游</li>
+        <li class="mr-2 breadcrumb-item">用车服务</li>
+        <li class="mr-2 breadcrumb-item">当地玩乐</li>
+        <li class="mr-2 breadcrumb-item">当地咨询</li>
+        <li class="mr-2 breadcrumb-item">WiFi租赁</li>
+    </ul>
+   </div>
+    <div class="contain">
+    <div class="div_show">
+        <div class="mt-2">
+        <span class="mr-3 ml-3">目的地</span>
+        <span class="mr-3 btnl">全部</span>
+        <span class="mr-3">沙美岛</span>
+        <span class="mr-3">曼谷</span>
+        <span class="mr-3">清莱</span>
+        <span class="mr-3">普吉岛</span>
+        <span class="mr-3">甲米</span>
+        <span class="mr-3">Trang</span>
+        <span class="mr-3">象岛</span>
+        <span class="mr-3">清迈</span>
+        <span class="mr-3">苏梅岛</span>
+        <span class="mr-3">华欣</span>
+        <span>芭提雅</span>
+        </div>
+        <p class="mt-3 mb-3">
+        <span class="ml-3">共 <span style="color: red">12</span> 个产品</span>
+        <span class="ml-1" style="color: #0062cc">清空筛选项</span>
+        </p>
+    </div>
+        <div>
+        <div class="mt-2">
+            <span class="mr-3 ml-3">目的地</span>
+            <span class="mr-3 btnl">全部</span>
+            <span class="mr-3">沙美岛</span>
+            <span class="mr-3">曼谷</span>
+            <span class="mr-3">清莱</span>
+            <span class="mr-3">普吉岛</span>
+            <span class="mr-3">甲米</span>
+            <span class="mr-3">Trang</span>
+            <span class="mr-3">象岛</span>
+            <span class="mr-3">清迈</span>
+            <span class="mr-3">苏梅岛</span>
+            <span class="mr-3">华欣</span>
+            <span>芭提雅</span>
+        </div>
+        <p class="mt-3 mb-3">
+            <span class="ml-3">共 <span style="color: red">24</span> 个产品</span>
+            <span class="ml-1" style="color: #0062cc">清空筛选项</span>
+        </p>
+    </div>
+        <div>
+            <div class="mt-2">
+                <span class="mr-3 ml-3">目的地</span>
+                <span class="mr-3 btnl">全部</span>
+                <span class="mr-3">沙美岛</span>
+                <span class="mr-3">曼谷</span>
+                <span class="mr-3">清莱</span>
+                <span class="mr-3">普吉岛</span>
+                <span class="mr-3">甲米</span>
+                <span class="mr-3">Trang</span>
+                <span class="mr-3">象岛</span>
+                <span class="mr-3">清迈</span>
+                <span class="mr-3">苏梅岛</span>
+                <span class="mr-3">华欣</span>
+                <span>芭提雅</span>
+            </div>
+            <p class="mt-3 mb-3">
+                <span class="ml-3">共 <span style="color: red">12</span> 个产品</span>
+                <span class="ml-1" style="color: #0062cc">清空筛选项</span>
+            </p>
+        </div>
+        <div>
+            <div class="mt-2">
+                <span class="mr-3 ml-3">目的地</span>
+                <span class="mr-3 btnl">全部</span>
+                <span class="mr-3">沙美岛</span>
+                <span class="mr-3">曼谷</span>
+                <span class="mr-3">清莱</span>
+                <span class="mr-3">普吉岛</span>
+                <span class="mr-3">甲米</span>
+                <span class="mr-3">Trang</span>
+                <span class="mr-3">象岛</span>
+                <span class="mr-3">清迈</span>
+                <span class="mr-3">苏梅岛</span>
+                <span class="mr-3">华欣</span>
+                <span>芭提雅</span>
+            </div>
+            <p class="mt-3 mb-3">
+                <span class="ml-3">共 <span style="color: red">38</span> 个产品</span>
+                <span class="ml-1" style="color: #0062cc">清空筛选项</span>
+            </p>
+        </div>
+        <div>
+            <div class="mt-2">
+                <span class="mr-3 ml-3">目的地</span>
+                <span class="mr-3 btnl">全部</span>
+                <span class="mr-3">沙美岛</span>
+                <span class="mr-3">曼谷</span>
+                <span class="mr-3">清莱</span>
+                <span class="mr-3">普吉岛</span>
+                <span class="mr-3">甲米</span>
+                <span class="mr-3">Trang</span>
+                <span class="mr-3">象岛</span>
+                <span class="mr-3">清迈</span>
+                <span class="mr-3">苏梅岛</span>
+                <span class="mr-3">华欣</span>
+                <span>芭提雅</span>
+            </div>
+            <p class="mt-3 mb-3">
+                <span class="ml-3">共 <span style="color: red">16</span> 个产品</span>
+                <span class="ml-1" style="color: #0062cc">清空筛选项</span>
+            </p>
+        </div>
+        <div>
+            <div class="mt-2">
+                <span class="mr-3 ml-3">目的地</span>
+                <span class="mr-3 btnl">全部</span>
+                <span class="mr-3">沙美岛</span>
+                <span class="mr-3">曼谷</span>
+                <span class="mr-3">清莱</span>
+                <span class="mr-3">普吉岛</span>
+                <span class="mr-3">甲米</span>
+                <span class="mr-3">Trang</span>
+                <span class="mr-3">象岛</span>
+                <span class="mr-3">清迈</span>
+                <span class="mr-3">苏梅岛</span>
+                <span class="mr-3">华欣</span>
+                <span>芭提雅</span>
+            </div>
+            <p class="mt-3 mb-3">
+                <span class="ml-3">共 <span style="color: red">8</span> 个产品</span>
+                <span class="ml-1" style="color: #0062cc">清空筛选项</span>
+            </p>
+        </div>
+    </div>
+    <table class="bsrn">
+        <tr>
+            <td class="ms10" >推荐 <a class="jiao" href=""></a></td>
+
+            <td class="ms11">价格 <a class="jiao0 " href=""></a><a class="jiao1" href=""></a></td>
+
+            <td class="ms12">销量 <a class="jiao" href=""></a></td>
+
+            <td class="ms13">1/1</td>
+
+            <td class="ms14">&lt; 上一页</td>
+            <td class="ms15">&gt; 下一页</td>
+        </tr>
+    </table>
+    <div class="row mx-0 mt-2">
+        <div class="col-lg-3 px-0">
+           <div class="mr-2 mt-2">
+               <div onclick="connection()">
+                <img class="w-100" src="./imgs/hwyw/d5209a9300278702.jpg_288x192_6285199e.jpg" alt=""/>
+                   <div class="xiaofangkuai">市内观光</div>
+            </div>
+            <h6 class="mx-2">123芭提雅【10小时包车】度假胜地·专车畅游-日游</h6>
+            <h4 class="ml-2" style="color: #fF6600"><span>¥</span> 550/人天</h4>
+               <a class="xiaotubiao0 ml-3" href=""></a>
+            <span style="color: #999999">泰国 芭提雅</span>
+               <span style="color: #999999" class="float-right mr-2">已售2</span>
+           </div>
+        </div>
+        <div class="col-lg-3 px-0">
+          <div class="mr-2 mt-2">
+              <div>
+                <img class="w-100" src="./imgs/hwyw/1051b28d-6179-4a03-a5df-c010dd493b6d.jpg_288x192_dc1072c3.jpg" alt=""/>
+                  <div class="xiaofangkuai">市内观光</div>
+            </div>
+            <h6 class="mx-2">501苏梅岛【专车接送机】机场-查文/ 波普/曾梦单程接机服务(1-10人)</h6>
+            <h4 class="ml-2" style="color: #fF6600"><span>¥</span> 99/人天</h4>
+              <a class="xiaotubiao0 ml-3" href=""></a>
+            <span style="color: #999999">泰国 苏梅岛</span>
+              <span style="color: #999999" class="float-right mr-2">已售4</span>
+          </div>
+        </div>
+
+        <div class="col-lg-3 px-0">
+            <div class="mr-2 mt-2">
+                <div>
+                <img class="w-100" src="./imgs/hwyw/919ee6249c887902.jpg_288x192_e18df423.jpg" alt=""/>
+                    <div class="xiaofangkuai">市内观光</div>
+            </div>
+                <h6 class="mx-2">204芭提雅【豪华畅享】东巴乐团+七珍佛山+杜拉拉水上市场一日游</h6>
+                <h4 class="ml-2" style="color: #fF6600"><span>¥</span> 300/人天</h4>
+                <a class="xiaotubiao0 ml-3" href=""></a>
+                <span style="color: #999999">泰国 芭提雅</span>
+                <span style="color: #999999" class="float-right mr-2">已售10</span>
+            </div>
+        </div>
+        <div class="col-lg-3 px-0">
+            <div class="mt-2">
+                <img class="w-100" style="height: 184.66px" src="./imgs/hwyw/d3cbbee34b586702.jpg_288x192_ac4ace65.jpg" alt=""/>
+                <div class="xiaofangkuai">市内观光</div>
+            </div>
+            <h6 class="mx-2">泰国清迈中文向导游玩陪同服务【自定行程，按时计费】</h6>
+            <h4 class="ml-2" style="color: #fF6600"><span>¥</span> 850/人天</h4>
+            <a class="xiaotubiao0 ml-3" href=""></a>
+            <span style="color: #999999">泰国 清迈</span>
+            <span style="color: #999999" class="float-right mr-2">已售1</span>
+        </div>
+        <div class="col-lg-3 px-0">
+            <div class="mr-2 mt-2">
+                <div>
+                    <img class="w-100" src="./imgs/hwyw/515e44da-fd3c-40a9-9b9f-013768d0248c.jpg_288x192_c474e242.jpg" alt=""/>
+                    <div class="xiaofangkuai">市内观光</div>
+                </div>
+                <h6 class="mx-2">309清迈【10小时包车】度假胜地·专车畅游一日游（可选市区/清莱/拜县）</h6>
+                <h4 class="ml-2" style="color: #fF6600"><span>¥</span> 950/人天</h4>
+                <a class="xiaotubiao0 ml-3" href=""></a>
+                <span style="color: #999999">泰国 清迈</span>
+                <span style="color: #999999" class="float-right mr-2">已售2</span>
+            </div>
+        </div>
+        <div class="col-lg-3 px-0">
+            <div class="mr-2 mt-2">
+                <div>
+                    <img class="w-100" src="./imgs/hwyw/94866e52f1152002.jpg_288x192_9f77526a.jpg" alt=""/>
+                    <div class="xiaofangkuai">市内观光</div>
+                </div>
+                <h6 class="mx-2">304清迈 【人气象营】美旺/美莎大象营半日游</h6>
+                <h4 class="ml-2" style="color: #fF6600"><span>¥</span> 145/人天</h4>
+                <a class="xiaotubiao0 ml-3" href=""></a>
+                <span style="color: #999999">泰国 清迈</span>
+                <span style="color: #999999" class="float-right mr-2">已售1</span>
+            </div>
+        </div>
+        <div class="col-lg-3 px-0">
+            <div class="mr-2 mt-2">
+                <div>
+                    <img class="w-100" src="./imgs/hwyw/5e3d99d64811c102.jpg_288x192_c56db3f5.jpg" alt=""/>
+                    <div class="xiaofangkuai">市内观光</div>
+                </div>
+                <h6 class="mx-2">032普吉岛【8小时包车】度假胜地·专车畅游一日游</h6>
+                <h4 class="ml-2" style="color: #fF6600"><span>¥</span> 469/人天</h4>
+                <a class="xiaotubiao0 ml-3" href=""></a>
+                <span style="color: #999999">泰国 普吉岛</span>
+                <span style="color: #999999" class="float-right mr-2">已售5</span>
+            </div>
+        </div>
+        <div class="col-lg-3 px-0">
+            <div class="mt-2">
+                <div>
+                    <img class="w-100" style="height: 184.66px" src="./imgs/hwyw/00c9694ca100f302.jpg_288x192_9c332e67.jpg" alt=""/>
+                    <div class="xiaofangkuai">市内观光</div>
+                </div>
+                <h6 class="mx-2">311清迈【嘟嘟车】全景古城古寺半日游（走街串巷+感受小城+中文导游）</h6>
+                <h4 class="ml-2" style="color: #fF6600"><span>¥</span> 140/人天</h4>
+                <a class="xiaotubiao0 ml-3" href=""></a>
+                <span style="color: #999999">泰国 清迈</span>
+                <span style="color: #999999" class="float-right mr-2">已售8</span>
+            </div>
+        </div>
+        <div class="col-lg-3 px-0">
+            <div class="mr-2 mt-2">
+                <div>
+                    <img class="w-100" src="./imgs/hwyw/72ab49cd2b1ca302.jpg_288x192_e7415426.jpg" alt=""/>
+                    <div class="xiaofangkuai">市内观光</div>
+                </div>
+                <h6 class="mb-10 mx-2">泰国曼谷海外展会助手及翻译服务</h6>
+                <h4 class="ml-2" style="color: #fF6600"><span>¥</span> 639/人天</h4>
+                <a class="xiaotubiao0 ml-3" href=""></a>
+                <span style="color: #999999">泰国 曼谷</span>
+                <span style="color: #999999" class="float-right mr-2">已售1</span>
+
+            </div>
+        </div>
+        <div class="col-lg-3 px-0">
+            <div class="mr-2 mt-2">
+                <div>
+                    <img class="w-100" src="./imgs/hwyw/99f00ae6d6a76102.jpg_288x192_4dcbaa31.jpg" alt=""/>
+                    <div class="xiaofangkuai">市内观光</div>
+                </div>
+                <h6 class="mx-2">305清迈【奇妙体验】夜间动物园半日傍晚/夜间游（中文导游包接送）</h6>
+                <h4 class="ml-2" style="color: #fF6600"><span>¥</span> 169/人天</h4>
+                <a class="xiaotubiao0 ml-3" href=""></a>
+                <span style="color: #999999">泰国 清迈</span>
+                <span  style="color: #999999" class="float-right mr-2">已售1</span>
+
+            </div>
+        </div>
+        <div class="col-lg-3 px-0">
+            <div class="mr-2 mt-2">
+                <div>
+                    <img class="w-100" src="./imgs/hwyw/72ab49cd2b1ca302.jpg_288x192_e7415426.jpg" alt=""/>
+                    <div class="xiaofangkuai">市内观光</div>
+                </div>
+                <h6 class="mx-2">泰国曼谷中文向导游玩陪同服务【自定行程，按时计费】</h6>
+                <h4 class="ml-2" style="color: #fF6600"><span>¥</span> 850/人天</h4>
+                <a class="xiaotubiao0 ml-3" href=""></a>
+                <span style="color: #999999">泰国 曼谷</span>
+                <span style="color: #999999" class="float-right mr-2">已售8</span>
+            </div>
+        </div>
+        <div class="col-lg-3 px-0">
+            <div class="mt-2">
+                <div>
+                    <img class="w-100 lastheight" style="height: 184.66px"  src="./imgs/hwyw/de4ac66e129ba02.jpg_288x192_beb97770.jpg" alt=""/>
+                    <div class="xiaofangkuai">市内观光</div>
+                </div>
+                <h6 class="mx-2">513苏梅岛【趣多多】丛林骑大象半日游（可选瀑布/皮划艇/ATV/表演) </h6>
+                <h4 class="ml-2" style="color: #fF6600"><span>¥</span> 195/人天</h4>
+                <a class="xiaotubiao0 ml-3"  href=""></a>
+                <span style="color: #999999">泰国 苏梅岛</span>
+                <span class="float-right mr-2" style="color: #999999" >已售8</span>
+            </div>
+        </div>
+    </div>
+    <div class="text-center mt-5 mb-3">
+        <button style="width: 32px;">1</button>
+    </div>
+    <div class="mi">
+        <ul class="breadcrumb m-0 p-0 list-unstyled d-flex">
+            <li class="breadcrumb-item" style="color: #a7a7a7">热门目的地
+                清迈自由行</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">西安自由行</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">杭州自由行</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">毛里求斯自由行</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">厦门自由行</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">台湾自由行</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">延边自由行</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">普吉岛自由行</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">芬兰自由行</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">wifi租赁
+                东京WiFi</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">芭提雅WiFi</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">巴黎WiFi</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">清迈WiFi</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">马来西亚WiFi</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">越南WiFi</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">台湾WiFi</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">印度尼西亚WiFi</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">北海道WiFi</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">租车包车
+                芭提雅包车</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">大理包车</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">武汉包车</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">清迈包车</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">三亚包车</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">深圳包车</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">天津包车</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">台湾包车</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">普吉岛包车</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">导游
+                桂林导游</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">武汉导游</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">大理导游</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">曼谷导游</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">丽江导游</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">昆明导游</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">三亚导游</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">苏梅岛导游</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">意大利导游</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">一日游
+                美国一日游</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">清迈一日游</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">重庆一日游</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">曼谷一日游</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">越南一日游</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">澳大利亚一日游</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">曼彻斯特一日游</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">普吉岛一日游</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">芬兰一日游</li>
+            <li class="breadcrumb-item"  style="color: #a7a7a7">去哪儿当地人频道，推荐泰国必去旅游景点，并提供景点门票的预购服务，泰国好玩的景点大全：清莱黑庙，甲米Waree Raksa温泉，清迈拜县，曼谷绿洲水疗素坤逸路31号店。</li>
+        </ul>
+    </div>
+    <div class="minext mt-5">
+        <ul class="breadcrumb m-0 p-0 list-unstyled d-flex">
+            <li class="breadcrumb-item" style="color: #a7a7a7">关于Qunar.coma
+                <a class="xiaojiany" href=""></a>
+            </li>
+            <li class="breadcrumb-item" style="color: #a7a7a7">业务合作</li>
+            <li class="breadcrumb-item" style="color: #a7a7a7">加入我们</li>
+            <li class="breadcrumb-item" style="color: #a7a7a7">"严重违规失信"专项整治举报</li>
+            <li class="breadcrumb-item" style="color: #a7a7a7">安全中心</li>
+            <li class="breadcrumb-item" style="color: #a7a7a7">星骆驼公益</li>
+            <li class="breadcrumb-item" style="color: #a7a7a7">About Us
+                 Copyright  ©2019  Qunar.com  京公网安备110108901530  京ICP备05021087号  营业执照信息   保险经纪资质    (京)-非经营性-2016-0110
+                <a class="xio" href=""></a>
+            </li>
+            <li style="color: #a7a7a7">去哪儿网客服电话95117</li>
+            <li style="color: #a7a7a7">违法和不良信息举报电话：010-69194277 </li>
+            <li class="mx-3" style="color: #a7a7a7">违法和不良信息举报邮箱：tousu@qunar.com</li>
+        </ul>
+    </div>
+    <div class="fg mt-5">
+       <ul class="d-flex list-unstyled">
+           <li><img src="./imgs/hwyw/globalsign.gif" style="height: 30px" alt=""/></li>
+           <li><a class="fgh" href=""></a></li>
+           <li><a class="fgh0" href=""></a></li>
+           <li><a class="fgh1" href=""></a></li>
+           <li><a class="fgh2" href=""></a></li>
+       </ul>
+    </div>
+</div>
+<div id="toTop">
+    <!-- <a href="javascript:window.scrollTo(0,0);">返回顶部</a> -->
+    <a id="a1" style="color: #005cbf" href="javascript:">返回顶部</a>
+</div>
+<script>
+
+    function connection(){
+        location.href="http://localhost:63342/main.css/Where%20to%20go.html";}
+
+
+
+    $("#spantoggle>span").click(function(){
+        $(this).addClass("stylecolorspan");
+        $(this).siblings().removeClass("stylecolorspan");
+    });
+
+    $('.sfgh>li').click(function() {
+        $(this).addClass('btn-w');
+        $(this).siblings().removeClass('btn-w');
+
+        $('.contain>div').eq($(this).index()).addClass('div_show');
+        $('.contain>div').eq($(this).index()).siblings().removeClass('div_show');
+
+    })
+
+    $(".marginborder").click(function(){
+        $(".divbody").toggle();
+
+        var timer=setTimeout(function(){
+
+            $(".divbody").css("display","none");
+
+
+        },10000)
+        console.log(timer)
+
+    })
+    $('#jingwaiguonei>span.asd').click(function() {
+        $(this).addClass('cur');
+        $(this).siblings().removeClass('cur');
+
+        $('.content>div').eq($(this).index()).addClass('content-show');
+        $('.content>div').eq($(this).index()).siblings().removeClass('content-show');
+
+    })
+
+    a1.onclick=function(){
+        //位移动画: 3要素
+        //总距离
+        var scrollTop=
+                document.body.scrollTop
+                ||document.documentElement.scrollTop;
+        //总时间
+        var dura=2000;
+        //总步数
+        var steps=400;
+        //可以求出
+        //每一步走多远=总距离/总步数
+        var step=scrollTop/steps;
+        //每一步间隔多长时间=总时间/总步数
+        //interval不能小于5ms
+        var interval=dura/steps;
+        //设计定时器: 每隔?时间走多远
+        var timer=setInterval(function(){
+            window.scrollBy(0,-step);
+            //每移动一次，步数-1
+            steps--;
+            //如果全部步数都移动完
+            if(steps==0){
+                //就停止定时器
+                clearInterval(timer);
+            }
+        },interval)
+    }
+    //当页面滚动时
+    window.onscroll=function(){
+        var scrollTop=
+                document.body.scrollTop
+                ||document.documentElement.scrollTop;
+        //console.log(scrollTop);
+        if(scrollTop>=500){
+            toTop.style.display='block'
+        }else{
+            toTop.style.display='none';
+        }
+    }
+
+$("#closedivbody").click(function(){
+    $(".divbody").css("display","none");
+})
+</script>
+</body>
+<footer></footer>
+<script>
+    $.ajax({
+    url:"http://127.0.0.1:5500/public-footer.html",
+    type:"get",
+    success:function(res){
+       $("footer").replaceWith(res);
+
+    }
+});
+$.ajax({
+    url:"http://127.0.0.1:5500/public-header.html",
+    type:"get",
+    success:function(res){
+       $("header").replaceWith(res);
+
+    }
+})
+</script>
+</html>
