@@ -26,6 +26,9 @@ a{
 .breadcrumb-item{
     font-size: 0.5rem;
 }
+.breadcrumb{
+    background: transparent !important;
+}
 .nav-link{
     padding-left: 0;
     color: black;
@@ -34,13 +37,13 @@ a{
 #msg_icon{
     width:11px;
     height: 8px;
-    background: url("../img/header_v13.png") no-repeat scroll -30px -153px;
+    background: url("../imgs/public-header-img/header_v13.png") no-repeat scroll -30px -153px;
     margin-right: 0.25rem;
 }
 .msg_down{
     width:6px;
     height: 6px;
-    background: url("../img/header_new_v7.png") no-repeat scroll -153px -21px;
+    background: url("../imgs/public-header-img/header_new_v7.png") no-repeat scroll -153px -21px;
     margin-left: 0.25rem;
 }
 .line_right ul li:not(:nth-child(1)) a{
