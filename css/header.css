@@ -24,7 +24,7 @@
 .header-ct1{
     width:1055px;
     height:38px;
-    margin: 0 64px;
+    margin: 0 auto;
 
 }
 .header-ct1 .nav .nav-item{
@@ -38,7 +38,7 @@ height: 38px;
 .header-sc1{
     width:976px;
     height:92px;
-    margin: 0 103px;
+    margin: 0 auto;
 }
 
 .header-main{
@@ -346,7 +346,7 @@ display: none;
 position: relative;
 left: 30px;
 top: 10px; 
-margin-left:100px ;
+margin-left:510px ;
 
 } 
 .header-yc-con dl dt{

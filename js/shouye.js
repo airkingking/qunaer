@@ -147,3 +147,43 @@ $("#city1")
 .click(function(e){
   SelCity(this,e);
 });
+
+//搜索框
+$(".sy-sousuo")
+// console.log($("sy-sousuo"))
+.bind("input propertychange",function(){
+var neirong=$(".sy-sousuo").val();
+// console.log(neirong)
+str=neirong.split("");
+// console.log(str);
+if(str.length>0){
+  $(".mh-sousuo").css("display","block")
+  // console.log($(".mh-sousuo"))
+}else{
+  $(".mh-sousuo").css("display","none")
+}
+})
+
+
+// var a=$(".mh-sousuo>li>a")
+// // console.log($(".mh-sousuo>li>a"))  
+// // 数组8个a
+// .click(function(e){
+//   for(var i=0;i<a.length;i++){
+//     var val=a[i];
+//     console.log(val);
+//     var e=e.target
+//     console.log(e);
+//     // $(".sy-sousuo").val(value);
+// }
+// })
+
+$(".mh-sousuo")
+.click(function(e){
+  var $e=$(e.target);
+  if(e.target.nodeName=="A"){
+    var val=$e.html();
+    $(".sy-sousuo").val(val);
+    $(".mh-sousuo").css("display","none");
+  }
+})

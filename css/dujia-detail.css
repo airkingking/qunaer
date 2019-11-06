@@ -3,8 +3,9 @@
 margin: 0;
 overflow: hidden;}
 .header{
-    width: 100%;
+    width: 1350px;
     height: 73px;
+    margin: 0 200px 0 260px;
     position: relative;
 }
 .header1{
@@ -49,8 +50,8 @@ content: '|';    }
 /* 第一层 */
 .floor1{
     height: 354px;
-
-    margin:0px 100px;
+    width: 1192px;
+    margin:0px auto;
     padding:12px 0;
 }
 #tabs{
