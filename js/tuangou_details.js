@@ -231,7 +231,7 @@ $(window).scroll(function(){
                 data:cartList,
                 success:function(res){
                     console.log(res);
-
+                    alert("添加成功");
                     
                 }
             })
@@ -259,7 +259,10 @@ $("#cartShow").click(function(){
     })
     
 })
-    
+    $("#signOut").click(function(){
+        document.cookie="";
+        alert("已退出登录");
+    })
 
 
 
